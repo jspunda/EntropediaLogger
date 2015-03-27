@@ -14,7 +14,7 @@ import entropia.Loot;
 
 public class Writer {
 
-	public static void writeToFile(String filename, ArrayList<Loot> loots)
+	public static void writeLootList(String filename, ArrayList<Loot> loots)
 			throws FileNotFoundException, UnsupportedEncodingException {
 		PrintWriter w = new PrintWriter(
 				Main.huntDate + "/" + filename + ".txt", "UTF-8");
@@ -29,7 +29,11 @@ public class Writer {
 		w.printf(Locale.FRANCE, "%f%n", totalValue);
 		w.close();
 	}
-
+	
+	public static void writePersonalStats(String [] stats) {
+		
+	}
+	
 	private static HashMap<String, BigDecimal[]> merge(ArrayList<Loot> loots) {
 		HashMap<String, BigDecimal[]> merged = new HashMap<String, BigDecimal[]>();
 		for (Loot l : loots) {

@@ -2,40 +2,52 @@ package entropia;
 
 import java.io.FileNotFoundException;
 import java.io.UnsupportedEncodingException;
+import java.math.BigDecimal;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 import util.Writer;
 
 public class Team {
 
-	private Player[] players;
+	private HashMap<String, Player> players;
 	private ArrayList<Loot> loots;
+	private BigDecimal totalLoot;
 
 	public Team(int nrOfPlayers) throws FileNotFoundException,
 			UnsupportedEncodingException {
-		players = new Player[nrOfPlayers];
+		players = new HashMap<String, Player>();
 		loots = new ArrayList<Loot>();
+		totalLoot = BigDecimal.valueOf(0);
 	}
 
 	public void addPlayer(Player p) {
-		players[p.getId()] = p;
+		players.put(p.getName(), p);
 	}
 
-	public Player[] getPlayers() {
+	public Player getPlayer(String name) {
+		return players.get(name);
+	}
+
+	public BigDecimal getTotalLoot() {
+		return totalLoot;
+	}
+
+	public HashMap<String, Player> getPlayers() {
 		return players;
 	}
 
 	public void printPlayerList() {
-		for (int i = 0; i < players.length; i++) {
-			System.out.println(players[i]);
+		for (String key : players.keySet()) {
+			System.out.printf("%s%n", players.get(key).getName());
 		}
 	}
 
 	public void addLoot(Loot l) {
 		loots.add(l);
-		Player p = findPlayer(l.getLootedBy());
-		if (p != null) {
-			p.addLoot(l);
+		totalLoot = totalLoot.add(l.totalValue());
+		if (players.containsKey(l.getLootedBy())) {
+			players.get(l.getLootedBy()).addLoot(l);
 		} else {
 			System.out.println("Playername doesn't match.");
 		}
@@ -43,18 +55,11 @@ public class Team {
 
 	public void finalize() throws FileNotFoundException,
 			UnsupportedEncodingException {
-		Writer.writeToFile("huntTotal", loots);
-		for (Player p : players) {
-			Writer.writeToFile(p.getName(), p.getLootList());
+		Writer.writeLootList("huntTotal", loots);
+		for (String key : players.keySet()) {
+			Writer.writeLootList(players.get(key).getName(), players.get(key)
+					.getLootList());
 		}
 	}
 
-	private Player findPlayer(String playername) {
-		for (int i = 0; i < players.length; i++) {
-			if (players[i].getName().equals(playername)) {
-				return players[i];
-			}
-		}
-		return null;
-	}
 }

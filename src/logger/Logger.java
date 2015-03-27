@@ -5,20 +5,18 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-import entropia.Loot;
 import entropia.Team;
-import util.Patterns;
 
 public class Logger implements Runnable {
 	private BufferedReader breader;
 	private FileReader freader;
 	private boolean logging = false;
-	private Team hunt;
+	private Team team;
 	private LineHandler linehandler;
 
 	public Logger(String filename, Team team) throws FileNotFoundException {
-		this.hunt = team;
-		linehandler = new LineHandler();
+		this.team = team;
+		linehandler = new LineHandler(team);
 		freader = new FileReader(filename);
 		breader = new BufferedReader(freader);
 	}
@@ -30,11 +28,7 @@ public class Logger implements Runnable {
 			if (ln == null) {
 				Thread.sleep(1000);
 			} else {
-				Loot l = linehandler.handleLine(ln, Patterns.TEAMPATTERN);
-				if (l != null) {
-					System.out.println(ln);
-					hunt.addLoot(l);
-				}
+				linehandler.handleLine(ln);
 			}
 		}
 		System.out.println("Ending logging");
@@ -47,13 +41,13 @@ public class Logger implements Runnable {
 	
 	public void stopLogging() throws IOException {
 		logging = false;
-		hunt.finalize();
+		team.finalize();
 	}
 
 	@Override
 	public void run() {
 		try {
-			readUntilEnd();
+			//readUntilEnd();
 			startLogging();
 		} catch (IOException | InterruptedException e) {
 			e.printStackTrace();

@@ -8,6 +8,7 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Scanner;
+
 import util.Paths;
 import util.Storage;
 import entropia.Player;
@@ -15,6 +16,7 @@ import entropia.Team;
 
 public class Main {
 
+	public static String ME;
 	public static String huntDate;
 
 	private static Team team;
@@ -30,7 +32,7 @@ public class Main {
 		System.out.println("Done reading itemlist.");
 		createTeam();
 		System.out.println("Starting logging, type -1 to stop.");
-		Logger logger = new Logger(Paths.LOGPATH, team);
+		Logger logger = new Logger(Paths.TESTLOGPATH, team);
 		new Thread(logger).start();
 
 		String input = scanner.next();
@@ -39,7 +41,6 @@ public class Main {
 		}
 		scanner.close();
 		logger.stopLogging();
-
 	}
 
 	private static void setDate() {
@@ -50,17 +51,20 @@ public class Main {
 
 	private static void createTeam() throws FileNotFoundException,
 			UnsupportedEncodingException {
-		System.out.println("Enter number of players:");
 		scanner = new Scanner(System.in);
+		System.out.println("Enter your own display name");
+		ME = scanner.next();
+		System.out.println("Enter number of others teammates:");
 		int nrOfPlayers = Integer.parseInt(scanner.next());
-		team = new Team(nrOfPlayers);
-		for (int i = 0; i < nrOfPlayers; i++) {
+		team = new Team(nrOfPlayers + 1);
+		team.addPlayer(new Player(0, ME));
+		for (int i = 1; i <= nrOfPlayers; i++) {
 			System.out.println("Enter playername:");
 			String playername = scanner.next();
 			team.addPlayer(new Player(i, playername));
 		}
 		System.out.println("New team created:");
 		team.printPlayerList();
-		
+
 	}
 }
