@@ -65,7 +65,7 @@ public class Main {
 	}
 
 	public static void startLogging() throws FileNotFoundException {
-		PopUp.infoBox("Starting logging, press Stop to stop.\nDon't"
+		PopUp.infoBox("Starting logging, press Finish to stop.\nDon't"
 				+ " forget to press Finish!", "Starting");
 		logger = new Logger(Paths.TESTLOGPATH2, team);
 		new Thread(logger).start();
