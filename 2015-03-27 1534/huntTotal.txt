@@ -1,0 +1,14 @@
+BLP Pack;71708;7,170800
+Weapon Cells;154734;15,473400
+Animal Eye Oil;423;21,150000
+Tier I Component;4;0,400000
+Basic Stone Extractor;92;0,920000
+Blazar Fragment;22;0,000220
+Basic Mineral Extractor;7;0,070000
+Iron Stone;52;6,760000
+Shrapnel;294314;29,431400
+Paint Can (Yellow);13;0,390000
+Nova Fragment;123;0,001230
+Diluted Sweat;193;1,930000
+Wool;8;1,600000
+85,297050

@@ -1,4 +1,4 @@
-package entropedia;
+package entropia;
 
 import java.math.BigDecimal;
 
@@ -33,5 +33,4 @@ public class Loot {
 	public String toString() {
 		return lootedBy + " found " + quantity + " " + item + " Total loot value: " + totalValue();
 	}
-
 }

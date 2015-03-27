@@ -5,8 +5,8 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-import entropedia.Loot;
-import entropedia.Team;
+import entropia.Loot;
+import entropia.Team;
 import util.Patterns;
 
 public class Logger implements Runnable {
@@ -59,5 +59,4 @@ public class Logger implements Runnable {
 			e.printStackTrace();
 		}
 	}
-
 }

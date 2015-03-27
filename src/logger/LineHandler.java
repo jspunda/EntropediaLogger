@@ -6,8 +6,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import util.Storage;
-import entropedia.Item;
-import entropedia.Loot;
+import entropia.Item;
+import entropia.Loot;
 
 public class LineHandler {
 

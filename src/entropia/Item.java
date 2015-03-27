@@ -1,4 +1,4 @@
-package entropedia;
+package entropia;
 
 import java.math.BigDecimal;
 

@@ -1,12 +1,15 @@
 package util;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.math.BigDecimal;
 import java.util.HashMap;
 
-import entropedia.Item;
+import entropia.Item;
 
 public class Storage {
 
@@ -15,9 +18,16 @@ public class Storage {
 	public Storage() {
 		ALLITEMS = new HashMap<String, Item>();
 	}
-	
-	public void readItemList() throws NumberFormatException,
-			IOException {
+
+	public static void writeItem(Item i) throws IOException {
+		PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(
+				Paths.ITEMLISTPATH, true)));
+		out.println(i.getName());
+		out.println(i.getValue());
+		out.close();
+	}
+
+	public void readItemList() throws NumberFormatException, IOException {
 		FileReader freader = new FileReader(Paths.ITEMLISTPATH);
 		BufferedReader breader = new BufferedReader(freader);
 		String inputLine;
@@ -30,5 +40,5 @@ public class Storage {
 							.parseDouble(itemvalue))));
 		}
 		breader.close();
-	}
+	}	
 }

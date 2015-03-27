@@ -10,8 +10,8 @@ import java.util.Calendar;
 import java.util.Scanner;
 import util.Paths;
 import util.Storage;
-import entropedia.Player;
-import entropedia.Team;
+import entropia.Player;
+import entropia.Team;
 
 public class Main {
 
