@@ -6,6 +6,7 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+import logger.Main;
 import util.Writer;
 
 public class Team {
@@ -22,6 +23,7 @@ public class Team {
 	}
 
 	public void addPlayer(Player p) {
+	
 		players.put(p.getName(), p);
 	}
 
@@ -60,6 +62,7 @@ public class Team {
 			Writer.writeLootList(players.get(key).getName(), players.get(key)
 					.getLootList());
 		}
+		Writer.writePersonalStats(players.get(Main.ME).getAllStats());
 	}
 
 }

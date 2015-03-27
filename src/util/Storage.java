@@ -21,14 +21,14 @@ public class Storage {
 
 	public static void writeItem(Item i) throws IOException {
 		PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(
-				Paths.ITEMLISTPATH, true)));
+				Paths.ITEMLISTPATH2, true)));
 		out.println(i.getName());
 		out.println(i.getValue());
 		out.close();
 	}
 
 	public void readItemList() throws NumberFormatException, IOException {
-		FileReader freader = new FileReader(Paths.ITEMLISTPATH);
+		FileReader freader = new FileReader(Paths.ITEMLISTPATH2);
 		BufferedReader breader = new BufferedReader(freader);
 		String inputLine;
 		while ((inputLine = breader.readLine()) != null) {

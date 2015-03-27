@@ -20,18 +20,28 @@ public class Writer {
 				Main.huntDate + "/" + filename + ".txt", "UTF-8");
 		HashMap<String, BigDecimal[]> map = merge(loots);
 		BigDecimal totalValue = BigDecimal.valueOf(0);
+		BigDecimal totalValueMinAmmo = BigDecimal.valueOf(0);
 		for (String key : map.keySet()) {
 			BigDecimal itemTotal = map.get(key)[1];
 			totalValue = totalValue.add(itemTotal);
-			w.printf(Locale.FRANCE, "%s;%d;%f%n", key,
+			if (!key.equals("Weapon Cells")) {
+				totalValueMinAmmo = totalValueMinAmmo.add(itemTotal);
+			}
+			w.printf(Locale.FRANCE, "%s;%d;%s%n", key,
 					map.get(key)[0].intValue(), itemTotal);
 		}
-		w.printf(Locale.FRANCE, "%f%n", totalValue);
+		w.printf(Locale.FRANCE, "Total loot;%f%n", totalValue);
+		w.printf(Locale.FRANCE, "Total loot (min ammo);%f%n", totalValueMinAmmo);
 		w.close();
 	}
-	
-	public static void writePersonalStats(String [] stats) {
-		
+
+	public static void writePersonalStats(HashMap<String, String> stats)
+			throws FileNotFoundException, UnsupportedEncodingException {
+		PrintWriter w = new PrintWriter(Main.huntDate + "/myStats.txt", "UTF-8");
+		for (String key : stats.keySet()) {
+			w.printf(Locale.FRANCE, "%s;%s%n", key, stats.get(key));
+		}
+		w.close();
 	}
 	
 	private static HashMap<String, BigDecimal[]> merge(ArrayList<Loot> loots) {

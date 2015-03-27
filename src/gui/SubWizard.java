@@ -61,6 +61,7 @@ public class SubWizard extends JFrame implements ActionListener{
             try {
                 Main.createTeam(name, playerNames, nrOfPlayers);
                 Main.startLogging();
+                dispose();
             } catch (FileNotFoundException | UnsupportedEncodingException ex) {
                 ex.printStackTrace();
             }
