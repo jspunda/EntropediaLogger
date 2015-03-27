@@ -13,58 +13,59 @@ import util.Paths;
 import util.Storage;
 import entropia.Player;
 import entropia.Team;
+import gui.*;
+import java.util.ArrayList;
 
 public class Main {
 
 	public static String ME;
 	public static String huntDate;
-
-	private static Team team;
 	private static Scanner scanner;
+        private static Team team;
+        private static Logger logger;
 
-	public static void main(String[] args) throws IOException,
-			InterruptedException {
-		setDate();
-		new File(huntDate).mkdir();
-		System.out.println("Reading itemlist.");
-		Storage s = new Storage();
-		s.readItemList();
-		System.out.println("Done reading itemlist.");
-		createTeam();
-		System.out.println("Starting logging, type -1 to stop.");
-		Logger logger = new Logger(Paths.TESTLOGPATH, team);
-		new Thread(logger).start();
-
-		String input = scanner.next();
-		while (!input.equals("-1")) {
-			input = scanner.next();
-		}
-		scanner.close();
-		logger.stopLogging();
+	public static void main(String[] args) throws IOException  {
+            
+            MainWindow window = new MainWindow();
+            window.setVisible(true);
 	}
 
+        public static void start() throws NumberFormatException, IOException {
+                setDate();
+		new File(huntDate).mkdir();
+		PopUp.infoBox("Reading itemlist...", "Reading");
+		Storage s = new Storage();
+		s.readItemList();
+                PopUp.infoBox("Done reading itemlist...", "Done");
+                StartWizard wizard = new StartWizard();
+                wizard.setVisible(true);
+        }
+        
+        public static void stop() throws IOException {
+                scanner.close();
+		logger.stopLogging();
+        }
+        
 	private static void setDate() {
 		DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HHmm");
 		Calendar cal = Calendar.getInstance();
 		huntDate = dateFormat.format(cal.getTime());
 	}
 
-	private static void createTeam() throws FileNotFoundException,
+	public static void createTeam(String name, ArrayList<String> names, int nrOfPlayers) throws FileNotFoundException,
 			UnsupportedEncodingException {
-		scanner = new Scanner(System.in);
-		System.out.println("Enter your own display name");
-		ME = scanner.next();
-		System.out.println("Enter number of others teammates:");
-		int nrOfPlayers = Integer.parseInt(scanner.next());
-		team = new Team(nrOfPlayers + 1);
-		team.addPlayer(new Player(0, ME));
-		for (int i = 1; i <= nrOfPlayers; i++) {
-			System.out.println("Enter playername:");
-			String playername = scanner.next();
-			team.addPlayer(new Player(i, playername));
-		}
-		System.out.println("New team created:");
-		team.printPlayerList();
-
+            team = new Team(nrOfPlayers + 1);
+            team.addPlayer(new Player(0, name));
+            for (int i = 1; i <= nrOfPlayers; i++) {
+		team.addPlayer(new Player(i, names.get(i-1)));
+            }
+            PopUp.infoBox("New team created.", "Succes");
 	}
+        
+        public static void startLogging() throws FileNotFoundException {
+             PopUp.infoBox("Starting logging, press Stop to stop.\nDon't"
+                        + " forget to press Finish!", "Starting");
+            logger = new Logger(Paths.TESTLOGPATH, team);
+            new Thread(logger).start();
+        }
 }
