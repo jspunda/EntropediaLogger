@@ -1,6 +1,10 @@
+package entropedia;
+
 import java.io.FileNotFoundException;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
+
+import util.Writer;
 
 public class Team {
 
@@ -39,9 +43,9 @@ public class Team {
 
 	public void finalize() throws FileNotFoundException,
 			UnsupportedEncodingException {
-		Main.writeToFile("huntTotal", loots);
+		Writer.writeToFile("huntTotal", loots);
 		for (Player p : players) {
-			Main.writeToFile(p.getName(), p.getLootList());
+			Writer.writeToFile(p.getName(), p.getLootList());
 		}
 	}
 

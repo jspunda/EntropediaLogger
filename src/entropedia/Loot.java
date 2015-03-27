@@ -1,3 +1,5 @@
+package entropedia;
+
 import java.math.BigDecimal;
 
 public class Loot {

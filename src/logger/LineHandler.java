@@ -1,16 +1,15 @@
-import java.io.BufferedReader;
+package logger;
+
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.math.BigDecimal;
-import java.net.URL;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class LineHandler {
+import util.Storage;
+import entropedia.Item;
+import entropedia.Loot;
 
-	public static final String ITEMVALUEPATTERN = ".*class=\"IT\">(\\S*)";
-	public static final String ITEMNAMEPATTERN = ".*class=\"PageSubject\">Material: (.*)<";
-	public static final String TEAMPATTERN = "\\[Team\\] \\[\\w*\\] (.*) received (.*) \\((\\d*)\\)";
+public class LineHandler {
 
 	private String playername;
 	private Item item;
@@ -31,8 +30,8 @@ public class LineHandler {
 	}
 
 	private Item makeItem(String itemname) throws IOException {
-		if (Main.ALLITEMS.containsKey(itemname)) {
-			return Main.ALLITEMS.get(itemname);
+		if (Storage.ALLITEMS.containsKey(itemname)) {
+			return Storage.ALLITEMS.get(itemname);
 		} else {
 			return new Item("UNKNOWN (" + itemname + ")", new BigDecimal(0));
 		}

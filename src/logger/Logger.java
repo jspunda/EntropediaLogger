@@ -1,7 +1,13 @@
+package logger;
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+
+import entropedia.Loot;
+import entropedia.Team;
+import util.Patterns;
 
 public class Logger implements Runnable {
 	private BufferedReader breader;
@@ -24,7 +30,7 @@ public class Logger implements Runnable {
 			if (ln == null) {
 				Thread.sleep(1000);
 			} else {
-				Loot l = linehandler.handleLine(ln, LineHandler.TEAMPATTERN);
+				Loot l = linehandler.handleLine(ln, Patterns.TEAMPATTERN);
 				if (l != null) {
 					System.out.println(ln);
 					hunt.addLoot(l);
