@@ -48,6 +48,8 @@ public class LineHandler {
 					handleDeathLine();
 					break;
 				}
+				team.changed();
+				me.changed();
 			} else {
 				// System.out.println("Ignoring, no match found.");
 			}

@@ -1,15 +1,18 @@
 package entropia;
 
+import gui.MainWindow;
+
 import java.io.FileNotFoundException;
 import java.io.UnsupportedEncodingException;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Observable;
 
 import logger.Main;
 import util.Writer;
 
-public class Team {
+public class Team extends Observable {
 
 	private HashMap<String, Player> players;
 	private ArrayList<Loot> loots;
@@ -54,7 +57,12 @@ public class Team {
 			System.out.println("Playername doesn't match.");
 		}
 	}
-
+	
+	public void changed() {
+		setChanged();
+		notifyObservers();
+	}
+	
 	public void finalize() throws FileNotFoundException,
 			UnsupportedEncodingException {
 		Writer.writeLootList("huntTotal", loots);

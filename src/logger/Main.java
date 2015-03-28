@@ -7,8 +7,6 @@ import java.io.UnsupportedEncodingException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Scanner;
-
 import util.Paths;
 import util.Storage;
 import entropia.Player;
@@ -20,13 +18,14 @@ public class Main {
 
 	public static String ME;
 	public static String huntDate;
-	private static Scanner scanner;
+	private static MainWindow window;
+	
 	private static Team team;
 	private static Logger logger;
 
 	public static void main(String[] args) throws IOException {
 
-		MainWindow window = new MainWindow();
+		window = new MainWindow();
 		window.setVisible(true);
 	}
 
@@ -65,6 +64,8 @@ public class Main {
 	}
 
 	public static void startLogging() throws FileNotFoundException {
+		window.observe(team);
+		window.observe(team.getPlayer(ME));
 		PopUp.infoBox("Starting logging, press Finish to stop.\nDon't"
 				+ " forget to press Finish!", "Starting");
 		logger = new Logger(Paths.TESTLOGPATH2, team);

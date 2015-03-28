@@ -3,8 +3,9 @@ package entropia;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Observable;
 
-public class Player {
+public class Player extends Observable {
 	private String name;
 	private HashMap<String, String> stats;
 	private int totalShots, totalMiss, totalCritHits, totalDeaths, accuracy;
@@ -88,6 +89,11 @@ public class Player {
 		stats.put("Accuracy", ""+accuracy);
 		stats.put("PED per shot", PEDperShot.toPlainString());
 		return stats;
+	}
+	
+	public void changed() {
+		setChanged();
+		notifyObservers();
 	}
 	
 	public void printLootlist() {
