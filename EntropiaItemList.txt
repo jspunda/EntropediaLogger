@@ -1,0 +1,3625 @@
+material;Basic Hair Color Set;0.22;
+material;Body Fat;0.08;
+material;Hair Gel;0.13;
+material;Hair Spray;0.06;
+material;Alicenies Liquid;0.05;
+material;Angelic Grit;0.5;
+material;Binary Fluid;0.75;
+material;Dunkel Particle;0.55;
+material;Force Nexus;0.01;
+material;Garcen Grease;0.1;
+material;Growth Molecules;0.47;
+material;Lytairian Dust;0.19;
+material;Magerian Mist;0.25;
+material;Melchi Water;0.02;
+material;Crude Oil;0.01;
+material;Typonolic Steam;0.15;
+material;Alferix Stone;0.95;
+material;Azzurdite Stone;1.2;
+material;Belkar Stone;0.02;
+material;Blausariam Stone;0.04;
+material;Caldorite stone;0.17;
+material;Cobalt Stone;0.2;
+material;Copper Stone;0.16;
+material;Cumbriz Stone;0.15;
+material;Dianum Ore;1.25;
+material;Durulium Stone;0.8;
+material;Erdorium Stone;0.4;
+material;Frigulite Stone;0.12;
+material;Gazzurdite Stone;0.25;
+material;Gold Stone;1;
+material;Ignisium Stone;0.7;
+material;Iron Stone;0.13;
+material;Kanerium Ore;2.5;
+material;Langotz Ore;0.9;
+material;Lysterium Stone;0.01;
+material;Maganite Ore;1.05;
+material;Megan Stone;0.18;
+material;Narcanisum Stone;0.08;
+material;Niksarium Stone;0.65;
+material;Platinum Stone;3;
+material;Quantium Stone;0.6;
+material;Rugaritz Ore;1.5;
+material;Terrudite Stone;1.1;
+material;Tridenite Ore;2;
+material;Valurite Stone;6;
+material;Xeremite Ore;4;
+material;Zinc Stone;0.1;
+material;Aetherex Skin;4.7;
+material;Allophyl Skin;0.3;
+material;Ambulimax Skin;4;
+material;Animal Hide;0.01;
+material;Araneatrox Skin;5;
+material;Argonaut Skin;0.9;
+material;Armax Skin;1;
+material;Atrax Skin;2;
+material;Atrox Skin;3;
+material;Berycled Skin;0.3;
+material;Caudatergus Skin;0.25;
+material;Combibo Skin;0.23;
+material;Cornundacauda Skin;0.45;
+material;Cornundos Skin;0.08;
+material;Shinkiba Skin;0.15;
+material;Exarosaur Skin;0.1;
+material;Faucervix Skin;0.2;
+material;Fine Hide;0.25;
+material;Fine Wool;0.4;
+material;Foul Bone;0.03;
+material;Foul Skin;0.3;
+material;Fugabarba Skin;0.01;
+material;Longu Skin;0.5;
+material;Molisk Tooth;0.01;
+material;Paint Can (Black);1;
+material;Paint Can (Blue);0.05;
+material;Paint Can (Brown);0.07;
+material;Paint Can (Dark Blue);0.2;
+material;Paint Can (Light Green);0.09;
+material;Paint Can (Orange);0.01;
+material;Paint Can (Pink);0.08;
+material;Paint Can (Purple);0.06;
+material;Paint Can (Red);0.6;
+material;Paint Can (White);0.3;
+material;Paint Can (Yellow);0.03;
+material;Plumatergus Skin;0.35;
+material;Prancer Skin;0.3;
+material;Sabakuma Skin;0.11;
+material;Snablesnot Skin;0.04;
+material;Snarksnot Skin;0.06;
+material;Soft Hide;0.1;
+material;Tantardion Skin;0.6;
+material;Tantillion Skin;0.45;
+material;Thin Wool;0.25;
+material;Tripudion Skin;0.3;
+material;Turp Skin;0.02;
+material;Wool;0.2;
+material;Alien Blood;0.46;
+material;Alien Acid;0.34;
+material;Alien Resin Fluid;0.12;
+material;Aurli Claw;4.5;
+material;Aurli Bone Piece;7.4;
+material;Aurli Fangs;1.8;
+material;Aurli Chitin Scale;4;
+material;Aurli Shock Flesh;0.78;
+material;Argonaut Leather;14.1;
+material;Typolonic Gas;0.3;
+material;Iron Ingot;0.39;
+material;Terrudite Ingot;3.3;
+material;Belkar Ingot;0.06;
+material;Lysterium Ingot;0.03;
+material;Angelic Grit;1;
+material;Durulium Ingot;2.4;
+material;Magerian Spray;0.5;
+material;Lytairian Powder;0.38;
+material;Alicenies Gel;0.1;
+material;Oil;0.02;
+material;Energized Fertilizer;0.47;
+material;Sweetstuff;0.01;
+material;Berycled Leather;0.9;
+material;Cornundacauda Leather;1.35;
+material;Snarksnot Leather;0.18;
+material;Sabakuma Leather;0.33;
+material;Fine Textile;1.2;
+material;Soft Leather;0.3;
+material;Fine Leather;0.75;
+material;Generic Leather;0.03;
+material;Wool Cloth;0.06;
+material;Foul Bone Button;0.09;
+material;Molisk Enamel Button;0.03;
+material;Wool Thread;0.75;
+material;Common Dung;0.01;
+material;Shinkiba Skull;4;
+material;Argonaut Fractured Skull;4;
+material;Papplon;0.00001;
+material;Bombardo;0.00001;
+material;Nutrio Bar;0.01;
+material;Alien Mutant Skull;9.5;
+material;Ambulimax Hair;0.45;
+material;Ambulimax Thigh Bone;7;
+material;Araneatrox Skull;68.5;
+material;Argonaut Bone;0.01;
+material;Argonaut Claw Big;0.04;
+material;Argonaut Claw Small;0.02;
+material;Argonaut Fang;0.02;
+material;Argonaut Skull;6;
+material;Armax Plate;5;
+material;Armax Skull;13;
+material;Armax Small Horn;0.02;
+material;Armax Large Horn;0.04;
+material;Atrax Bone;0.05;
+material;Atrax Claw;0.1;
+material;Armax Tusk;0.1;
+material;Atrax Jaw;3;
+material;Atrox Bone;0.05;
+material;Atrox Eye;11;
+material;Atrox Fang;0.02;
+material;Atrox Skull;66;
+material;Bulging Mutant Skull;7;
+material;Caudatergus Skull;8;
+material;Combibo Pike;0.04;
+material;Cornundacauda Skull;11;
+material;Shinkiba Tusk;4;
+material;Exarosaur Skull;9;
+material;Faucervix Claw;0.03;
+material;Faucervix Skull;11.3;
+material;Foul Skull;10;
+material;Hiryuu Skull;28;
+material;Hogglo Pelvis;4;
+material;Hogglo Tooth;2;
+material;Horned Mutant Skull;8.5;
+material;Human Skull;21;
+material;Kreltin Soft Plate;3.5;
+material;Longu Claw;0.01;
+material;Longu Plate;13;
+material;Merp Sails;0.34;
+material;Metal Skull;34;
+material;Molisk Claw;0.01;
+material;Molisk Skull;5;
+material;Multi-Fang Mutant Skull;6.5;
+material;Sabakuma Fang;0.01;
+material;Sabakuma Scale;5;
+material;Tantardion Horn;0.02;
+material;Tiny Mutant Skull;8;
+material;Exarosaur Tooth;0.12;
+material;Aurli Dense Plate;4.5;
+material;Basic Relay;0.05;
+material;Basic Sensor;0.024;
+material;Basic Wires;0.03;
+material;Basic Auxiliary Socket;0.0136;
+material;Basic Power System;0.01;
+material;Basic Processor;0.0208;
+material;Standard Intelligence Module;0.17;
+material;Standard Matrix;0.0512;
+material;Standard VisioMem;0.0204;
+material;Standard Feedback Panel;0.0452;
+material;Standard Holo Module;0.084;
+material;Standard Transparency Layer;0.0244;
+material;Electropositive Modulator;0.0208;
+material;Electropositive Security Module;0.09;
+material;Electropositive Capacitor;0.033;
+material;Electropositive Communication;0.044;
+material;Electropositive Connector;0.181818;
+material;Triphased Power Systems;0.04;
+material;Triphased Transmitter;0.04;
+material;Triphased Wires;0.12;
+material;Triphased Holo Module;0.2;
+material;Triphased Intelligence Module;0.5;
+material;Advanced Processor;0.096;
+material;Advanced Security Module;0.211;
+material;Advanced VisioMem;0.072;
+material;Advanced Feedback Panel;0.17;
+material;Advanced Matrix;0.24;
+material;Advanced Modulator;0.08;
+material;Triphased Auxiliary Socket;0.052;
+material;Basic Filters;0.01;
+material;Basic Pump;0.01;
+material;Basic Coil;0.03;
+material;Basic Engine;0.052;
+material;Standard Compressor;0.0272;
+material;Standard Core;0.0136;
+material;Standard Damper;0.0136;
+material;Standard Locks;0.06;
+material;Standard Valve;0.0336;
+material;Standard Vents;0.0168;
+material;Durable Compressor;0.0416;
+material;Durable Hood;0.0416;
+material;Durable Motor;0.1008;
+material;Durable Coil;0.066;
+material;Durable Damper;0.033;
+material;Durable Structure;0.149;
+material;Heavy-Duty Filters;0.04;
+material;Heavy-Duty Joints;0.04;
+material;Heavy-Duty Seals;0.08;
+material;Heavy-Duty Core;0.05;
+material;Heavy-Duty Coupling;0.07;
+material;Heavy-Duty Engine;0.04;
+material;High Performance Filters;0.06;
+material;High Performance Pump;0.06;
+material;High Performance Vents;0.06;
+material;High Performance Compressor;0.128;
+material;High Performance Coupling;0.0224;
+material;High Performance Engine;0.32;
+material;Basic Sheet Metal;0.0392;
+material;Basic Tube;0.01;
+material;Basic Bolts;0.01;
+material;Basic Rings;0.03;
+material;Standard Hinge;0.058;
+material;Standard Rod;0.0284;
+material;Standard Springs;0.07;
+material;Standard Lever;0.02;
+material;Standard Plate;0.0128;
+material;Standard Wedge;0.0344;
+material;Hardened Nuts;0.033;
+material;Hardened Clips;0.0624;
+material;Hardened Screws;0.08;
+material;Hardened Alloy;0.0416;
+material;Hardened Foil;0.033;
+material;Hardened Pipe;0.033;
+material;Reinforced Plate;0.04;
+material;Reinforced Rod;0.067;
+material;Reinforced Sheet Metal;0.157;
+material;Reinforced Bearings;0.203;
+material;Reinforced Nuts;0.05;
+material;Reinforced Hinge;0.17;
+material;High Grade Plugs;0.3;
+material;High Grade Screws;0.142857;
+material;High Grade Wedge;0.107;
+material;High Grade Alloy;0.128;
+material;High Grade Bearings;0.32;
+material;High Grade Nuts;0.08;
+material;Short Midastree Board;0.04;
+material;Midastree Board;0.21;
+material;Long Midastree Board;0.38;
+material;Basic Screws;0.04;
+material;Long Firn Board;0.91;
+material;Firn Board;0.59;
+material;Basic Eye Color Set;0.11;
+material;Basic Bearings;0.04;
+material;Basic Servo;0.014;
+material;Basic Structure;0.0236;
+material;Short Bigwig Board;0.76;
+material;Basic skin color set;0.11;
+material;Short Firn Board;0.18;
+material;Bigwig Board;1.13;
+material;Short Stinktree Board;0.11;
+material;Berycled Skull;17;
+material;Berycled Claw;0.12;
+material;Stinktree Board;0.31;
+material;Long Stinktree Board;0.52;
+material;Long Bigwig Board;1.66;
+material;Atrax Eye;9;
+material;Atrox Claw;0.1;
+material;Caroot;0.00001;
+material;Haimoros;0.00001;
+material;Berycled Sails;0.65;
+material;Armax Skull Complete;39;
+material;Diamond;500;
+material;Opal;200;
+material;Ruby;400;
+material;Emerald;300;
+material;Merp Horn;0.68;
+material;Robot Amplifier;40;
+material;Robot Capacitor;18;
+material;Robot Comlink;101;
+material;Robot Energy Module;30;
+material;Robot Gyro;13;
+material;Robot Radiator;15;
+material;Robot Sensor;20;
+material;Robot Servo;17;
+material;Robot Shield Generator;70;
+material;Daikiba Horn;0.4;
+material;Vibrant Sweat;0.00001;
+material;Ganganite Stone;0.12;
+material;Ares Head;0.26;
+material;DNA Fragment A;1;
+material;DNA Fragment B;2;
+material;DNA Fragment C;2.56;
+material;DNA Fragment D;3.15;
+material;DNA Fragment E;5;
+material;Exarosaur Neckbone;0.34;
+material;Sharp Longu Claw;1;
+material;Omegatron Survey Probe;0.5;
+material;Omegatron Seismic Bomb;1;
+material;Transformer;2.17;
+material;Allophyl Tentacle;5.6;
+material;Cornundacauda Tentacle;0.12;
+material;Allophyl Fin;9.8;
+material;Solis Beans;0.78;
+material;Cornundacauda Horn;0.04;
+material;Caudatergus Horn;4.67;
+material;Cornundacauda Flag;3.44;
+material;Petonium Stone;1.79;
+material;Perl sand;1.92;
+material;Oil;0.02;
+material;Iron Ingot;0.39;
+material;Caldorite ingot;0.51;
+material;Cornundacauda horn;0.04;
+material;Alicenies Gel;0.1;
+material;Angelic Flakes;1;
+material;Binary Energy;1.5;
+material;Dunkel Plastix;1.1;
+material;Garcen Lubricant;0.2;
+material;Lytairian Powder;0.38;
+material;Magerian Spray;0.5;
+material;Melchi Crystal;0.04;
+material;Oil;0.02;
+material;Typonolic Gas;0.3;
+material;Alferix Ingot;2.85;
+material;Azzurdite Ingot;3.6;
+material;Belkar Ingot;0.06;
+material;Blausariam Ingot;0.12;
+material;Caldorite Ingot;0.51;
+material;Cobalt Ingot;0.6;
+material;Copper Ingot;0.48;
+material;Cumbriz Ingot;0.45;
+material;Dianum Ingot;3.75;
+material;Durulium Ingot;2.4;
+material;Erdorium Ingot;1.2;
+material;Frigulite Ingot;0.36;
+material;Gazzurdite Ingot;0.75;
+material;Gold Ingot;3;
+material;Ignisium Ingot;2.1;
+material;Iron Ingot;0.39;
+material;Kanerium Ingot;7.5;
+material;Langotz Ingot;2.7;
+material;Lysterium Ingot;0.03;
+material;Maganite Ingot;3.15;
+material;Megan Ingot;0.54;
+material;Narcanisum Ingot;0.24;
+material;Niksarium Ingot;1.95;
+material;Platinum Ingot;9;
+material;Quantium Ingot;1.8;
+material;Rugaritz Ingot;4.5;
+material;Terrudite Ingot;3.3;
+material;Tridenite Ingot;6;
+material;Valurite Ingot;18;
+material;Xeremite Ingot;12;
+material;Zinc Ingot;0.3;
+material;Aetherex Leather;14.1;
+material;Allophyl Leather;0.9;
+material;Ambulimax Leather;12;
+material;Generic Leather;0.03;
+material;Araneatrox Leather;15;
+material;Argonaut Leather;2.7;
+material;Armax Leather;3;
+material;Atrax Leather;6;
+material;Atrox Leather;9;
+material;Berycled Leather;0.9;
+material;Caudatergus Leather;0.75;
+material;Combibo Leather;0.69;
+material;Cornundacauda Leather;1.35;
+material;Cornundos Leather;0.24;
+material;Daikiba Leather;0.45;
+material;Exarosaur Leather;0.3;
+material;Faucervix Leather;0.6;
+material;Fine Leather;0.75;
+material;Fine Textile;1.2;
+material;Foul Bone Buttons;0.09;
+material;Foul Leather;0.9;
+material;Fugabarba Leather;0.03;
+material;Longu Leather;1.5;
+material;Molisk Enamel Buttons;0.03;
+material;Plumatergus Leather;1.05;
+material;Prancer Leather;0.9;
+material;Sabakuma Leather;0.33;
+material;Snablesnot Leather;0.12;
+material;Snarksnot Leather;0.18;
+material;Soft Leather;0.3;
+material;Tantardion Leather;1.8;
+material;Tantillion Leather;1.35;
+material;Wool Thread;0.75;
+material;Tripudion Leather;0.9;
+material;Turp Leather;0.06;
+material;Wool Cloth;0.6;
+material;Ganganite Ingot;0.36;
+material;Ares Powder;0.52;
+material;Solis Paste;1.56;
+material;Petonium Ingot;5.37;
+material;Pearl Sand;1.92;
+material;Omegaton Decoy;0.25;
+material;Weapon Cells (do not select for ammo type);0.0001;
+material;Weapon Cells;0.0001;
+material;Heavy Weapon Cell;0.0001;
+material;Light BLP Pack;0.0001;
+material;BLP Pack;0.0001;
+material;Heavy BLP Pack;0.0001;
+material;Omegaton Seismic Bomb;1;
+material;Survey Probe;0.05;
+material;Mind Essence;0.0001;
+material;Nutrio Bar;0.01;
+material;Basic Eye Color Set;0.11;
+material;Basic Hair Color Set;0.11;
+material;Basic Skin Color Set;0.11;
+material;Body Fat;0.08;
+material;Hair Gel;0.13;
+material;Hair Spray;0.06;
+material;Energized Fertilizer;0.47;
+material;Kirtz Ingot;16.8;
+material;Kirtz Stone;5.6;
+material;Garnet;150;
+material;Magnetic Accelerator Power Unit;15;
+material;Robot Power Generator;80;
+material;Azur Pearls;0.96;
+material;Cornundacauda Sail;5.6;
+material;Standard Transparency Layer;0.024;
+material;Rare Robot Secret Transmitter;49.62;
+material;Drone Soldier Head;60;
+material;Robot SecEnt Head;38;
+material;Formicacida Leg;7.98;
+material;Formicacida Skull;18;
+material;Paint Can (Umber);0.13;
+material;Paint Can (Turqoise);0.08;
+material;Paint Can (Mauve);0.11;
+material;Fungoid Hat;12;
+material;Fungoid Tentacle;4.5;
+material;Neconu Hair;0.98;
+material;Plumatergus Small Wing;0.35;
+material;Neconu Teeth;0.09;
+material;Foul Suctioncup;0.19;
+material;Force Nexus;0.01;
+material;Paint Can (Deep Cadmium);0.14;
+material;Paint Can (Violet Cream);0.12;
+material;Paint Can (Burgundy);0.19;
+material;Lanorium Stone;0.22;
+material;Lanorium Ingot;0.66;
+material;Cave Sap;0.39;
+material;Acid Root;0.32;
+material;Root Acid;0.64;
+material;Putty;0.78;
+material;Lumis Leach;0.42;
+material;Light Liquid;0.84;
+material;Small Plugs;0.14;
+material;Large Plug;0.11;
+material;Phasm Back Spike;1.5;
+material;Phasm Claw;5.2;
+material;Animal Pancreas Oil;0.5;
+material;Animal Muscle Oil;0.03;
+material;Animal Thyroid Oil;0.1;
+material;Animal Eye Oil;0.05;
+material;Animal Adrenal Oil;0.2;
+material;Animal Oil Residue;0.01;
+material;Robot Low-Loss Link Cable;0.024;
+material;Animal Kidney Oil;2;
+material;Robot Component Residue;0.01;
+material;Robot Laser Optics Unit;0.45;
+material;Robot Safety System;0.12;
+material;Robot Filter;0.036;
+material;Robot Auto Adjuster;1.8;
+material;Robot Heat Sinks;0.08;
+material;Robot Hyper Charger;3.9;
+material;Robot Adapter Module;1.2;
+material;Robot Power Amplifier;2.7;
+material;Robot Weapon Grip;0.058;
+material;Animal Liver Oil;1;
+material;Animal Spleen Oil;5;
+material;Robot Casing;1.01;
+material;Robot Data Link;2.3;
+material;Robot Optical Lens;0.89;
+material;Robot Weapon Sight;0.21;
+material;Robot Flare Filter;4.6;
+material;Merp Wool;0.36;
+material;Merp Textile;1.08;
+material;Electropositive Processor;0.0416;
+material;Robot Contraction Unit;13;
+material;Robot Gyro Unit;3.1;
+material;Robot Buffers;0.77;
+material;Gradivore Wool;0.64;
+material;Gradivore Textile;1.92;
+material;Daikiba Cloth;0.96;
+material;Daikiba Wool;0.32;
+material;Exarosaur Cloth;0.36;
+material;Cold Fabric;0.39;
+material;Metal Residue;0.01;
+material;Energy Matter Residue;0.01;
+material;Metallic Bone Replacement;0.28;
+material;Robot Com Unit;7.4;
+material;Robot Range Finder;5.9;
+material;Chomper Bone;7.89;
+material;Animal Heart Oil;10;
+material;Exarosaur Wool;0.12;
+material;Chomper Wool;0.24;
+material;Angle;0.56;
+material;Ultra Cold Fabric;1.6;
+material;Chomper Cloth;0.72;
+material;Bend;0.67;
+material;Robot Tilt Compensator;10.5;
+material;Arc;0.8;
+material;T-Angle;0.22;
+material;Robot Converter;70;
+material;Hansidian Rock;0.01;
+material;Angel Scales;0.01;
+material;GEC Spur Gears 1K;0.3;
+material;Galaxy SI Ion Conductors;0.2;
+material;Galaxy SIII Ion Conductors;0.5;
+material;Metal Mountings;0.6;
+material;Solar 8V Gel Batteries;0.7;
+material;GeoTrek Buttstock;0.8;
+material;GEC Spur Gears 2K;0.65;
+material;Metal Plating;0.1;
+material;Hansidian Ingot;0.03;
+material;Adomasite Ingot;1.8;
+material;GeoTrek Super Alloy Buttstock;0.8;
+material;GEC Coil Springs 1M;0.9;
+material;Adomasite Stone;0.6;
+material;Light Mail;0.02;
+material;Devil's Tail;0.47;
+material;Chalmon;0.94;
+material;Ferrum Nuts;1;
+material;Antimagnetic Oil;2;
+material;Solar 6V Gel Batteries;0.65;
+material;Galaxy SII Ion Conductors;0.3;
+material;Super Alloy Ruds;0.5;
+material;Hardened Metal Ruds;0.4;
+material;Super Alloy Plating;0.3;
+material;Super Alloy Mountings;0.7;
+material;Allophyl Thighbone;7.6;
+material;Formidon Skull;43;
+material;Foul Teeth;0.18;
+material;Gokibusagi Skull;33;
+material;Hardened Metal Mountings;0.65;
+material;Phasm Wool;1.4;
+material;Plumatergus Large Wing;4.38;
+material;Robot Image Amplifier;5.1;
+material;Robot Quantum Box;45;
+material;Robot Stabilizer;8.6;
+material;Hardened Metal Plating;0.2;
+material;Solar 12V Gel Batteries;0.9;
+material;Blood Moss;0.09;
+material;Medical Compress;0.18;
+material;Himi Rock;0.142;
+material;Simple I Plastic Ruds;0.5;
+material;Vegatation Spores;0.4;
+material;Simple I Conductors;0.3;
+material;Simple I Plastic Springs;0.4;
+material;Inhaler;0.8;
+material;Simple II Conductors;0.65;
+material;Simple II Plastic Springs;0.75;
+material;Animal Brain Oil;19;
+material;Himi Ingot;0.426;
+material;Neconu Jaw;6.7;
+material;Morpheus Stone;0.83;
+material;Morpheus Ingot;2.49;
+material;Simple II Plastic Ruds;0.95;
+material;Simple III Plastic Ruds;1.4;
+material;Simple III Conductors;1.1;
+material;Simple III Plastic Springs;1.3;
+material;GeoTrek EnBolts;1.3;
+material;Advanced Target Assessment Unit;0.17;
+material;Basic Electronic Fluid Memory;0.08;
+material;Basic Target Assessment Unit;0.02;
+material;Basic Scanning Sensor;0.11;
+material;Explosive Projectiles;0.0001;
+material;Sphene;93;
+material;Basic Strategic Combat Processor;0.04;
+material;Advanced Strategic Combat Processor;0.21;
+material;Enhanced Strategic Combat Processor;0.47;
+material;Enhanced Target Assessment Unit;0.41;
+material;Advanced Electronic Fluid Memory;0.26;
+material;Enhanced Electronic Fluid Memory;0.53;
+material;Advanced Scanning Sensor;0.33;
+material;Enhanced Scanning Sensor;0.61;
+material;GeoTrek Super Alloy Talytic Converters;1.2;
+material;GeoTrek Talytic Converters;1;
+material;Simple IV Conductors;1.5;
+material;GeoTrek Super Alloy EnBolts;1.5;
+material;GeoTrek Hardened Buttstock;0.9;
+material;GEC Coil Springs 2M;1.2;
+material;GeoTrek Hardened Talytic Converters;1.1;
+material;Basic Nuts;0.01;
+material;Turquoise;41;
+material;Amethyst;50;
+material;Topaz;59;
+material;Ametrine;130;
+material;Jasper;68;
+material;Tourmaline;75;
+material;Coral;120;
+material;Galaxy 6V Gel Batteries;1.2;
+material;Paint Can (Burnt Umber);0.15;
+material;Flourite;140;
+material;Paint Can (Green);0.07;
+material;Paint Can (Steel Blue);0.06;
+material;Paint Can (Navy);0.1;
+material;Paint Can (Olive);0.05;
+material;Paint Can (Crimson);0.42;
+material;Paint Can (Cornsilk);0.24;
+material;Basic Pigment Enhancer;0.01;
+material;Jade;84;
+material;Araneatrox Claw;1;
+material;Caudatergus Mandible;5.89;
+material;Formicacida Scale;12;
+material;Foul Eye;0.17;
+material;Prancer Tail;1;
+material;Phasm Cloth;4.2;
+material;Paint Can (Darkslate Grey);0.75;
+material;Tailoring Remnants;0.01;
+material;Scapolite;100;
+material;GeoTrek Hardened EnBolts;1.4;
+material;Basic Leather Extractor;0.01;
+material;Basic Stone Extractor;0.01;
+material;Advanced Wood Extractor;0.01;
+material;Second-Rate Cloth Extractor;0.01;
+material;Advanced Stone Extractor;0.01;
+material;Advanced Cloth Extractor;0.01;
+material;Advanced Gem Extractor;0.01;
+material;Advanced Leather Extractor;0.01;
+material;Advanced Metal Extractor;0.01;
+material;Advanced Mineral Extractor;0.01;
+material;Basic Cloth Extractor;0.01;
+material;Basic Gem Extractor;0.01;
+material;Basic Metal Extractor;0.01;
+material;Basic Mineral Extractor;0.01;
+material;Basic Plastic Extractor;0.01;
+material;Basic Wood Extractor;0.01;
+material;Diluted Cloth Extractor;0.01;
+material;Diluted Mineral Extractor;0.01;
+material;Enhanced Cloth Extractor;0.01;
+material;Enhanced Metal Extractor;0.01;
+material;Enhanced Mineral Extractor;0.01;
+material;Inferior Cloth Extractor;0.01;
+material;Strong Cloth Extractor;0.01;
+material;Superior Cloth Extractor;0.01;
+material;Weak Cloth Extractor;0.01;
+material;Large Striped Cotton Fabric Texture;0.02;
+material;Denim Fabric Texture;0.02;
+material;Lipstick (Pink-Orange);9;
+material;Face Paint (Red);5;
+material;Make Up Remover Rough;0.1;
+material;Rouge (Burgundy);5;
+material;Foundation (Dark Brown);5;
+material;Rouge (Carnation Pink);5;
+material;Highlighter;10;
+material;Foundation (Chocolate);5;
+material;Eyeshadow (Pale Brown);7;
+material;Brukite;0.00001;
+material;Trutun;0.00001;
+material;Kaldon;0.00001;
+material;Nissit;0.00001;
+material;Rutol;0.00001;
+material;Sopur;0.00001;
+material;Foundation (Bronze);5;
+material;Lipstick (Hollywood Cerise);11;
+material;Lipstick (Black);9;
+material;Hessian Fabric Texture;0.04;
+material;Quantium Texture;0.8;
+material;Soft Leather Texture;0.13;
+material;Burlap Fabric Texture;0.18;
+material;Felt Fabric Texture;0.24;
+material;Brukite Stone Texture;0.01;
+material;Canvas Fabric Texture;0.31;
+material;Narcanisum Texture;0.28;
+material;Ambulimax Leather Texture;1;
+material;Cbase Plastic Texture;0.14;
+material;Coarse Frote Fabric Texture;0.23;
+material;Copper Texture;0.36;
+material;Cumbriz Texture;0.35;
+material;Erdorium Texture;0.6;
+material;Evenweave Cotton Fabric Texture;0.09;
+material;Fine Frote Fabric Texture;0.29;
+material;Flannel Fabric Texture;0.03;
+material;Ganganite Texture;0.32;
+material;Generic Leather Texture;0.05;
+material;Kaldon Stone Texture;0.03;
+material;Lanorium Texture;0.42;
+material;Large Woven Cotton Fabric Texture;0.08;
+material;Lysterium Texture;0.21;
+material;Medium Frieze Fabric Texture;0.16;
+material;Midastree Texture;0.01;
+material;Nissit Stone Texture;0.02;
+material;Ribbed Velvet Fabric Texture;0.06;
+material;Sabakuma Leather Texture;0.15;
+material;Snablesnot Leather Texture;0.15;
+material;Snarksnot Leather Texture;0.19;
+material;Stinktree Texture;0.04;
+material;Striped Frote Fabric Texture;0.21;
+material;Suede Fabric Texture;0.33;
+material;Trutun Stone Texture;0.06;
+material;Wrinkled Felt Fabric Texture;0.28;
+material;Velvet Fabric Texture;0.1;
+material;Ignisium Texture;0.9;
+material;Durulium Texture;1;
+material;Thermodure Robot Plastic;0.27;
+material;Rusty Metal Robot Scrap;0.74;
+material;Cersumon Leather;1.2;
+material;Frescoquda Leather;1.62;
+material;Beaten Metal Robot Scrap;1;
+material;Cbase Robot Plastic;0.13;
+material;Polished Metal Robot Scrap;1.05;
+material;Cosmetic Pen (White);4;
+material;Paint Can (Burgundy);0.19;
+material;Cosmetic Pen (Royal Blue);4;
+material;Lipstick (Cardinal);9;
+material;Eyeshadow (Steel Blue);7;
+material;Face Paint (Dark Brown);5;
+material;Eyeshadow (Hollywood Cerise);7;
+material;Face Paint (Navy Blue);5;
+material;Lip Liner (Burgundy);4;
+material;Foundation (Golden Brown);5;
+material;Face Paint (Blue);5;
+material;Eyeshadow (Medium Purple);7;
+material;Eyeshadow (White);7;
+material;Lip Liner (Maroon);4;
+material;Make Up Remover Smooth;0.1;
+material;Face Paint (Turqoise);5;
+material;Lipstick (Auburn);9;
+material;Face Paint (Dark Green);5;
+material;Eyeshadow (Gold);8;
+material;Lip Liner (Black);4;
+material;Foundation (Pale Brown);5;
+material;Foundation (Brown);5;
+material;Face Paint (Black);5;
+material;Foundation (Wheat);5;
+material;Eyeshadow (Pale Cornflower Blue);7;
+material;Diamond Texture;8;
+material;Letomie Leather;4.02;
+material;Rutol Stone Texture;0.04;
+material;Fine Hessian Fabric Texture;0.03;
+material;Fine Frieze Fabric Texture;0.19;
+material;Sopur Stone Texture;0.05;
+material;Zinc Texture;0.3;
+material;Daikiba Leather Texture;0.28;
+material;Prancer Leather Texture;0.25;
+material;Alferix Texture;1.15;
+material;Allophyl Leather Texture;0.33;
+material;Argonaut Leather Texture;0.46;
+material;Armax Leather Texture;0.62;
+material;Atrax Leather Texture;0.68;
+material;Azzurdite Texture;1.4;
+material;Belkar Texture;0.22;
+material;Berycled Leather Texture;0.3;
+material;Coarse Frieze Fabric Texture;0.14;
+material;Combibo Leather Texture;0.15;
+material;Cornundacauda Leather Texture;0.24;
+material;Cornundos Leather Texture;0.16;
+material;Emerald Texture;5;
+material;Exarosaur Leather Texture;0.17;
+material;Faucervix Leather Texture;0.26;
+material;Fine Leather Texture;0.74;
+material;Fine Silk Fabric Texture;0.26;
+material;Foul Leather Texture;0.37;
+material;Large Ribbed Wool Fabric Texture;0.07;
+material;Megan Texture;0.38;
+material;Satin Fabric Texture;0.35;
+material;Tantillion Leather Texture;0.39;
+material;Thermodure Plastic Texture;0.28;
+material;Tight Knitted Wool Fabric Texture;0.05;
+material;Tripudion Leather Texture;0.34;
+material;Mourner Leather;0.45;
+material;Formidon Leather;1.38;
+material;Nexnecis Leather;1.98;
+material;Foundation (Tan);5;
+material;Eyeshadow (Olive Drab);7;
+material;Face Paint (Pale Brown);5;
+material;Rouge (Pink-Orange);5;
+material;Eyeshadow (Dark Tangerine);7;
+material;Face Paint (Orange);5;
+material;Face Paint (Yellow);5;
+material;Face Paint (Grey);5;
+material;Cosmetic Pen (Slate Grey);4;
+material;Powder (Pale Pink);6;
+material;Eyeshadow (Slate Grey);8;
+material;Lip Gloss (Cardinal);8;
+material;Lipstick (Burgundy);9;
+material;Cosmetic Pen (Sea Green);4;
+material;Cosmetic Pen (Royal Purple);4;
+material;Face Paint (Pink);5;
+material;Lip Liner (Pink-Orange);4;
+material;Lip Liner (Hollywood Cerise);4;
+material;Cosmetic Pen (Black);4;
+material;Cosmetic Pen (Dark Brown);4;
+material;Face Paint (Green);5;
+material;Face Paint (Olive);5;
+material;Face Paint (Purple);5;
+material;Face Paint (White);5;
+material;Foundation (Pale Pink);5;
+material;Foundation (Peach);5;
+material;Glitter Spray (Gold);17;
+material;Glitter Spray (Royal Blue);17;
+material;Glitter Spray (Silver);17;
+material;Lip Gloss (Burgundy);8;
+material;Lip Gloss (Carnation Pink);8;
+material;Lip Gloss (Pale Red Violet);8;
+material;Lip Gloss (Pink-Orange);8;
+material;Lip Gloss (Silver);8;
+material;Lip Liner (Crimson);4;
+material;Powder (Copper);6;
+material;Powder (Dark Chestnut);6;
+material;Powder (Deep Peach);6;
+material;Powder (Tan);6;
+material;Rouge (Coral);5;
+material;Rouge (Cardinal);5;
+material;Rouge (Hot Pink);5;
+material;Atrox Leather Texture;1.25;
+material;Bigwig Texture;0.28;
+material;Frigulite Texture;0.32;
+material;Fugabarba Leather Texture;0.16;
+material;Gold Texture;1.2;
+material;Grooved Metal Texture;0.58;
+material;Longu Leather Texture;0.55;
+material;Maganite Texture;1.25;
+material;Oxidized Lysterium Texture;0.31;
+material;Terrycloth Fabric Texture;0.15;
+material;Turp Leather Texture;0.07;
+material;Tezlapod Leather;0.69;
+material;Plumatergus Leather Texture;0.14;
+material;Itumatrox Leather;1.05;
+material;Oculus Leather;0.93;
+material;Caudatergus Leather Texture;0.18;
+material;Firn Texture;0.12;
+material;Iron Texture;0.33;
+material;Pile of Emeralds;0.3;
+material;Pile Of Rubies;0.4;
+material;Pile of Opals;0.2;
+material;Oxidized Aluminium Texture;0.37;
+material;Dianum Texture;1.45;
+material;Terrudite Texture;1.3;
+material;Gradivore Leather;1.2;
+material;Opal Texture;15;
+material;Caldorite Texture;0.37;
+material;Blausariam Texture;0.24;
+material;Rough Metal Texture;0.5;
+material;Gazzurdite Texture;0.45;
+material;Mermoth Leather;0.39;
+material;Himi Texture;0.34;
+material;Kirtz Texture;5.8;
+material;Chrome Texture;1.01;
+material;Polished Chrome Texture;0.87;
+material;Hammered Metal Texture;0.75;
+material;Eomon Leather;18.66;
+material;Petonium Texture;1.99;
+material;Adomasite Texture;0.8;
+material;Aetherex Leather Texture;1.01;
+material;Araneatrox Leather Texture;6.35;
+material;Brushed Aluminium Texture;0.66;
+material;Cersumon Leather Texture;1.2;
+material;Chomper Leather Texture;5.43;
+material;Cobalt Texture;0.4;
+material;Eomon Leather Texture;18.66;
+material;Formidon Leather Texture;1.36;
+material;Frescoquda Leather Texture;2;
+material;Gradivore Leather Texture;0.24;
+material;Grated Metal Texture;1.15;
+material;Kanerium Texture;2.7;
+material;Letomie Leather Texture;4;
+material;Mermoth Leather Texture;0.38;
+material;Morpheus Texture;1.03;
+material;Mourner Leather Texture;0.45;
+material;Nexnecis Leather Texture;1.55;
+material;Niksarium Texture;0.85;
+material;Oculus Leather Texture;0.94;
+material;Oxidized Iron Texture;0.43;
+material;Phasm Leather Texture;4.86;
+material;Platinum Texture;3.2;
+material;Rugaritz Texture;1.7;
+material;Tantardion Leather Texture;0.66;
+material;Tezlapod Leather Texture;0.67;
+material;Xeremite Texture;4.2;
+material;Itumatrox Leather Texture;1.05;
+material;Langotz Texture;1.1;
+material;Strengthened Metal Plating;0.83;
+material;Light Metal Plating;0.5;
+material;Glitter Spray (White);17;
+material;Eyeshadow (Silver);8;
+material;Lip Gloss (Hot Pink);8;
+material;Texture Enhancer;0.01;
+material;Pile of Diamonds;0.5;
+material;Chomper Hide;0.42;
+material;Formidon Skin;0.46;
+material;Gradivore Skin;0.4;
+material;Itumatrox Skin;0.35;
+material;Mermoth Skin;0.13;
+material;Mourner Skin;0.15;
+material;Nexnecis Hide;0.66;
+material;Phasm Hide;1.2;
+material;Tezlapod Skin;0.23;
+material;Henren Cube;1.26;
+material;Cersumon Skin;0.4;
+material;Henren Stems;0.63;
+material;Oculus Skin;0.31;
+material;Metal Ruds;0.35;
+material;Phasm Leather;3.6;
+material;Tridenite Texture;2.2;
+material;Valurite Texture;6.2;
+material;Zanderium Ore;2.5;
+material;Zanderium Ingot;7.5;
+material;Glitter Spray (Pink);17;
+material;Galaxy 12V Gel Batteries;1.5;
+material;Paint Can (Dark Crimson);2.2;
+material;Paint Can (Silver);0.29;
+material;Paint Can (Dark Steel Blue);0.06;
+material;Frescoquda Hide;0.54;
+material;Armax Cow Tail;2.7;
+material;Midastree Veneer;0.01;
+material;Firn Veneer;0.01;
+material;Stinktree Veneer;0.01;
+material;Bigwig Veneer;0.01;
+material;Paint Can (Dark Green);0.09;
+material;Frescoquda Tentacles;6.6;
+material;Letomie Fossil Eyelense;4.2;
+material;Vesperdite Ore;1.8;
+material;Redulite Ore;2.2;
+material;Vesperdite Ingot;5.4;
+material;Redulite Ingot;6.6;
+material;Frescoquda Foot;17.6;
+material;Frescoquda Back Scale;3.61;
+material;Paint Can (Dark Umber);0.36;
+material;GEC Spur Gears 4K;1.75;
+material;GEC Spur Gears 5K;2;
+material;Solar 14V Gel Batteries;1.65;
+material;Advanced Mountings;1.6;
+material;Solar 16V Gel Batteries;1.95;
+material;Enhanced Mountings;1.9;
+material;Galaxy 8V Gel Batteries;1.4;
+material;Galaxy 14V Gel Batteries;2.2;
+material;Advanced Talytic Converters;2.3;
+material;Enhanced Talytic Converters;2.6;
+material;High-Tech Talytic Converters;2.8;
+material;Chomper Leather;1.26;
+material;Paint Can (Dark Purple);0.08;
+material;Paint Can (Brigadier);0.5;
+material;Paint Can (Dark Mauve);0.27;
+material;Paint Can (Dark Lavender);0.21;
+material;Furor Eye;18;
+material;Letomie Fossil Teeth;48.7;
+material;Furor Skull;23;
+material;Eomon Skin;6.22;
+material;Exceptional Robot Hyper Charger;7.8;
+material;Exceptional Robot Optical Lense;1.78;
+material;Exceptional Robot Contraction Unit;26;
+material;Letomie Fossil Backplate;12.1;
+material;Basic Optical Wave Emitter;0.68;
+material;Genesis Star Com Unit;2.3;
+material;Letomie Hide;1.34;
+material;Genesis Star Encrypted Holder;6.5;
+material;Genesis Star Visual Display;3.1;
+material;Genesis Star Encrypted Holder Series 2;2.8;
+material;Basic Adaptive Fuse;0.75;
+material;Robot Target Processor;9.1;
+material;Socket I Component;0.1;
+material;Focus Lense Component;0.2;
+material;High Speed Control Component;0.1;
+material;Blazar Fragment;0.00001;
+material;Socket II Component;0.1;
+material;Tier I Component;0.1;
+material;Surface Hardener Component;0.2;
+material;Electronic Stabilizing Component;0.2;
+material;Interactive Simplifier Component;0.3;
+material;Socket III Component;0.1;
+material;Dianthus Liquid;0.3;
+material;Energized Crystal;0.3;
+material;Fire Root Globule;0.3;
+material;Dianthus Crystal Powder;0.6;
+material;Energized Crystal Cell;0.6;
+material;Fire Root Pellet;0.6;
+material;Empty Enhancer Component;1;
+material;Socket IV Component;0.1;
+material;Socket V Component;0.1;
+material;Socket VI Component;0.1;
+material;Socket VII Component;0.1;
+material;Socket VIII Component;0.1;
+material;Socket IX Component;0.1;
+material;Socket X Component;0.1;
+material;Tier II Component;0.14;
+material;Tier IV Component;0.27;
+material;Tier IX Component;1.4;
+material;Tier VII Component;0.7;
+material;Tier VIII Component;1;
+material;Tier V Component;0.4;
+material;Tier VI Component;0.5;
+material;Tier X Component;2;
+material;Tier III Component;0.2;
+material;Adaptive Fire Rate Component;0.3;
+material;High Definition GUI Component;0.3;
+material;Rationalizer Component;0.3;
+material;Iolite Stone;0.2;
+material;Iolite Ingot;0.6;
+material;Pyrite Stone;0.2;
+material;Pyrite Ingot;0.6;
+material;Erionite Stone;0.2;
+material;Erionite Ingot;0.6;
+material;Super Charger Component;0.4;
+material;Sonic Pulse Amplifier;0.2;
+material;Infrasound Emitter Component;0.4;
+material;Surface Toughness Component;0.3;
+material;Infrasound Amplifier Component;0.5;
+material;Output Amplifier Component;0.4;
+material;Material Efficiency Component;0.5;
+material;Pile Of Garnets;0.15;
+material;Nova Fragment;0.00001;
+material;Basic Organic Wire;0.82;
+material;Amber;10;
+material;Proteron Tooth;1.5;
+material;Proteron Skin;0.7;
+material;Proteron Neck Bone;2.5;
+material;Proteron Blood Sample;2;
+material;Basic Vehicle Servo;0.28;
+material;Basic Vehicle Supercharger;0.51;
+material;Basic Vehicle Suspension;0.76;
+material;Basic Vehicle Battery;0.91;
+material;Synthetic Mind Essence;0.0001;
+material;Light Mind Essence;0.0001;
+material;Diluted Sweat;0.01;
+material;Basic Vehicle Gearbox;1.63;
+material;Proteron Ribs;7;
+material;Proteron Eyes;1.5;
+material;Combustor;0.3;
+material;Lamp Attachments;0.3;
+material;Chair Frame;0.4;
+material;Disc Brake;0.6;
+material;Drive Shaft;0.9;
+material;Girder Beams;0.7;
+material;Radiator;0.4;
+material;Rubber Lists;0.4;
+material;Steering Rod;0.5;
+material;Wind Screen;0.9;
+material;Armax Bull Tail;3.2;
+material;Rookie Weapon Cell;0.0001;
+material;Genesis Rookie Seismic Bomb;0.1;
+material;Elvis Claw;0.2;
+material;Elvis Hide;0.2;
+material;Elvis Tail;0.5;
+material;Eomon Skin;6.22;
+material;Garcia Claw;0.1;
+material;Garcia Hide;0.5;
+material;Garcia Tail;0.5;
+material;Joplin Claw;0.5;
+material;Joplin Hide;1;
+material;Joplin Tail;0.4;
+material;Lemmy Hide;0.5;
+material;Lemmy Tail;0.7;
+material;Motorhead Security Blood;1;
+material;Motorhead Security Hide;0.5;
+material;Motorhead Security Horn;2;
+material;Rudolf Claw;0.1;
+material;Rudolf Hide;0.2;
+material;Rudolf Tail;0.2;
+material;Umbranoid Bag (Blue);10;
+material;Umbranoid Bag (Bright);27;
+material;Umbranoid Bag (Dark);24;
+material;Umbranoid Bag (Red);15;
+material;Umbranoid Paste Pot;82;
+material;Umbranoid Symbol (Female);1;
+material;Umbranoid Symbol (Male);1;
+material;Umbranoid Tube;23;
+material;Vampire Blood;0.1;
+material;Vampire Eye;0.5;
+material;Vampire Fangs;0.5;
+material;Vampire Plasma;0.3;
+material;Werewolf Blood;0.4;
+material;Werewolf Claw;0.1;
+material;Werewolf Eye;0.6;
+material;Werewolf Fangs;0.6;
+material;Wolf Fur;0.5;
+material;Wolf Blood;0.5;
+material;Wolf Eye;0.1;
+material;Wolf Fangs;0.5;
+material;Wolf Leather;0.5;
+material;Wolf Meat;0.3;
+material;Wolf Paw;0.8;
+material;Wolf Wool;0.3;
+material;Zombie Blood;1;
+material;Zombie Eye;3;
+material;Zombie Leg;1;
+material;Zombie Plasma;2;
+material;Zombie Rotting Flesh;0.5;
+material;Alternative Ingot;0.03;
+material;Blues Ingot;0.06;
+material;Folk Ingot;0.09;
+material;Glam Ingot;0.12;
+material;Grunge Ingot;0.12;
+material;Hard Ingot;0.15;
+material;Jazz Ingot;0.18;
+material;Punk Ingot;0.21;
+material;Reggea Ingot;0.24;
+material;Techno Ingot;0.3;
+material;Hurricane Cocktail;0.02;
+material;Mai Tai Cocktail;0.03;
+material;Mojito Cocktail;0.04;
+material;Nirvana Cocktail;0.04;
+material;Pina Colada Cocktail;0.05;
+material;Alternative Rock;0.01;
+material;Folk Rock;0.03;
+material;Blues Rock;0.02;
+material;Glam Rock;0.04;
+material;Grunge Rock;0.04;
+material;Hard Rock;0.05;
+material;Jazz Rock;0.06;
+material;Punk Rock;0.07;
+material;Reggea Rock;0.08;
+material;Techno Rock;0.1;
+material;Hurricane Cocktail Mix;0.01;
+material;Mai Tai Cocktail Mix;0.015;
+material;Nirvana Cocktail Mix;0.02;
+material;Pina Colada Cocktail Mix;0.025;
+material;Doors Tail;0.3;
+material;Doors Hide;0.3;
+material;Pop Claw;0.5;
+material;Pop Hide;0.1;
+material;Pop Tail;0.1;
+material;Genesis Rookie Survey Probe;0.1;
+material;Charoite Crystal;2;
+material;Refined Charoite Crystal;2;
+material;Ulexite Crystal;0.06;
+material;Boar Heart;0.05;
+material;Boar Tail;0.02;
+material;Papoo Palm;0.005;
+material;Papoo Foot;0.01;
+material;Papoo Heart;0.08;
+material;Papoo Eye;0.01;
+material;Boar Eye;0.03;
+material;Boar Tusk;0.01;
+material;Boar Hoove;0.01;
+material;Shark Head;0.1;
+material;Skeleton Hand;0.01;
+material;Dragon Eye;0.5;
+material;Dragon Blood;0.5;
+material;Hyalite Crystal;0.08;
+material;Refined Hyalite Crystal;0.08;
+material;Danburite Crystal;0.01;
+material;Refined Danburite Crystal;0.01;
+material;Azurite Crystal;0.03;
+material;Refined Azurite Crystal;0.03;
+material;Celestite Stone;0.03;
+material;Refined Celestite Crystal;0.03;
+material;Atacamite Crystal;0.01;
+material;Refined Atacamite Crystal;0.01;
+material;Lepidocrosite Crystal;0.02;
+material;Refined Lepidocrosite Crystal;0.02;
+material;Azeztulite Crystal;0.04;
+material;Refined Azeztulite Crystal;0.04;
+material;Zincite Crystal;0.01;
+material;Refined Zincite Crystal;0.01;
+material;Vanadinite Crystal;0.06;
+material;Refined Vanadinite Crystal;0.06;
+material;Angelite Crystal;0.1;
+material;Refined Angelite Crystal;0.1;
+material;Obsidian Crystal;0.05;
+material;Novaculite Crystal;0.02;
+material;Refined Novaculite Crystal;0.02;
+material;Epidote Crystal;0.02;
+material;Refined Epidote Crystal;0.02;
+material;Adventurine Crystal;0.15;
+material;Topaz Crystal;0.02;
+material;Anhydrite Crystal;0.04;
+material;Fluorite Crystal;0.03;
+material;Refined Fluorite Crystal;0.03;
+material;Apophyllite Crystal;0.61;
+material;Refined Apophyllite Crystal;0.61;
+material;Halite Crystal;0.05;
+material;Refined Halite Crystal;0.05;
+material;Purpurite Crystal;0.06;
+material;Refined Purpurite Crystal;0.06;
+material;Chlorite Crystal;0.04;
+material;Refined Chlorite Crystal;0.04;
+material;Rhodonite Crystal;0.04;
+material;Refined Rhodonite Crystal;0.04;
+material;Tiger's Eye;0.08;
+material;Refined Tigers Eye;0.08;
+material;Aragonite Crystal;0.01;
+material;Citrine Crystal;0.07;
+material;Hemimorphite Crystal;0.02;
+material;Refined Aragonite Crystal;0.01;
+material;Refined Citrine Crystal;0.07;
+material;Refined Hemimorphite Crystal;0.02;
+material;Okenite Crystal;0.03;
+material;Refined Anhydrite Crystal;0.04;
+material;Muscovite Crystal;0.06;
+material;Refined Muscovite Crystal;0.06;
+material;Lepidocrosite Crystal;0.02;
+material;Skeleton Soul;0.006;
+material;Skeleton Ribs;0.05;
+material;Skeleton Gold;0.01;
+material;Skeleton Hip;0.03;
+material;Skeleton Jaw;0.03;
+material;Skeleton Spine;0.07;
+material;Skeleton Foot;0.01;
+material;Petalite Crystal;0.01;
+material;Amethyst Crystal;0.02;
+material;Drake Soul;0.01;
+material;Refined Amethyst Crystal;0.02;
+material;Refined Petalite Crystal;0.01;
+material;Refined Adventurine Crystal;0.15;
+material;Mojito Cocktail Mix;0.02;
+material;Moldavite Crystal;0.01;
+material;Eudialyte Crystal;0.01;
+material;Bornite Crystal;0.02;
+material;Amber Crystal;0.02;
+material;Atlantasite Crystal;0.02;
+material;Apatite Crystal;0.03;
+material;Agate Crystal;0.04;
+material;Malachite Crystal;0.04;
+material;Cat's Eye Crystal;0.04;
+material;Chiastolite Crystal;0.08;
+material;Aegirine Crystal;0.02;
+material;Ammolite Crystal;0.7;
+material;Adamite Crystal;0.8;
+material;Agrellite Crystal;0.7;
+material;Refined Agate Crystal;0.04;
+material;Refined Adamite Crystal;0.8;
+material;Refined Aegirine Crystal;0.02;
+material;Refined Agrellite Crystal;0.7;
+material;Refined Amber Crystal;0.02;
+material;Refined Ammolite Crystal;0.7;
+material;Refined Apatite Crystal;0.03;
+material;Refined Atlantasite Crystal;0.02;
+material;Refined Bornite Crystal;0.02;
+material;Refined Cats Eye Crystal;0.04;
+material;Refined Eudialyte Crystal;0.01;
+material;Refined Malachite Crystal;0.04;
+material;Refined Moldavite Crystal;0.01;
+material;Refined Obsidian Crystal;0.05;
+material;Refined Okenite Crystal;0.03;
+material;Refined Topaz;0.02;
+material;Tanzanite Crystal;0.01;
+material;Beryl Crystal;0.08;
+material;Youngite Crystal;0.04;
+material;Papoo Tooth;0.05;
+material;Papoo Tail;0.01;
+material;Drake Wing;0.03;
+material;Drake Head;0.1;
+material;Drake Claw;0.015;
+material;Drake Tail;0.01;
+material;Boar Head;0.05;
+material;Hematite Crystal;0.01;
+material;Bronzite Crystal;0.05;
+material;Bustamite Crystal;0.03;
+material;Barite Crystal;0.07;
+material;Wulfenite Crystal;0.09;
+material;Shark Eye;0.01;
+material;Shark Fin;0.01;
+material;Shark Blood;0.01;
+material;Refined Barite Crystal;0.07;
+material;Refined Beryl Crystal;0.08;
+material;Refined Bronzite Crystal;0.05;
+material;Refined Bustamite Crystal;0.03;
+material;Refined Chiastolite Crystal;0.08;
+material;Refined Hematite Crystal;0.01;
+material;Refined Youngite Crystal;0.04;
+material;Refined Wulfenite Crystal;0.09;
+material;Refined Ulexite Crystal;0.06;
+material;Refined Tanzanite Crystal;0.01;
+material;Labradorite Crystal;0.02;
+material;Peridot Crystal;0.02;
+material;Refined Labradorite Crystal;0.06;
+material;Refined Peridot Crystal;0.02;
+material;Thulite Crystal;0.06;
+material;Refined Thulite Crystal;0.01;
+material;Calcedony Crystal;1;
+material;Refined Calcedony Crystal;1;
+material;Shark Tooth;0.2;
+material;Selenite Crystal;0.02;
+material;Refined Selenite Crystal;0.02;
+material;Cerussite Crystal;0.04;
+material;Refined Cerussite Crystal;0.04;
+material;Zoisite Crystal;0.06;
+material;Refined Zoisite Crystal;0.06;
+material;Shark Tail;0.02;
+material;Chimera Eye;0.01;
+material;Chimera Heart;0.02;
+material;Chimera Blood;0.01;
+material;Chimera Claw;0.01;
+material;Chimera Hide;0.03;
+material;Chimera Tail;0.02;
+material;Drake Heart;0.02;
+material;Skeleton Head;0.1;
+material;Red CD;0.15;
+material;Green CD;0.4;
+material;Kevin Rudolf - To The Sky Flip Flop;0.13;
+material;Kevin Rudolf - In The City Flip Flop;0.2;
+material;Motorhead - Motorhead Album;1;
+material;NEVERDIE - NEVERDIE SINGLE;0.1;
+material;Vixen Android Defense Microchip;0.15;
+material;Vixen Android H-0-T Drive;1;
+material;Motorhead - Bomber Album;0.01;
+material;Motorhead - Overkill Album;5;
+material;Motorhead - Ace of Spades Album;0.05;
+material;Vixen Android Gear;0.01;
+material;Vixen Android Gold Armor Plating;1;
+material;Vixen Android CPU Memory Unit;1;
+material;Vixen Android Intelligence Microchip;0.55;
+material;Vixen Android First Aid Microchip;0.35;
+material;Vixen Android Oil Filter;0.12;
+material;Vixen Android Power Transfer Cable;2;
+material;Whiskey Sour Cocktail Mix;0.075;
+material;Vixen Android Audio Unit Modified;0.2;
+material;Vixen Android Thermal Tank V.D.U;0.01;
+material;Vixen Android Audio Unit;0.1;
+material;ROCKtropia Record;0.001;
+material;Vixen Android F-0-X Drive;0.01;
+material;Vixen Android Data Uplink Cable;0.03;
+material;Vixen Android Power Cell;0.22;
+material;Vixen Android Night Scope V.D.U;0.1;
+material;Kamikaze Cocktail Mix;0.085;
+material;Vixen Android Bronze Armor Plating;0.06;
+material;Vixen Android Metal Armor Plating;0.02;
+material;Vixen Android Gear Modified;1;
+material;Kunzite Crystal;0.01;
+material;Bloodstone Crystal;0.09;
+material;Stibnite Crystal;0.06;
+material;Minotaur Arm;0.03;
+material;Minotaur Leg;0.01;
+material;Minotaur Tail;0.01;
+material;Minotaur Head;0.1;
+material;Minotaur Horn;0.03;
+material;Cyclops Eye;0.02;
+material;Cyclops Arm;0.02;
+material;Cyclops Leg;0.01;
+material;Crocoite Crystal;800;
+material;Tourmaline Crystal;0.09;
+material;Rosewood Short Board;0.25;
+material;Spruce Short Board;0.5;
+material;Spruce Regular Board;0.8;
+material;Mahogany Regular Board;0.5;
+material;Mahogany Short Board;0.1;
+material;Long Board;0.03;
+material;Spruce Long Board;1;
+material;Mahogany Long Board;2;
+material;Refined Bloodstone Crystal;0.09;
+material;Refined Crocoite Crystal;800;
+material;Refined Kunzite Crystal;0.01;
+material;Refined Stibnite Crystal;0.06;
+material;Refined Tourmaline Crystal;0.09;
+material;Minotaur Shoulder Pauldron;0.015;
+material;Minotaur Shin Guard;0.02;
+material;Cyclops Wrist Guard;0.01;
+material;Cyclops Pouch;0.01;
+material;Cyclops Club;0.1;
+material;Amazon Wrist Guard;0.03;
+material;Amazon Helmet;0.02;
+material;Amazon Sandle;0.01;
+material;Amazon Hair;0.01;
+material;Amazon Leg;0.01;
+material;Amazon Arm;0.01;
+material;Vixen Android GPS V.D.U;10;
+material;Vixen Android Healthbar V.D.U;1;
+material;NEVERDIE - GAMER CHICK HIT SINGLE;0.01;
+material;Harvey Wallbanger Cocktail Mix;0.04;
+material;Long Island Ice Tea Cocktail Mix;0.05;
+material;Motorhead - Iron Fist Album;15;
+material;Quartz;0.02;
+material;Refined Quartz Crystal;0.02;
+material;Turquoise Crystal;0.02;
+material;Time Travel Crystal;0.01;
+material;Vixen Android CPU Memory Unit Modified;1.2;
+material;Vixen Android Golden Heart;5;
+material;Black Russian Cocktail Mix;0.03;
+material;Black Russian Cocktail;0.06;
+material;Kamikaze Cocktail;0.17;
+material;Whiskey Sour Cocktail;0.15;
+material;Howlite Crystal;0.05;
+material;Refined Howlite Crystal;0.05;
+material;Chrysoberyl Crystal;0.04;
+material;Refined Chrysoberyl Crystal;0.04;
+material;Harvey Wallbanger Cocktail;0.08;
+material;Creative Juice;0.1;
+material;Maple Short Board;0.01;
+material;Vixen Android Weapons Guidance V.D.U;5;
+material;Blank CD;0.01;
+material;Gray Cassette;0.01;
+material;Green Cassette;0.02;
+material;Red Cassette;1;
+material;Long Island Ice Tea Cocktail;0.1;
+material;Maple Long Board;0.1;
+material;Blumenberg AL-34 Plasma Temperature Sensor;2;
+material;Vixen Android Golden Arm;2;
+material;Vixen Android Power Cell Modified;16;
+material;Vixen Android Golden Leg;7;
+material;Vixen Android Visual Optics Unit;0.65;
+material;Vampire Bone;0.1;
+material;Maple Regular Board;0.05;
+material;Prison Hootch;0.05;
+material;ROCKtropia Rollies;0.1;
+material;Rosewood Regular Board;0.45;
+material;Rosewood Long Board;0.5;
+material;Opal Crystal;0.02;
+material;Cacoxenite Crystal;0.8;
+material;Refined Cacoxenite Crystal;0.8;
+material;Zolphic Oil;0.04;
+material;Zolphic Grease;0.08;
+material;Kaz Stones;0.04;
+material;Kaz Ingot;0.12;
+material;Arkace Timber;0.1;
+material;Hekia Timber;0.15;
+material;Beladoth Hide;1.5;
+material;Otorugi Hide;0.8;
+material;Vorn Pellets;0.2;
+material;Vorn Plastic;0.4;
+material;Quil Sap;0.25;
+material;Quil Rubber;0.5;
+material;Edres Resin;0.13;
+material;Edres Varnish;0.26;
+material;Florican Mist;0.27;
+material;Florican Spray;0.54;
+material;Miluca Timber;0.05;
+material;Miluca Veneer;0.01;
+material;Kadra Hide;1;
+material;Banite Stones;0.08;
+material;Banite Ingot;0.24;
+material;Hydrogen Steam;0.02;
+material;Hydrogen Gas;0.04;
+material;Weak Magnets;0.12;
+material;Veda Stones;0.06;
+material;Veda Ingot;0.18;
+material;Telfium Stones;0.14;
+material;Telfium Ingot;0.42;
+material;Teladon Hide;2;
+material;Corria Timber;0.2;
+material;Oweko Hide;0.5;
+material;Ospra Stones;0.02;
+material;Ospra Ingot;0.06;
+material;Weld Filament;0.05;
+material;O Rings;0.02;
+material;Kamaldon Hide;2.4;
+material;Somin Glue;0.12;
+material;Lidacon Stones;1.5;
+material;Lidacon Ingot;4.5;
+material;Yulerium Stones;0.5;
+material;Yulerium Ingot;1.5;
+material;Star Particles;0.08;
+material;Star Dust;0.16;
+material;Xelo Vapour;0.78;
+material;Xelo Haze;0.39;
+material;Zulax Ingot;1.95;
+material;Zulax Stones;0.65;
+material;Hebredite Ingot;0.75;
+material;Hebredite Stones;0.25;
+material;Pel Liquid;1;
+material;Pel Crystals;0.5;
+material;Somin Tar;0.06;
+material;Wenrex Ingot;0.51;
+material;Wenrex Stones;0.17;
+material;Oiled Corria Boards;0.5;
+material;Kiana Hide;0.6;
+material;Ball Bearings;0.02;
+material;Huon Hide;1.2;
+material;Tension Straps;0.05;
+material;Beladoth Leather;4.5;
+material;Huon Leather;3.6;
+material;Kamaldon Leather;7.2;
+material;Kiana Leather;1.8;
+material;Otorugi Leather;2.4;
+material;Oweko Leather;1.5;
+material;Bokol Hide;0.3;
+material;Madana Hide;0.4;
+material;Zadul Hide;0.15;
+material;Hadraada Hide;0.25;
+material;Oro Hide;0.1;
+material;Bokol Leather;0.9;
+material;Hadraada Leather;0.75;
+material;Kadra Leather;3;
+material;Madana Leather;1.2;
+material;Teladon Leather;6;
+material;Oro Leather;0.3;
+material;Zadul Leather;0.45;
+material;Extended Bolt Carriage;3;
+material;Projector Housing;1.5;
+material;Fuel Cells;0.05;
+material;Standard Magnets;0.25;
+material;Corria Veneer;0.01;
+material;Hekia Veneer;0.01;
+material;Discharge Module;3.5;
+material;Energy Chamber;2;
+material;Insulators;0.2;
+material;Recoil Stabiliser;2.5;
+material;Strong Magnets;0.5;
+material;Arkace Veneer;0.01;
+material;Intensity Amplifier;3.5;
+material;Feedback Coupling;2.5;
+material;Gas Plug;1.5;
+material;Gimbals;1;
+material;Long Screws;0.04;
+material;Heat Shields;0.75;
+material;Gas Module;2.25;
+material;Carabok Hide;0.02;
+material;Propellant Booster;2;
+material;Extended Breech;2.7;
+material;Propellant Supercharger;1.8;
+material;Oiled Miluca Boards;0.2;
+material;Oiled Hekia Boards;0.4;
+material;Oiled Arkace Boards;0.3;
+material;Oiled Corria Boards;0.5;
+material;Tiarak Hide;0.2;
+material;Tiarak Leather;0.6;
+material;Power Regulator;5;
+material;Focusing Lens;2;
+material;Carabok Leather;0.06;
+material;Stimulation Modulator;3;
+material;Jori Hide;0.03;
+material;Jori Leather;0.09;
+material;Halix Leather;0.15;
+material;Halix Hide;0.05;
+material;Flash Suppressor;3.2;
+material;Korwil Hide;1.8;
+material;ROCKtropia Gold Coin;0.0001;
+material;Silver Party Flask;0.05;
+material;ROCKtropia Telemans Coin;2;
+material;Welding Wire;0.0001;
+material;Broken Dreams;0.05;
+material;Feran Hide;0.07;
+material;Feran Leather;0.21;
+material;Silver Shaker;0.5;
+material;Vixen Android S-E-X Drive;15;
+material;Phenacite Crystal;0.02;
+material;Refined Phenacite Crystal;0.02;
+material;Nuclear Blast Launch Codes;0.1;
+material;Generic Fuse;5;
+material;Generic Transformer;5;
+material;Warp Mine Mk1;3;
+material;Halix Leather Texture;0.04;
+material;Jori Leather Texture;0.03;
+material;Oro Leather Texture;0.07;
+material;Feran Leather Texture;0.05;
+material;Bokol Leather Texture;0.22;
+material;Oweko Leather Texture;0.36;
+material;Huon Leather Texture;0.84;
+material;Tiarak Leather Texture;0.15;
+material;Zadul Leather Texture;0.11;
+material;Hadraada Leather Texture;0.18;
+material;Madana Leather Texture;0.29;
+material;Otorugi Leather Texture;0.6;
+material;Teladon Leather Texture;1.44;
+material;Kadra Leather Texture;0.72;
+material;Traeskeron Skin;0.3;
+material;Traeskeron Leather;0.9;
+material;Kiana Leather Texture;0.48;
+material;Raging Daikiba Bull Blood Sample;50;
+material;Rextelum Chitin Fragment;4.15;
+material;Daikiba Skin;0.15;
+material;Daikiba Skull;4;
+material;Ostelok Hide;0.04;
+material;Ostelok Leather;0.12;
+material;Basic Propulsion System;15;
+material;Carabok Leather Texture;0.01;
+material;Miranda Violet;0.04;
+material;Rextelum Venom Sample;0.21;
+material;Modified Source Code;0.25;
+material;Open Source Code;0.25;
+material;Gosubusagi Blood Sample;150;
+material;Golden Shaker;2;
+material;Dreams;0.8;
+material;Sand King Blood Sample;200;
+material;Scoria Hide;0.45;
+material;Scoria Leather Texture;0.3;
+material;Korwil Leather Texture;1.2;
+material;Scoria Leather;1.35;
+material;Ospra Texture;0.2;
+material;Yuka Leather Texture;1.92;
+material;Korwil Leather;5.4;
+material;Yuka Leather;8.4;
+material;Yuka Hide;2.8;
+material;Ostelok Leather Texture;0.04;
+material;Zulax Texture;0.78;
+material;Telfium Texture;0.25;
+material;Hebredite Texture;0.3;
+material;Miluca Texture;0.02;
+material;Hekia Texture;0.06;
+material;Wenrex Texture;0.2;
+material;Kaz Texture;0.22;
+material;Beladoth Leather Texture;0.96;
+material;Lidacon Texture;1.8;
+material;Arkace Texture;0.04;
+material;Banite Texture;0.21;
+material;Elysian Tech Chip;0.00001;
+material;Corria Texture;0.08;
+material;Veda Texture;0.24;
+material;Yulerium Texture;0.6;
+material;Propulsion Connector;5;
+material;Elysian Power Sphere;0.05;
+material;Garcia Wing;0.5;
+material;P.I.M.P Cup;20;
+material;Ammo (High Grade);0.0001;
+material;Ammo (Low Grade);0.0001;
+material;Traeskeron Matriarch Blood Sample;100;
+material;Joplin Wing;1;
+material;Lemmy Wing;0.4;
+material;Refined Opal Crystal;0.02;
+material;Yellow Cassette;0.01;
+material;Yellow CD;0.01;
+material;Tiger Hide;0.5;
+material;Leopard Hide;0.8;
+material;Cheetah Hide;1;
+material;Cheetah;0.2;
+material;Cheetah Hide;0.2;
+material;Elvis Dragon Texture;0.15;
+material;Lemmy Dragon Texture;0.25;
+material;Pop Dragon Texture;0.05;
+material;Rudolf Dragon Texture Old;0.6;
+material;Joplin Dragon Texture;0.3;
+material;Morrison Dragon Texture;0.15;
+material;Cheetah Texture;0.6;
+material;Couger Texture;0.15;
+material;Couger Hide;0.05;
+material;Tiger Texture;0.3;
+material;Panther Hide;1;
+material;Erdres Varnish;0.26;
+material;Hendrix Claw;0.5;
+material;Hendrix Hide;0.3;
+material;Pure Source Code;0.25;
+material;Vixen Android Visual Optics Unit Modified;30;
+material;Nusul Hide;0.15;
+material;Nusul Leather;0.45;
+material;Advanced Spur Gears 6k;1;
+material;Robot Scrap Metal;0.02;
+material;Robot Pneumatic Unit;0.5;
+material;Robot Cooling Unit;0.1;
+material;Robot Thermal Sensor;0.35;
+material;Robot Binary Memory Unit;0.08;
+material;Robot Coordination Unit;0.15;
+material;Robot Enery Source;0.14;
+material;Robot Optical Processor;0.3;
+material;Nusul Leather Texture;0.11;
+material;Praetonium Ingot;0.04;
+material;Robot Weapon Amplifier;0.15;
+material;Robot Low-Loss Data Link;0.04;
+material;Praetonium;0.02;
+material;Advanced Heavy Springs;1;
+material;Advanced Cooling System Unit;1;
+material;Advanced Fluid Energy Source;1;
+material;Cyclops Head;0.01;
+material;Robot Tracking Sensor;38.9;
+material;Robot Bacterial Memory Unit;42.1;
+material;Robot Tactics Analysis Unit;32;
+material;Big Bird Wing;0.35;
+material;Lesser Claw;0.02;
+material;Bone;0.03;
+material;Jagged Tooth;0.02;
+material;Helen Venture's Walking Stick;0.1;
+material;Zorn Star Ingot;0.03;
+material;Zorn Star Ore;0.01;
+material;Yellow Crystal;0.01;
+material;Super Adhesive;0.02;
+material;Sothorite Ore;0.09;
+material;Sothorite Ingot;0.27;
+material;Calcedony Crystal;1;
+material;Chrysoberyl Fasteners;0.1;
+material;Dark Lysterium;0.02;
+material;Dark Lysterium Bar;0.06;
+material;Dark Lysterium Cogs;0.25;
+material;Lesser Elysia;0.08;
+material;Green Crystal;0.03;
+material;Life Essence;0.06;
+material;Crystal Pollen;0.00001;
+material;Dire Weed Flaxen;0.2;
+material;Bone-in Meat;0.13;
+material;Cracked Shell;0.06;
+material;Swamp Lurker Oil;0.03;
+material;Swamp Lurker Hide;0.06;
+material;Low Grade Power Supply;0.0187;
+material;Low Grade Scrap;0.03;
+material;Low Grade Motion Sensor;0.5;
+material;Low Grade Electronic Component;0.17;
+material;Broken Elysian Technology;0.00001;
+material;Light Power Cell;0.05;
+material;Bonding Liquid;0.02;
+material;Lysterium Power Container;0.4;
+material;Blue Crystal;0.02;
+material;Clear Crystal;0.1;
+material;Iridium Ore;0.05;
+material;Iridium Ingot;0.15;
+material;Vixen Android Vocal Unit;30;
+material;Robot Dynocyclic Relay;15;
+material;Robot Nanomodulator;15;
+material;Robot Power Transformer;21;
+material;Robot Magnetomic Throttle;15;
+material;Robot Speech Emulation Unit;15;
+material;Partial Eye Remains;0.24;
+material;Medium Grade Scrap;0.06;
+material;High Grade Motion Sensor;0.05;
+material;Medium Grade Electronic Component;0.0133;
+material;Greater Claw;0.04;
+material;Sodalite Crystal;0.03;
+material;Refined Sodalite Crystal;0.03;
+material;Aarkan Pellets;0.02;
+material;Aarkan Polymer;0.06;
+material;Khorudoul Extrusion;0.08;
+material;Khorudoul Polymer;0.24;
+material;Aakas Alloy;0.1;
+material;Aakas Plating;0.3;
+material;Khorum Alloy;0.2;
+material;Khorum Plating;0.6;
+material;Arkadian Key 1;20;
+material;Arkadian Key 2;40;
+material;Arkadian Key 6;120;
+material;Songtil Agent;0.06;
+material;Balancing Agent;0.18;
+material;Alloy Plate;2.3;
+material;Fossil Tooth;0.03;
+material;Part Of Fossil Tooth;0.01;
+material;Songkra Plating;0.75;
+material;Songkra Alloy;0.25;
+material;Binding Epoxy;0.9;
+material;ChemSet;0.3;
+material;Hadraada Spinal Plate;2;
+material;Oro Cranial Blade;1;
+material;Bokol Spinal Plate;2.5;
+material;Aarkan Texture;0.5;
+material;Zadul Nail;1;
+material;Part Of Fossil Ammonite;0.02;
+material;Part Of Flint Arrow Head;0.08;
+material;Part Of Brass Alloy;0.12;
+material;Bronze Alloy;0.3;
+material;Fossil Ammonite;0.06;
+material;Flint Arrow Head;0.24;
+material;Flint Axe Head;0.18;
+material;Part Of Flint  Axe Head;0.06;
+material;Part Of Bronze Alloy;0.1;
+material;Part Of Fly Amber;0.1;
+material;Part Of Mosquito Amber;0.3;
+material;Vedacore Fibre;0.15;
+material;Brass Alloy;0.36;
+material;Fly Amber;0.3;
+material;Mosquito Amber;0.9;
+material;Vedacore Sheeting;0.45;
+material;Otorugi Nail;2.8;
+material;Halix Leg Fur;0.5;
+material;Huon Tail Spike;3.8;
+material;Beladoth Back Spike;3.5;
+material;Feran Wing Claw;0.75;
+material;Ostelok Lower Beak;0.4;
+material;Polymer Rail;0.25;
+material;Carabok Leg Fur;0.2;
+material;Riptor Hide;0.5;
+material;Riptor Tail Segment;1.8;
+material;Kiana Paw;2.5;
+material;Teladon Tail Spike;4;
+material;Madana Leg Fur;1.5;
+material;Oweko Cranial Blade;2.2;
+material;Rough Hide;3.5;
+material;Medium Grade Motion Sensor;0.01;
+material;A.R.C. Armor Mold (Gloves);0.05;
+material;Tiarak Elbow Spur;1.25;
+material;Jori Pectoral Fin;0.25;
+material;Campbell's Basic Framework;0.01;
+material;Fine Lens;0.06;
+material;System Stabilizer;0.1;
+material;Ostelok Pommel Feather;0.45;
+material;Kadra Claw;3.2;
+material;Kamaldon Upper Mandible;4.5;
+material;Korwil Paw;4.2;
+material;Yuka Spinal Plate;4.8;
+material;Poly-Alloy Strap;0.22;
+material;Adaptor;2.2;
+material;Conduit;0.35;
+material;High Grade Power Supply;0.09;
+material;Alloy Hinge;1.1;
+material;Aakas Texture;0.5;
+material;Acid Protective Coating;0.3;
+material;Anti-Glare Spray;0.16;
+material;Lightening Agent;0.2;
+material;Blemish Remover;0.2;
+material;Cold Protective Coating;1;
+material;Shed Skreel Tail;0.01;
+material;Hardening Agent;0.04;
+material;Purple Crystal;0.08;
+material;Arkoin;0.01;
+material;Caudatergus Trophy;0.01;
+material;Daikiba Trophy;0.04;
+material;Luck Potion;0.04;
+material;Motorhead Keg;0.01;
+material;Softening Agent;0.14;
+material;Material Softener;0.14;
+material;Berycled Trophy;0.01;
+material;Flesh;0.13;
+material;Red Molten Crystal;0.5;
+material;Olerin Stone;0.07;
+material;Olerin Ingot;0.21;
+material;Flesh Ripper Hide;4.7;
+material;Flesh Ripper Leather;14.1;
+material;Kaisenite Stone;0.02;
+material;Kaisenite Ingot;0.06;
+material;Arkadian Golden Key Barrel;18;
+material;Arkadian Golden Key Bearings;2;
+material;Arkadian Golden Key Cog;10;
+material;Arkadian Golden Key Gears;1;
+material;Arkadian Golden Key Housing;30;
+material;Arkadian Golden Key Inner Ring;20;
+material;Arkadian Golden Key Interface;12;
+material;Arkadian Golden Key Outer Ring;30;
+material;Arkadian Golden Key Power Source;6;
+material;Big Daddy's Nut Potion;0.02;
+material;Charisma Potion;0.2;
+material;Dicipline Potion;0.3;
+material;Disapointment Potion;0.03;
+material;Faith Potion;0.3;
+material;Desire  Potion;0.4;
+material;Foresight Potion;0.04;
+material;Optimism Potion;0.3;
+material;Talent Potion;0.03;
+material;L-O-V-E Potion;0.5;
+material;Nepotism Potion;0.17;
+material;Patience Potion;0.5;
+material;Tears Potion;0.4;
+material;Failure Potion;0.75;
+material;Flair Potion;0.65;
+material;Focus Potion;0.7;
+material;Insight Potion;0.65;
+material;Style Potion;0.08;
+material;Cheetah Texture;0.15;
+material;Diluted Body Oil;0.05;
+material;Joplin Dragon Leather;3;
+material;Kamaldon Leather Texture;1.68;
+material;Khorudoul Texture;0.4;
+material;Khorum Texture;1;
+material;Medium Power Cell;0.5;
+material;Orange Crystal;0.07;
+material;Lurker Leather;0.18;
+material;Boar Steak;0.02;
+material;Plasma;0.01;
+material;Boar DNA Strand;0.02;
+material;Tananite Ore;0.15;
+material;Leethiz Ingot;0.45;
+material;Perfect Hide;4.7;
+material;Medium Grade Power Supply;0.04;
+material;Broken Firestarter;0.005;
+material;Arkadian Golden Key Codex Chamber;40;
+material;Endorphins;0.02;
+material;Ferguson's All Purpose Lube;0.1;
+material;Ferguson's Amalgam;0.0666;
+material;Protective Coating;0.04;
+material;Reflective Coating;0.6;
+material;Primordial Longu Skin;0.75;
+material;Dopamine;0.05;
+material;Speed Metal;0.05;
+material;A.R.C. Armor Mold (Helmet);0.05;
+material;A.R.C. Armor Mold (Harness);0.05;
+material;A.R.C. Armor Mold (Arm Guards);0.05;
+material;A.R.C. Armor Mold (Boots);0.05;
+material;A.R.C. Armor Mold (Shin Guards);0.05;
+material;A.R.C. Armor Mold (Leg Guards);0.05;
+material;A.R.C. Wire Harness;0.1;
+material;Bone-out Meat;0.13;
+material;Code Demon Hide;0.3;
+material;ROCTEC Girder Beams;0.7;
+material;ROCTEC Disk Brake;0.6;
+material;ROCTEC Wind Screen;0.9;
+material;ROCTEC Radiator;0.4;
+material;ROCTEC Chair Frame;0.4;
+material;ROCTEC Lamp Attachments;0.3;
+material;ROCTEC Steering Rod;0.5;
+material;ROCTEC Drive Shaft;0.9;
+material;ROCTEC Vehicle Battery;0.91;
+material;ROCTEC Combuster;0.3;
+material;Advanced Adaptive Fuse;0.96;
+material;Cable Slot Adapter Component III;0.6;
+material;Advanced Organic Wire;1.03;
+material;Infected Source Code;0.25;
+material;Accelerative Matrix Component I;0.3;
+material;Mechano-Stabilizer Component II;0.3;
+material;Mechano-Stabilizer Component I;0.2;
+material;Mechano-Stabilizer Component III;0.4;
+material;Cable Slot Adapter Component I;0.4;
+material;Cable Slot Adapter Component II;0.45;
+material;Mechanomatrix Adapter Unit I;0.3903;
+material;Accelerative Matrix Component II;0.35;
+material;Accelerative Matrix Component III;0.5;
+material;Mechanomatrix Adapter Unit II;0.75;
+material;Lystionite Steel Ingot;4.0146;
+material;Distilled Sweat Crystal;1.1106;
+material;Advanced Optical Wave Emitter;0.89;
+material;Enhanced Organic Wire;1.24;
+material;Galvesperdite Ingot;6.3625;
+material;Aurilinin Gel;4.04;
+material;Enhanced Adaptive Fuse;1.17;
+material;Aumorphite Ingot;8.09;
+material;Cobaltium Ingot;2.001;
+material;Galaurphite Ingot;14.7353;
+material;Chalinum Alloy;2.601;
+material;Frigulerian Dust;3.44;
+material;Solares Ingot;3.59;
+material;Zincalicid Energy Crystal;4.24;
+material;Mechanomatrix Adapter Unit III;1.65;
+material;Scrap Iron;0.055;
+material;Cheetah Cloth;0.6;
+material;Kylon's Blue;0.06;
+material;Greater Power Crystal;300;
+material;Lesser Power Crystal;200;
+material;Allophyl DNA Samples;30.1;
+material;Ambulimax DNA Samples;25.45;
+material;Argonaut DNA samples;8;
+material;Armax (bull) DNA Samples;13;
+material;Armax (cow) DNA Samples;11;
+material;Atrax DNA Samples;20.76;
+material;Atrox DNA Samples;21.81;
+material;Berycled DNA Samples;20.27;
+material;Daikiba DNA Samples;6;
+material;Exarosaur DNA Samples;11;
+material;Fungoid  DNA Samples;37.8;
+material;Furor DNA Samples;63.5;
+material;Merp DNA Samples;7.02;
+material;Molisk DNA Samples;9.8;
+material;Neconu  DNA Samples;25.78;
+material;Plumatergus DNA Samples;9.88;
+material;Primordial Longu DNA Samples;238.5;
+material;Songkra Texture;1.2;
+material;ROCKtropia War Bond;5;
+material;Morrison Hide;0.3;
+material;Code Demon Texture;0.15;
+material;Garcia Dragon Texture;0.25;
+material;Hendrix Dragon Texture;0.15;
+material;Leopard Texture;0.2;
+material;Panther Texture;0.3;
+material;Scrap Steel;0.038;
+material;Medium Grade Motherboard;0.07;
+material;Medium Grade Processor;0.15;
+material;High Grade Processor;0.26;
+material;Weak Calcium Compound;0.06;
+material;Decent Calcium Compound;0.12;
+material;Good Calcium Compound;0.06;
+material;Medium Grade Metal Compound;0.27;
+material;High Grade Metal Compound;0.45;
+material;Weak Protein Strain;0.41;
+material;Terrestrial Hormone;0.32;
+material;Pure Choroid;0.54;
+material;Lurker Lube;0.1;
+material;Oro Skull;0.03;
+material;Kadra Eye;0.18;
+material;Tiarak Nail;0.2;
+material;Scoria leg;0.32;
+material;Otorugi Shoulder Horn;0.24;
+material;Oweko Tail;3;
+material;Halix Tail;0.02;
+material;Riptor Tongue;0.36;
+material;Kiana Ear;0.24;
+material;Korwil Ear;0.6;
+material;Huon Foot;0.6;
+material;Beladoth Nail;0.54;
+material;Nusul Ear;0.2;
+material;Madana Mane;2;
+material;Yuka Shoulder Plate;1;
+material;Teladon Foot;0.6;
+material;Ubo Vesicle;0.04;
+material;Oweko Skull;0.24;
+material;Yuka Long Bone;2;
+material;Blank Arkadian DNA Cartridge 1;1;
+material;Madana Tail;0.2;
+material;Kamaldon Lower Mandible;0.6;
+material;Alien Biogenic Gel;0.01;
+material;Hadraada Mandible;2;
+material;Blank Arkadian DNA Cartridge 4;4;
+material;Zadul Foot;1;
+material;Halix Leg;2;
+material;Nusul Flesh;1;
+material;Blank Arkadian DNA Cartridge 2;2;
+material;Blank Arkadian DNA Cartridge 3;3;
+material;Blank Arkadian DNA Cartridge 5;5;
+material;Nusul Foot;2;
+material;Nusul Tail;1;
+material;Nusul Nose;3;
+material;Vedacore Texture;0.75;
+material;Korwil Tail;1;
+material;Kiana Heart;4;
+material;Otorugi Spine;4;
+material;Ostelok Pommel;2;
+material;Oweko Forearm;2;
+material;Beladoth Foot;2.5;
+material;Beladoth Spine;3;
+material;Pirrel Hexaton;0.9;
+material;Pirrel Pellets;0.3;
+material;Cordul Stone;0.2;
+material;Cordul Ingot;0.6;
+material;Bodai Dust;0.2;
+material;Bodai Filler;0.4;
+material;Hexra Gems;0.1;
+material;Hexra Electroplate;0.3;
+material;Regula Lode;0.2;
+material;Regula Powder;0.6;
+material;Gorbek Emulsion;0.4;
+material;Gorbek Tallow;0.8;
+material;Quenta Flux;0.15;
+material;Quenta Panel;0.45;
+material;Oro Flesh;2;
+material;Lotium Fluid;0.3;
+material;Lotium Gel;0.6;
+material;Riptor Foot;1;
+material;Starrix Nodes;0.25;
+material;Starrix Quilting;0.75;
+material;Oro Forearm;1;
+material;Bokol Flesh;2;
+material;Arekite Stone;0.1;
+material;Arekite Ingot;0.3;
+material;Frakite Stone;0.3;
+material;Frakite Ingot;0.9;
+material;Kamaldon Bone Crest;3;
+material;Riptor Eye;2;
+material;Alkar Crystals;0.05;
+material;Alkar Lattice;0.15;
+material;Ubo Eye;1;
+material;Magurg Male Pincer;0.2;
+material;Diagen Firedrops;0.04;
+material;Diagen Matrix;0.12;
+material;Beladoth Eye;1.25;
+material;Hadraada Long Bone;2;
+material;Otorugi Eye;2;
+material;Zadul Spine;3;
+material;Feffox Skin;1.03;
+material;Bokol Mandible;2;
+material;Madana Eye;3;
+material;Yuka Mandible;6;
+material;Vampire Heart;0.5;
+material;Korwil Heart;4;
+material;Halix Mane;1;
+material;Kiana Tail;1;
+material;Acetylcholine;0.03;
+material;Yarrijak Wing;1.5;
+material;Yarrijak Thorax;0.25;
+material;Magurg Male Foot;2;
+material;Zadul Eye;0.25;
+material;Halix Eye;2;
+material;Pile of Jasper;0.4;
+material;Ubo Flesh;2;
+material;Ostelok Foot;1;
+material;Madana Leg;2;
+material;Kiana Spine;3;
+material;Korwil Spine;4;
+material;Kamaldon Tongue;2;
+material;Kamaldon Flesh;3;
+material;Oro Brain;3;
+material;Oro Tail;2;
+material;Ostelok Craw;1;
+material;Otorugi Foot;1;
+material;Otorugi Brain;10;
+material;Oweko Flesh;3;
+material;Riptor Neck Frill;4;
+material;Ubo Mandible;2;
+material;Ubo Poison Globule;5;
+material;Yarrijak Tail;0.25;
+material;Yuka Flesh;4;
+material;Beladoth Brain;10;
+material;Hadraada Flesh;2;
+material;Calypso Bone Sample (Quest Item);0.00001;
+material;Sea Wraith Hide;0.8;
+material;Empis Hide;0.8;
+material;Living Vortex Hide;1;
+material;Rhino Beetle Hide;1;
+material;Jellyworm Hide;0.75;
+material;Crystal Pede Hide;0.5;
+material;Mang Chang Hide;1;
+material;Paneleon Hide;1;
+material;Mutation Agent;50;
+material;Nanobots - Accuracy;4;
+material;Nanobots - Kill Strike;3;
+material;Nanobots - Metabolic Boost;1;
+material;Nanobots - Resilience;3;
+material;Marcimex Slime;1;
+material;Fi/Ra/Co Evil Parts;1;
+material;Enhanced Optical Wave Emitter;1.1;
+material;Primordial Longu Claw;28;
+material;Primordial Longu Spike;3.6;
+material;Basic Targeting Chip;0.02;
+material;Fi/Ra/Co Cause Parts;1;
+material;Omegaton A100 Series Parts;1;
+material;Pristine Khada Crystal Shard;1500;
+material;Radiant Khada Crystal Shard;800;
+material;Marcimex Brain Oil;1;
+material;Synthetic Rubber;0.57;
+material;Scrap Metal;0.04;
+material;Tail Tip;0.05;
+material;Ozpyn Matrix;0.03;
+material;Hazy Crystal;0.3;
+material;Maffoid Head (Mission);0.02;
+material;Maladrite Stone;0.04;
+material;Maladrite Ingot;0.12;
+material;Monrian Power System;0.07;
+material;Zoldenite Crystal;0.08;
+material;Gallard Hide;0.02;
+material;Hadraada Lumbar Plate;0.2;
+material;Resonation Amplifier 3;0.06;
+material;Resonation Amplifier 1;0.02;
+material;Resonation Amplifier 2;0.03;
+material;Resonation Amplifier 4;0.07;
+material;Resonation Amplifier 9;0.31;
+material;Nanobots - Memory Enhancer;3;
+material;Resonation Amplifier 5;0.06;
+material;Resonation Amplifier 6;0.09;
+material;Resonation Amplifier 7;0.15;
+material;Resonation Amplifier 8;0.2;
+material;Magurg Male Teeth;2;
+material;Magurg Male Tail;4;
+material;Magurg Male Heart;3;
+material;Mamnoon;0.08;
+material;Mamnoon Mist;0.16;
+material;Zircon Stone;0.05;
+material;Zircon Ingot;0.15;
+material;Aqeeq Stone;0.02;
+material;Aqeeq Ingot;0.06;
+material;Sham;0.05;
+material;Sham Sand;0.1;
+material;Rotten Banana;0.01;
+material;Grindhouse Striptease Death Vinyl;0.01;
+material;Grindhouse Tarantino Death Vinyl;0.01;
+material;Grindhouse Sleaze Death Vinyl;0.01;
+material;Grindhouse Rodriguez Death Vinyl;0.01;
+material;Small Bird Wing;4.38;
+material;Rotten Banana Bunch;1;
+material;Wolf Heart;0.5;
+material;Ozpyn Filters;0.23;
+material;Ozpyn Lever;0.08;
+material;Mutant DNA Strand;0.02;
+material;Zombie Hand;4;
+material;Robotic Enhancement Gel;0.05;
+material;Bokol Lumbar Plate;0.2;
+material;Nanobots - Adrenaline Boost;3.4;
+material;Nanobots - System Overload;6;
+material;Nanobots - Regenerative;0.7;
+material;Couger Cloth;0.15;
+material;Crystal Pede Leather;0.15;
+material;Crystal Pede Texture;0.05;
+material;Cyber Demon Hide;0.4;
+material;Cyber Demon Leather;1.2;
+material;Disassembled Adjusted Armor Plating Mark.5B;42;
+material;Disassembled Adjusted Armor Plating Mark.6A;36;
+material;Disassembled Armor Plating Mark.5B;31.1;
+material;Disassembled Armor Plating Mark.6A;25;
+material;Disassembled Improved Armor Plating Mark.5B;53;
+material;Elvis Dragon Leather;0.6;
+material;Empis Leather;2.4;
+material;Empis Texture;0.8;
+material;Eomon Blood Sample Type A;1;
+material;Eomon Blood Sample Type B;2;
+material;Eomon Blood Sample Type C;5;
+material;Eomon Blood Sample Type D;50;
+material;Eomon Blood Sample Type E;100;
+material;Essence of Evil;1;
+material;Fairuz Stone;0.05;
+material;Fairuz Ingot;0.15;
+material;Feffox Leather;3.09;
+material;Ferguson's Refined Amalgam;0.11;
+material;Fish Oil;0.03;
+material;Fish Scales;4.7;
+material;Flesh Ripper Texture;4.7;
+material;Gallard Leather;0.06;
+material;Gallard Leather Texture;0.01;
+material;Garcia Dragon Leather;1.5;
+material;Ghali;0.16;
+material;Ghali Powder;0.32;
+material;Green Crystal Texture;0.05;
+material;Hazy Crystal Texture;0.5;
+material;Heavy Power Cell;5;
+material;Hendrix Dragon Leather;0.9;
+material;Hendrix Tail;0.8;
+material;High Grade Electronic Component;0.02;
+material;Hogglo DNA Samples;29.15;
+material;Imperium Bearings;0.55;
+material;Imperium Compression Unit;0.55;
+material;Imperium Control Sensor;0.55;
+material;Imperium Cube Component 1;0.1;
+material;Imperium Cube Component 2;0.1;
+material;Imperium Cube Component 3;0.1;
+material;Imperium Cube Component 4;0.1;
+material;Imperium Cube Component 5;0.1;
+material;Imperium Servo;0.55;
+material;Iolite Crystal;0.03;
+material;Jellyworm Leather;0.22;
+material;Jellyworm Texture;0.07;
+material;Khaffash Hide;0.1;
+material;Khaffash Leather;0.3;
+material;Imperium Cube;0.5;
+material;Low Grade Processor;1.62;
+material;Lulu Pearl;0.36;
+material;Lulu;0.12;
+material;Mang Chang Leather;3;
+material;Mang Chang Texture;1;
+material;Morrison Dragon Leather;0.9;
+material;Morrison Tail;0.4;
+material;Mutated Aurli Bone Piece;1;
+material;Lemmy Dragon Leather;1.5;
+material;Leopard Cloth;1.2;
+material;Living Vortex Leather;3;
+material;Living Vortex Texture;1;
+material;Navi Hide;0.5;
+material;Navi Leather;1.5;
+material;Navi Leather Texture;0.38;
+material;Nawa Drops;0.01;
+material;Nawa Vial;0.02;
+material;Nosi Texture;0.16;
+material;Nosifer Stone;0.08;
+material;Orange Crystal Texture;0.12;
+material;Onyx;0.04;
+material;Zyn'Kimbro Spirit Dust;10;
+material;Zyn'Dos Blood;10;
+material;Zombie Bone;0.8;
+material;Zoldenite Dust;0.04;
+material;Rudolf Dragon Leather;0.6;
+material;Rudolf Texture;0.1;
+material;Sea Wraith Leather;0.24;
+material;Sea Wraith Texture;0.08;
+material;Shoggoth Tentacle;5.6;
+material;Shub Skin;1.03;
+material;Shub Skull;15.6;
+material;Strong Sinew;19;
+material;Suspended Life Essence;0.06;
+material;Tiger Cloth;1.5;
+material;Terrestrial Gland;0.1;
+material;Thawr Hide;0.2;
+material;Thawr Leather;0.6;
+material;Togolossi Leather Texture;0.72;
+material;Togolossi Leather;3;
+material;Togolossi Hide;1;
+material;Tanhok Amber;5;
+material;Tabtab Hide;0.01;
+material;Tabtab Leather;0.006;
+material;Sunjoq Hide;0.06;
+material;Sunjoq Leather;0.18;
+material;Worn Feedback Panel;0.05;
+material;Worn Splicing Detector;0.05;
+material;Worn Fuel Pump;0.05;
+material;Wombana Leather Texture;0.11;
+material;Wombana Leather;0.45;
+material;Wombana Hide;0.15;
+material;Wiles Stone;0.3;
+material;Weak Sinew;10;
+material;Weakened Power Crystal;100;
+material;Zeladoth Texture;4.7;
+material;Zekkonian Relic;1;
+material;Youd Bottle;0.08;
+material;Youd;0.04;
+material;Yog Tusk;0.1;
+material;Yog Skin;0.7;
+material;Yog Eyeball;1.5;
+material;Vixen Android Vocal Unit Modified;130;
+material;Warren's Claw;1.6;
+material;Rubberized Grommit;0.32;
+material;Robot Hydraulic Pump Unit;50;
+material;Robot Movement Processor;28;
+material;Rolled Smokes;1;
+material;Paneleon Leather;3;
+material;Paneleon Texture;1;
+material;Panther Cloth;3;
+material;Perfect Leather;14.1;
+material;Plastic Convector Panel;0.17;
+material;Plastic Injection Mold;0.8;
+material;Pop Dragon Leather;0.3;
+material;Primordial Longu Leather;2.25;
+material;Primordial Longu Leather Texture;0.83;
+material;Primordial Longu Skull;96;
+material;Prokaryotic Cells;0.08;
+material;Rough Leather;10.5;
+material;Rainbow Crystal Texture;0.25;
+material;Red Molten Crystal Texture;0.83;
+material;Purple Crystal Texture;0.13;
+material;Pure Body Oil;0.1;
+material;Purified Paneleon Gizzard;10;
+material;Qaffaz Hide;0.02;
+material;Qaffaz Leather;0.06;
+material;Qasdeer Ingot;0.75;
+material;Qasdeer Stone;0.25;
+material;Riptor Leather;1.5;
+material;Rhino Beetle Texture;1;
+material;Rhino Beetle Leather;3;
+material;Riptor Leather Texture;0.38;
+material;Rainbow Crystal;0.15;
+material;Shrapnel;0.0001;
+material;Universal Ammo;0.0001;
+material;Bahri Hide;0.08;
+material;Dahhar Hide;0.06;
+material;Caboria Hide;0.07;
+material;Jeef Zajer Hide;0.12;
+material;Bahri Leather;0.32;
+material;Caboria Leather;0.28;
+material;Jeef Zajer Leather;0.48;
+material;Dahhar Leather;0.18;
+material;Dragon Heart;0.2;
+material;Pandi Hide;0.9;
+material;Pandi Leather;2.7;
+material;TabTab Tooth;0.05;
+material;Yashib Stone;0.13;
+material;Caboria Clam;0.04;
+material;Arkadian Hornet Hide;0.02;
+material;Arkadian Hornet Leather;0.06;
+material;Hareer Thread;0.24;
+material;TabTab Texture Skin;0.002;
+material;Thawr Horn;0.2;
+material;Tabtab Cavity;0.05;
+material;Caboria Cord;0.08;
+material;Thawr Ivory;0.8;
+material;Dromia Hide;0.06;
+material;Dromia Leather;0.18;
+material;Horn;4.7;
+material;Aurli Larva;0.01;
+material;Monura Male Hide;0.03;
+material;Monura Male Leather;0.09;
+material;Monura Male Leather Texture;0.02;
+material;Aquatic Gland;0.2;
+gun;Camo Arms Urban Stalker;1900;BLP Pack
+gun;Tegretov TR6 Modified;1100;BLP Pack
+gun;Tegretov TR6;800;BLP Pack
+gun;Tegretov TR5;800;BLP Pack
+gun;Laganaus Arms Personal Cannon Adjusted;3200;BLP Pack
+gun;Laganaus Arms Personal Cannon;2200;BLP Pack
+gun;Meckel & Loch ML-45;2400;BLP Pack
+gun;Meckel & Loch ML-35 Modified;1900;BLP Pack
+gun;Meckel & Loch ML-35 Mentor Edition;1800;BLP Pack
+gun;Meckel & Loch ML-35;1700;BLP Pack
+gun;Meckel & Loch PSG-45 Sniper;400;BLP Pack
+gun;Ravenger Mini-Sweeper V2;1400;BLP Pack
+gun;Ravenger Mini-Sweeper V1 Adjusted;1500;BLP Pack
+gun;Ravenger Mini-Sweeper V1;1100;BLP Pack
+gun;Silver Fang m.01 Starlight;2000;BLP Pack
+gun;Camo Arms Jungle Stalker;2000;BLP Pack
+gun;Genuine Design Clone GDC-97;700;BLP Pack
+gun;Camo Arms Desert Stalker;2000;BLP Pack
+gun;Starkhov AS-98;800;BLP Pack
+gun;Starkhov AS-97 Adjusted;1000;BLP Pack
+gun;Starkhov AS-97;700;BLP Pack
+gun;Starkhov AS-147 Mentor Edition;900;BLP Pack
+gun;Starkhov AS-147;900;BLP Pack
+gun;Starkhov AS-129;1000;BLP Pack
+gun;Starkhov AS-117 Modified;1000;BLP Pack
+gun;Starkhov AS-117;900;BLP Pack
+gun;VAT-120;800;BLP Pack
+gun;VAT-110;700;BLP Pack
+gun;VAT-100 Mentor Edition;700;BLP Pack
+gun;VAT-100;700;BLP Pack
+gun;Omegaton Z1102;600;BLP Pack
+gun;Omegaton Z1101;600;BLP Pack
+gun;Omegaton Z1002A1;500;BLP Pack
+gun;Omegaton Z1002;400;BLP Pack
+gun;Omegaton Z1001;300;BLP Pack
+gun;DOA Strikehammer Improved;2400;BLP Pack
+gun;DOA Strikehammer;2100;BLP Pack
+gun;DOA Rockjacker Mentor Edition;2200;BLP Pack
+gun;DOA Rockjacker;2200;BLP Pack
+gun;Maddox IV;700;BLP Pack
+gun;Maddox III;500;BLP Pack
+gun;Maddox II;400;BLP Pack
+gun;Maddox I;400;BLP Pack
+gun;DOA Loudmouth;1900;BLP Pack
+gun;Jashonich MP;300;BLP Pack
+gun;Jashonich FP;600;BLP Pack
+gun;Jashonich AP;400;BLP Pack
+gun;FreanD Gamma BLP Pistol;500;BLP Pack
+gun;DOA Foeripper;2400;BLP Pack
+gun;FreanD Delta BLP Pistol;700;BLP Pack
+gun;FreanD Beta BLP Pistol;400;BLP Pack
+gun;FreanD Alpha BLP Pistol Mentor Edition;400;BLP Pack
+gun;FreanD Alpha BLP Pistol;400;BLP Pack
+gun;Sollomate Tasmo;500;Weapon Cells
+gun;Fire Forge SGH 2200M;1000;Weapon Cells
+gun;Fire Forge SGH 2200 Mentor Edition;900;Weapon Cells
+gun;Fire Forge SGH 2200;900;Weapon Cells
+gun;A-3 Punisher Mk.II;600;Weapon Cells
+gun;A-3 Punisher Mk.I;500;Weapon Cells
+gun;Sollomate Outbacko Adjusted;400;Weapon Cells
+gun;Sollomate Outbacko;200;Weapon Cells
+gun;Odin;1000;Weapon Cells
+gun;Mar-Spark Davidov;700;Weapon Cells
+gun;Mar-Peeker Davidov;400;Weapon Cells
+gun;Mar-Lighter Davidov;800;Weapon Cells
+gun;L/Murdand Styler;800;Weapon Cells
+gun;L/Murdand Groover;500;Weapon Cells
+gun;A&P Series King;800;Weapon Cells
+gun;Sollomate Kangoo Adjusted;600;Weapon Cells
+gun;Sollomate Kangoo;300;Weapon Cells
+gun;A-3 Justifier Mk.V Mentor Edition;1300;Weapon Cells
+gun;A-3 Justifier Mk.V Adjusted;1300;Weapon Cells
+gun;A-3 Justifier Mk.V;1300;Weapon Cells
+gun;A-3 Justifier Mk.IV;1400;Weapon Cells
+gun;A-3 Justifier Mk.III Improved;1600;Weapon Cells
+gun;A-3 Justifier Mk.III;1100;Weapon Cells
+gun;A-3 Justifier Mk.II Improved;1500;Weapon Cells
+gun;A-3 Justifier Mk.II;1000;Weapon Cells
+gun;A-3 Justifier Mk.I;800;Weapon Cells
+gun;Jester D-3;500;Weapon Cells
+gun;Jester D-2;300;Weapon Cells
+gun;Jester D-1;200;Weapon Cells
+gun;Ice-Ir;900;Weapon Cells
+gun;A&P Series Hero Adjusted;1000;Weapon Cells
+gun;A&P Series Hero;700;Weapon Cells
+gun;Hel Death;1200;Weapon Cells
+gun;Heimdall;1000;Weapon Cells
+gun;Fusil Arabesque;1100;Weapon Cells
+gun;A&P Series Freedom;800;Weapon Cells
+gun;Fire Forge DAR 9300;1700;Weapon Cells
+gun;Cold-ir;1000;Weapon Cells
+gun;Sollomate Busho;200;Weapon Cells
+gun;A&P Series Brave Mentor Edition;400;Weapon Cells
+gun;A&P Series Brave;400;Weapon Cells
+gun;Fire Forge BGH 4400M Modified;2800;Weapon Cells
+gun;Fire Forge BGH 4400M;1400;Weapon Cells
+gun;Fire Forge BGH 4400;1200;Weapon Cells
+gun;Fire Forge ARR 8000M;1600;Weapon Cells
+gun;Fire Forge ARR 8000 Improved;2100;Weapon Cells
+gun;Fire Forge ARR 8000;1500;Weapon Cells
+gun;Mann MPH DlxEGrd;600;Weapon Cells
+gun;Mann MPH DlxEFi;600;Weapon Cells
+gun;Mann MPH DlxE;500;Weapon Cells
+gun;Mann MPH DLx;200;Weapon Cells
+gun;Mann MPH;100;Weapon Cells
+gun;Karma Killer;1000;Weapon Cells
+gun;EWE EP-50 Ranger;1200;Weapon Cells
+gun;EWE EP-45 Hunter;1200;Weapon Cells
+gun;EWE EP-41 Military;1200;Weapon Cells
+gun;EWE EP-40 Mercenary Modified;1500;Weapon Cells
+gun;EWE EP-40 Mercenary;900;Weapon Cells
+gun;EWE EP-38 Night Special;800;Weapon Cells
+gun;EWE EP-33 Ultra Enforcer;700;Weapon Cells
+gun;EWE EP-32 Enforcer;600;Weapon Cells
+gun;EWE EP-22 Vanguard;800;Weapon Cells
+gun;EWE EP-21 Defender Improved;800;Weapon Cells
+gun;EWE EP-21 Defender;600;Weapon Cells
+gun;EWE EP-17 Bodyguard Mentor Edition;500;Weapon Cells
+gun;EWE EP-17 Bodyguard;500;Weapon Cells
+gun;EWE EP-16 Protector;400;Weapon Cells
+gun;EWE EP-14 Nebula;400;Weapon Cells
+gun;EWE EP-13 Galactica;300;Weapon Cells
+gun;EWE EP-11 Self-Reliant;300;Weapon Cells
+gun;EWE EP-10 Self Defense;300;Weapon Cells
+gun;Lichter Hunting Carbine;2300;Weapon Cells
+gun;Lichter Carbine;2000;Weapon Cells
+gun;Jimman Suite;1200;BLP Pack
+gun;Marber Foxtrot-Type Plasma Annihilator Mentor Ed.;2500;Weapon Cells
+gun;Marber Foxtrot-Type Plasma Annihilator;2500;Weapon Cells
+gun;Marber Echo-Type Plasma Annihilator Mentor Ed.;2100;Weapon Cells
+gun;Marber Echo-Type Plasma Annihilator;2000;Weapon Cells
+gun;Marber Bravo-Type Plasma Annihilator;2300;Weapon Cells
+gun;Omegaton ASG-1 Pig;1700;BLP Pack
+gun;Omegaton ASG-2 Swine Deluxe;2400;BLP Pack
+gun;Omegaton ASG-3 Warthog;1800;BLP Pack
+gun;Omegaton ASG-3 Warthog Adjusted;1800;BLP Pack
+gun;Kaiser-Graf HVMR-1;900;Weapon Cells
+gun;Fusil Charade;1100;Weapon Cells
+gun;Sollomate Beauto;500;Weapon Cells
+gun;EWE EP-35 Serenity;600;Weapon Cells
+gun;EWE EP-43 Guard;1200;Weapon Cells
+gun;Sollomate Opalo;200;Weapon Cells
+gun;EWE EP-32 Enforcer Ancient;600;Weapon Cells
+gun;Omegaton Z1002A1 Ancient;500;BLP Pack
+gun;Sollomate Tasmo Mentor Edition;500;Weapon Cells
+gun;Fire Forge RAR 9900 Mentor Edition;2000;Weapon Cells
+gun;Fire Forge BGH 4400 Ancient;1200;Weapon Cells
+gun;Montgomery Anabolic (L) Adapted;1300;Weapon Cells
+gun;Adapted Montgomery Anabolic (L);1300;Weapon Cells
+gun;Marber Tango-Type Plasma Annihilator;2300;Weapon Cells
+gun;Fire Forge BGH 4400M Ancient;1400;Weapon Cells
+gun;Fire Forge ARR 8000M Ancient;1600;Weapon Cells
+gun;A-3 Justifier Mk.II Ancient;1000;Weapon Cells
+gun;Fire Forge ARR 8000 Improved Ancient;2100;Weapon Cells
+gun;A-3 Justifier Mk.II Modified;1800;Weapon Cells
+gun;A-3 Justifier Mk.II Improved Ancient;1500;Weapon Cells
+gun;Sollomate Outbacko Ancient;200;Weapon Cells
+gun;Fire Forge DAR 9300 Modified;2000;Weapon Cells
+gun;Montgomery Anabolic (L);1000;Weapon Cells
+gun;Montgomery Anabolic (L);1000;Weapon Cells
+gun;A-3 Justifier Mk.I Ancient;800;Weapon Cells
+gun;Montgomery Diabolic (L);1200;Weapon Cells
+gun;Meckel & Loch PSG-45 Sniper Modified;4100;BLP Pack
+gun;Unique Dub & McCormick Terminator;2800;BLP Pack
+gun;Tegretov TR8;800;BLP Pack
+gun;EWE EP-40 Mercenary Modified Ancient;1500;Weapon Cells
+gun;Breer M1a (L);300;Weapon Cells
+gun;Breer P1a (L);200;Weapon Cells
+gun;Kriegerum G.2 Gauss Rifle (L);1700;Weapon Cells
+gun;Sollomate Kangoo Adjusted Ancient;600;Weapon Cells
+gun;Breer M2a (L);400;Weapon Cells
+gun;A-3 Justifier Mk.V Adjusted Ancient;1300;Weapon Cells
+gun;FreanD Epsilon BLP Pistol;800;BLP Pack
+gun;Korss H400 (L);800;Weapon Cells
+gun;Fire Forge ARR 8000 Ancient;1500;Weapon Cells
+gun;AHP Aruka Sentorar;900;BLP Pack
+gun;Korss H350 (L);400;Weapon Cells
+gun;Breer P2a (L);200;Weapon Cells
+gun;Breer P3a (L);300;Weapon Cells
+gun;A&P Series Hero Ancient;700;Weapon Cells
+gun;Breer P4a (L);600;Weapon Cells
+gun;Breer P5a (L);900;Weapon Cells
+gun;Korss H380 (L);500;Weapon Cells
+gun;Korss H400 (L) Adjusted;800;Weapon Cells
+gun;Korss H400 (L) Improved;800;Weapon Cells
+gun;Modified Opalo;600;Weapon Cells
+gun;Emik S30 (L);100;BLP Pack
+gun;Emik S50 (L);300;BLP Pack
+gun;Svempa S40 (L);200;BLP Pack
+gun;Svempa S60 (L);600;BLP Pack
+gun;Svempa T5 (L);800;BLP Pack
+gun;Assassin R150 (L);1100;BLP Pack
+gun;Emik X5 (L);1900;BLP Pack
+gun;Emik T10 (L);1100;BLP Pack
+gun;Korss H400 (L) Modified;800;Weapon Cells
+gun;Prosecutor M15 (L);1000;BLP Pack
+gun;Svempa T15 (L);1300;BLP Pack
+gun;Breer M3a (L);400;Weapon Cells
+gun;Riker UL2 (L);500;Weapon Cells
+gun;Riker UL1 (L);400;Weapon Cells
+gun;Riker UL3 (L);600;Weapon Cells
+gun;Breer M4a (L);700;Weapon Cells
+gun;Korss H400;800;Weapon Cells
+gun;GeoTrek H41 Mina (L);900;BLP Pack
+gun;GeoTrek LP120 Niloticus (L);200;BLP Pack
+gun;GeoTrek AL15 Taurus (L);1200;Weapon Cells
+gun;GeoTrek H21 Scrof (L);900;Weapon Cells
+gun;Isis CB5 (L);200;BLP Pack
+gun;Isis LR41 (L);1400;Weapon Cells
+gun;Isis HL6 (L);1000;Weapon Cells
+gun;Isis BL1000 (L);1000;BLP Pack
+gun;GeoTrek H45 Ortso (L);1100;BLP Pack
+gun;GeoTrek AL15 Taurus;1200;Weapon Cells
+gun;GeoTrek H23 Crista (L);1100;Weapon Cells
+gun;Isis CB13 (L);400;BLP Pack
+gun;Isis LR32 (L);1300;Weapon Cells
+gun;Isis CB19 (L);700;BLP Pack
+gun;Isis LR48 (L);1600;Weapon Cells
+gun;GeoTrek H46 Menes (L);1500;BLP Pack
+gun;GeoTrek LP470 Manis (L);900;BLP Pack
+gun;GeoTrek AL21 Canis (L);1700;Weapon Cells
+gun;Isis HL8 (L);1200;Weapon Cells
+gun;GeoTrek AL17 Auriga (L);1600;Weapon Cells
+gun;Isis BL1450 (L);1800;BLP Pack
+gun;Isis LR53 (L);1800;Weapon Cells
+gun;GeoTrek LP175 Sphyra (L);300;BLP Pack
+gun;Isis HL11 (L);1400;Weapon Cells
+gun;Vumpoor Hollowman (L);7600;Explosive Projectiles
+gun;Eraktor Es 10 (L);800;Explosive Projectiles
+gun;Skildek SER 250 (L);2600;Explosive Projectiles
+gun;Vumpoor J 4 (L);600;Explosive Projectiles
+gun;Skildek Cobra (L);6600;Explosive Projectiles
+gun;Eraktor Es 20 (L);1100;Explosive Projectiles
+gun;DetPil Rv 50 (L);1000;Explosive Projectiles
+gun;Eraktor Ekk 200 (L);4300;Explosive Projectiles
+gun;DetPil Rv 100 (L);1800;Explosive Projectiles
+gun;Isis BL1300 (L);1600;BLP Pack
+gun;DetPil V-Rex 1000 (L);4000;Explosive Projectiles
+gun;GeoTrek H27 Vilitus (L);1500;Weapon Cells
+gun;DetPil Python (L);6200;Explosive Projectiles
+gun;Svempa X1 (L);1600;BLP Pack
+gun;Prosecutor M45 (L);1300;BLP Pack
+gun;Vumpoor Pug 9 (L);2700;Explosive Projectiles
+gun;Skildek P 40 (L);700;Explosive Projectiles
+gun;GeoTrek H25 Mikus (L);1100;Weapon Cells
+gun;Svempa XT (L);2100;BLP Pack
+gun;Vumpoor J Crem (L);3700;Explosive Projectiles
+gun;Vumpoor Tuhota 80 (L);5200;Explosive Projectiles
+gun;A-3 Punisher Mk.I Ancient;500;Weapon Cells
+gun;A&P Series Brave Ancient;400;Weapon Cells
+gun;GeoTrek H26 Elima (L);1300;Weapon Cells
+gun;Prosecutor M35 (L);1200;BLP Pack
+gun;Eraktor Impact (L);6800;Explosive Projectiles
+gun;Eraktor Ekk 100 (L);3500;Explosive Projectiles
+gun;DetPil V-Rex 2000 (L);5000;Explosive Projectiles
+gun;Vumpoor Rx10 (L);1900;Explosive Projectiles
+gun;Skildek SER 500 (L);3300;Explosive Projectiles
+gun;Isis CB5;200;BLP Pack
+gun;Korss H350;400;Weapon Cells
+gun;Emik S30;100;BLP Pack
+gun;GeoTrek H49 Poros (L);1700;BLP Pack
+gun;Isis CB13;400;BLP Pack
+gun;Fire Forge SGH 2200 Ancient;900;Weapon Cells
+gun;Vumpoor J Ero (L);3100;Explosive Projectiles
+gun;Riker UL3 (L) Modified;600;Weapon Cells
+gun;Skildek Gak 1500 (L);5800;Explosive Projectiles
+gun;Isis LR32 Improved;1300;Weapon Cells
+gun;Modified Riker UL3 (L);600;Weapon Cells
+gun;Isis HL6;1000;Weapon Cells
+gun;Assassin R150;1100;BLP Pack
+gun;Riker UL1;400;Weapon Cells
+gun;GeoTrek LP120 Niloticus;200;BLP Pack
+gun;Isis LR32 (L) Improved;1300;Weapon Cells
+gun;Isis LR32 (L) Adjusted;1300;Weapon Cells
+gun;Isis LR32 Modified;1300;Weapon Cells
+gun;Modified Isis LR32;1300;Weapon Cells
+gun;Isis HL8;1200;Weapon Cells
+gun;Riker UL2;500;Weapon Cells
+gun;Emik S50;300;BLP Pack
+gun;Breer P3a;300;Weapon Cells
+gun;Isis LR41;1400;Weapon Cells
+gun;Eraktor Force (L);6000;Explosive Projectiles
+gun;Isis CB19;700;BLP Pack
+gun;Isis LR53 (L) Improved;1800;Weapon Cells
+gun;Emik T10;1100;BLP Pack
+gun;Breer P1a;200;Weapon Cells
+gun;Isis LR53 (L) Adjusted;1800;Weapon Cells
+gun;Hel;1200;Weapon Cells
+gun;Isis HL12 (L);1600;Weapon Cells
+gun;Isis LR59 (L);2000;Weapon Cells
+gun;GeoTrek AL24 Scorpius (L);1900;Weapon Cells
+gun;GeoTrek LP485 Apis (L);1300;BLP Pack
+gun;GeoTrek AL22 Lupus (L);1800;Weapon Cells
+gun;Isis HL14 (L);1700;Weapon Cells
+gun;GeoTrek H28 Hokipus (L);1800;Weapon Cells
+gun;Isis CB24 (L);1200;BLP Pack
+gun;Isis CB21 (L);1100;BLP Pack
+gun;Isis HL11;1400;Weapon Cells
+gun;GeoTrek H40 Brody (L);700;BLP Pack
+gun;Breer M3a;400;Weapon Cells
+gun;Kriegerum G.2 Gauss Rifle (L) Customized;1800;Weapon Cells
+gun;Kriegerum G.1 Gauss Rifle (L);1400;Weapon Cells
+gun;Chaz Wolf (L);300;Weapon Cells
+gun;Montgomery Anabolic;1000;Weapon Cells
+gun;Breer M1a;300;Weapon Cells
+gun;Emik X5;1900;BLP Pack
+gun;Isis LR32 (L) Modified;1300;Weapon Cells
+gun;Svempa S40;200;BLP Pack
+gun;Manuari Stoikow Anti-materiel rifle, prototype (L);900;BLP Pack
+gun;Isis LR53 (L) Modified;1800;Weapon Cells
+gun;Manuari Stormer Anti-materiel rifle, prototype (L);700;BLP Pack
+gun;Star Mercury Anti-materiel rifle, prototype (L);800;BLP Pack
+gun;Skildek Pulverizer (L);6700;Explosive Projectiles
+gun;Vumpoor Obliterator (L);5000;Explosive Projectiles
+gun;Breer M2a;400;Weapon Cells
+gun;Svempa T5;800;BLP Pack
+gun;Breer M4a;700;Weapon Cells
+gun;Riker UL3;600;Weapon Cells
+gun;Breer P5a;900;Weapon Cells
+gun;Isis CB26 (L);1400;BLP Pack
+gun;Isis LR63 (L);2100;Weapon Cells
+gun;Isis HL18 (L);2300;Weapon Cells
+gun;Isis LR65 (L);2300;Weapon Cells
+gun;Isis HL18;2300;Weapon Cells
+gun;Isis HL20 (L);2500;Weapon Cells
+gun;Isis BL800 (L);400;BLP Pack
+gun;Isis CB26;1400;BLP Pack
+gun;Isis LR63;2100;Weapon Cells
+gun;Isis CB29 (L);1900;BLP Pack
+gun;Isis HL15 (L);1900;Weapon Cells
+gun;Vumpoor Disintegrator (L);8400;Explosive Projectiles
+gun;DetPil Mamba (L);7100;Explosive Projectiles
+gun;Isis BL800;400;BLP Pack
+gun;GeoTrek AL29 Felis (L);2900;Weapon Cells
+gun;Eraktor Abomination (L);8700;Explosive Projectiles
+gun;GeoTrek H33 Uti (L);2100;Weapon Cells
+gun;GeoTrek H30 Illum (L);2000;Weapon Cells
+gun;Vumpoor Dissolver (L);9200;Explosive Projectiles
+gun;GeoTrek H40 Brody;700;BLP Pack
+gun;Isis LR48;1600;Weapon Cells
+gun;Isis HL12;1600;Weapon Cells
+gun;Isis LR59;2000;Weapon Cells
+gun;GeoTrek H41 Mina;900;BLP Pack
+gun;Isis HL15;1900;Weapon Cells
+gun;Isis CB28 (L);1800;BLP Pack
+gun;Isis CB21;1100;BLP Pack
+gun;Isis LR32 Adjusted;1300;Weapon Cells
+gun;XFire Survival Blaster (L);900;BLP Pack
+gun;*Test XXX (L);800;Explosive Projectiles
+gun;Prototype Rocket Launcher XXX (L);800;Explosive Projectiles
+gun;Isis BL1800;2600;BLP Pack
+gun;Breer P2a;200;Weapon Cells
+gun;Isis LR53;1800;Weapon Cells
+gun;GeoTrek LP525 Geke (L);1700;BLP Pack
+gun;GeoTrek AL26 Serpentis (L);2300;Weapon Cells
+gun;Isis LR66 (L);2700;Weapon Cells
+gun;Isis LR32;1300;Weapon Cells
+gun;Kriegerum G.1 Gauss Rifle;1400;Weapon Cells
+gun;Isis CB24;1200;BLP Pack
+gun;SkilDek Anaconda (L);6900;Explosive Projectiles
+gun;Montgomery Diabolic;1200;Weapon Cells
+gun;Isis BL1600 (L);2500;BLP Pack
+gun;SkilDek Viper (L);7500;Explosive Projectiles
+gun;GeoTrek LP510 Huo (L);1500;BLP Pack
+gun;GeoTrek LP540 Tau (L);1900;BLP Pack
+gun;Eraktor Maximus (L);8000;Explosive Projectiles
+gun;GeoTrek H1051 Kisf (L);2500;BLP Pack
+gun;Isis HL14;1700;Weapon Cells
+gun;GeoTrek H36 Saou (L);2400;Weapon Cells
+gun;A-3 Justifier Mk.II, SGA Edition;1000;Weapon Cells
+gun;Sollomate Kangoo, SGA Edition;300;Weapon Cells
+gun;EWE EP-41 Military, SGA Edition;1200;Weapon Cells
+gun;Assassin R150 (L) Adjusted;1200;BLP Pack
+gun;EWE EP-40 Mercenary Modified, SGA Edition;1500;Weapon Cells
+gun;DOA Loudmouth, SGA Edition;1900;BLP Pack
+gun;GeoTrek LP485 Apis, SGA Edition (L);1300;BLP Pack
+gun;Fire Forge DAR 9300, SGA Edition;1700;Weapon Cells
+gun;DOA Foeripper, SGA Edition;2400;BLP Pack
+gun;EWE EP-32 Enforcer, SGA Edition;600;Weapon Cells
+gun;Laganaus Arms Personal Cannon, SGA Edition;2200;BLP Pack
+gun;EWE EP-10 Self Defense, SGA Edition;300;Weapon Cells
+gun;FreanD Beta BLP Pistol, SGA Edition;400;BLP Pack
+gun;Sollomate Opalo, SGA Edition;200;Weapon Cells
+gun;EWE EP-17 Bodyguard, SGA Edition;500;Weapon Cells
+gun;Ravenger Mini-Sweeper V1 Adjusted, SGA Edition;1500;BLP Pack
+gun;FreanD Delta BLP Pistol, SGA Edition;700;BLP Pack
+gun;Isis LR68 (L);3100;Weapon Cells
+gun;DetPil V-Rex 2000, SGA Edition;5000;Explosive Projectiles
+gun;GeoTrek LP510 Huo, SGA Edition (L);1500;BLP Pack
+gun;Prosecutor M35;1200;BLP Pack
+gun;FreanD Alpha BLP Pistol, SGA Edition;400;BLP Pack
+gun;A-3 Punisher Mk.II, SGA Edition;600;Weapon Cells
+gun;Meckel & Loch ML-35, SGA Edition;1700;BLP Pack
+gun;Sollomate Outbacko, SGA Edition;200;Weapon Cells
+gun;A&P Series Hero, SGA Edition Adjusted;1000;Weapon Cells
+gun;Fire Forge ARR 8000, SGA Edition;1500;Weapon Cells
+gun;Tegretov TR5, SGA Edition;800;BLP Pack
+gun;Starkhov AS-97, SGA Edition;700;BLP Pack
+gun;SGA Edition Guide Marber;2500;Weapon Cells
+gun;GeoTrek AL24 Scorpius;1900;Weapon Cells
+gun;Marber Echo-Type Plasma Annihilator, SGA Edition;2000;Weapon Cells
+gun;Isis HL18, SGA Edition;2300;Weapon Cells
+gun;EWE EP-21 Defender Improved, SGA Edition;800;Weapon Cells
+gun;Isis LR53 Modified;1800;Weapon Cells
+gun;A-3 Justifier Mk.II, SGA Edition Improved;1500;Weapon Cells
+gun;Marber Tango-Type Plasma Annihilator, SGA Edition;2300;Weapon Cells
+gun;Camo Arms Jungle Stalker, SGA Edition;2000;BLP Pack
+gun;EWE EP-45 Hunter, SGA Edition;1200;Weapon Cells
+gun;Omegaton ASG-3 Warthog, SGA Edition;1800;BLP Pack
+gun;GeoTrek H21 Scrof;900;Weapon Cells
+gun;EWE EP-21 Defender Improved Ancient;800;Weapon Cells
+gun;Fire Forge SGH 2200M Ancient;1000;Weapon Cells
+gun;B.A.M.F ZK1 (L);280;BLP Pack
+gun;B.A.M.F ZK3 (L);620;BLP Pack
+gun;B.A.M.F ZK6 (L);990;BLP Pack
+gun;B.A.M.F ZK2 (L);460;BLP Pack
+gun;B.A.M.F ZK7 (L);1150;BLP Pack
+gun;B.A.M.F ZK4 (L);730;BLP Pack
+gun;B.A.M.F ZK8 (L);1380;BLP Pack
+gun;B.A.M.F ZK10 (L);2500;BLP Pack
+gun;B.A.M.F ZK1;280;BLP Pack
+gun;Svempa S60;600;BLP Pack
+gun;B.A.M.F ZK2;460;BLP Pack
+gun;B.A.M.F ZK5 (L);830;BLP Pack
+gun;B.A.M.F ZK2 (L) Custom;480;BLP Pack
+gun;B.A.M.F ZK5 (L) Custom;860;BLP Pack
+gun;Porcupine MAP-13 (L);1020;BLP Pack
+gun;MRL AV30 (L);2600;Explosive Projectiles
+gun;Ozutsu Ichi (L);1400;BLP Pack
+gun;S.G Takeover Mk1 (L);243;BLP Pack
+gun;RMG Diplomat 4 (L);765;BLP Pack
+gun;S.G Takeover Mk6 (L);878;BLP Pack
+gun;B.A.M.F ZA1 (L);221;BLP Pack
+gun;S.G Takeover Mk2 (L);355;BLP Pack
+gun;RMG Diplomat 1 (L);373;BLP Pack
+gun;RMG Diplomat 5 (L);915;BLP Pack
+gun;0x0F382C8C91E58C8273C0 (L);1764;Weapon Cells
+gun;0x0F382C8C91E58C8460 (L);728;Weapon Cells
+gun;0x0F382C8C91E58C82AA7 (L);1364;Weapon Cells
+gun;GeoTrek AL21 Canis;1700;Weapon Cells
+gun;0x0F382C8C91E58C8B24DF;2438;Weapon Cells
+gun;Heavy Porcupine HMAP-52 (L);2803;BLP Pack
+gun;Helicopter MMB AS-41 (L);3735;Explosive Projectiles
+gun;Fire Of Hel (L);3659;BLP Pack
+gun;VTOL MMB AS-35 (L);3046;Explosive Projectiles
+gun;Megingjord Turret Mk1 (C,L);12927;BLP Pack
+gun;Naglfar Turret Mk1 (C,L);9143;Explosive Projectiles
+gun;Naglfar Anti Air Cannon Mk1 (L);4027;BLP Pack
+gun;GeoTrek H23 Crista;1100;Weapon Cells
+gun;JUELZ MIC-Killa SG-2 (L);469;BLP Pack
+gun;B.A.M.F ZA2 (L);363;BLP Pack
+gun;JUELZ MIC-Killa SG-ULTRA (L);389;BLP Pack
+gun;B.A.M.F ZA3 (L);483;BLP Pack
+gun;Breer P4a;600;Weapon Cells
+gun;JUELZ MIC-Killa SG-1 (L);390;BLP Pack
+gun;JUELZ MIC-Killa SG-3 (L);547;BLP Pack
+gun;Svempa T15;1300;BLP Pack
+gun;Chikara Vamachara Mk.I (L);130;Weapon Cells
+gun;Chikara Vamachara Mk.II (L);190;Weapon Cells
+gun;B.A.M.F ZK9 (L);1510;BLP Pack
+gun;EWE EP-35 Serenity, SGA Edition;600;Weapon Cells
+gun;Marcato-9 Automatic Pistol (L);171;Weapon Cells
+gun;Marcato-9 RFZ Automatic Pistol (L);387;Weapon Cells
+gun;Herman CAP-32 Desert (L);1515;Weapon Cells
+gun;Herman CAP-20 Desert (L);1165;Weapon Cells
+gun;Herman CAP-43 Desert (L);1745;Weapon Cells
+gun;Marcato-9 Steampunk Automatic Pistol (L);570;Weapon Cells
+gun;Herman ASI-0 (L);185;BLP Pack
+gun;Herman ARK-0 (L);240;BLP Pack
+gun;Herman LAW-0 (L);290;Weapon Cells
+gun;Herman LAW-5 Desert (L);505;Weapon Cells
+gun;Herman CAP-35 (L);1280;Weapon Cells
+gun;Herman ASI-7 Jungle (L);445;BLP Pack
+gun;Herman ASI-7 Desert (L);545;BLP Pack
+gun;Herman CAP-33 Arctic (L);1540;Weapon Cells
+gun;Herman ASI-11 (L);730;BLP Pack
+gun;Herman ASI-7 Arctic (L);545;BLP Pack
+gun;Herman ASI-44 Arctic (L);1685;BLP Pack
+gun;Herman LAW-6 Jungle (L);420;Weapon Cells
+gun;Herman CAP-22 Arctic (L);1215;Weapon Cells
+gun;Herman CAP-34 Jungle (L);1320;Weapon Cells
+gun;Herman ASI-72 Arctic (L);2070;BLP Pack
+gun;Herman ASI-32 Desert (L);1435;BLP Pack
+gun;Herman LAW-13 (L);1030;Weapon Cells
+gun;Herman ARK-6 Arctic (L);410;BLP Pack
+gun;Herman CAP-12 (L);780;Weapon Cells
+gun;Herman ARK-46 (L);1535;BLP Pack
+gun;Herman ASI-21 Arctic (L);1135;BLP Pack
+gun;Herman LAW-5 Arctic (L);525;Weapon Cells
+gun;Herman LAW-22 Arctic (L);1470;Weapon Cells
+gun;Herman ARK-11 (L);685;BLP Pack
+gun;Herman CAP-7 Arctic (L);570;Weapon Cells
+gun;Herman ASI-33 Arctic (L);1460;BLP Pack
+gun;Herman ASI-21 Desert (L);1110;BLP Pack
+gun;Herman ASI-63 (L);1920;BLP Pack
+gun;Herman ASI-44 Jungle (L);1440;BLP Pack
+gun;Herman ASI-24 (L);1200;BLP Pack
+gun;Herman ASI-42 Desert (L);1635;BLP Pack
+gun;Herman LAW-58 Arctic (L);2325;Weapon Cells
+gun;Herman CAP-7 Jungle (L);450;Weapon Cells
+gun;Herman CAP-7 Desert (L);570;Weapon Cells
+gun;Herman LAW-50 (L);2050;Weapon Cells
+gun;Herman ASI-21 Jungle (L);965;BLP Pack
+gun;Herman ARK-50 Arctic (L);1815;BLP Pack
+gun;Herman ARK-27 (L);1290;BLP Pack
+gun;Herman ASI-33 Jungle (L);1240;BLP Pack
+gun;Herman ASI-37 (L);1525;BLP Pack
+gun;Herman LAW-42 Desert (L);1870;Weapon Cells
+gun;Herman ARK-23 Jungle (L);985;BLP Pack
+gun;Herman ARK-5 Desert (L);380;BLP Pack
+gun;Herman CAP-21 Jungle (L);1020;Weapon Cells
+gun;Herman LAW-23 Jungle (L);1195;Weapon Cells
+gun;Herman ARK-36 Arctic (L);1550;BLP Pack
+gun;Herman LAW-56 Desert (L);2225;Weapon Cells
+gun;Herman CAP-44 Arctic (L);1795;Weapon Cells
+gun;Herman LAW-46 Jungle (L);1590;Weapon Cells
+gun;Herman LAW-21 Desert (L);1410;Weapon Cells
+gun;Herman LAW-60 Jungle (L);1885;Weapon Cells
+gun;Isis LR53 Adjusted;1800;Weapon Cells
+gun;Herman ARK-60 Jungle (L);1520;BLP Pack
+gun;Herman CAP-10 Smuggler;540;Weapon Cells
+gun;Herman CAP-20 Smuggler;1090;Weapon Cells
+gun;Herman ARK-22 Arctic (L);1160;BLP Pack
+gun;Herman ARK-21 Desert (L);1110;BLP Pack
+gun;Kismet Light Laser (L);4010;Weapon Cells
+gun;Herman ARK-34 Desert (L);1475;BLP Pack
+gun;Herman LAW-44 Arctic (L);1960;Weapon Cells
+gun;Herman LAW-10 Smuggler;455;Weapon Cells
+gun;Herman ARK-38 Jungle (L);1300;BLP Pack
+gun;Herman CAP-0 (L);185;Weapon Cells
+gun;Herman CAP-45 Jungle (L);1525;Weapon Cells
+gun;Herman CAP-37 (L);1605;Weapon Cells
+gun;Herman LAW-27 (L);1625;Weapon Cells
+gun;Herman LAW-50 Smuggler;2320;Weapon Cells
+gun;Herman LAW-40 Smuggler;2025;Weapon Cells
+gun;Herman ARK-30 Smuggler;1375;BLP Pack
+gun;Herman ARK-40 Smuggler;1595;BLP Pack
+gun;Herman ASI-10 Smuggler;515;BLP Pack
+gun;Herman ASI-20 Smuggler;1035;BLP Pack
+gun;Herman ARK-10 Smuggler;355;BLP Pack
+gun;Herman ARK-20 Smuggler;1035;BLP Pack
+gun;Herman CAP-30 Smuggler;1390;Weapon Cells
+gun;EWE EP-40 Mercenary Mentor Edition;950;Weapon Cells
+gun;Flamethrower (FA)(L);385;BLP Pack
+gun;Grunt Flamethrower (FA)(L);529;BLP Pack
+gun;Stealth Flamethrower (FA)(L);800;BLP Pack
+gun;Herman LAW-75 Arctic (L);2665;Weapon Cells
+gun;B.A.M.F ZK7;1150;BLP Pack
+gun;Herman ARK-6 Jungle (L);330;BLP Pack
+gun;DetPil Boa (L);7800;Explosive Projectiles
+gun;Herman CAP-56 (L);2030;Weapon Cells
+gun;Herman ARK-77 Jungle (L);1735;BLP Pack
+gun;Herman ARK-70 Desert (L);1955;BLP Pack
+gun;Herman ASI-72 Jungle (L);1760;BLP Pack
+gun;Herman LAW-71 Desert (L);2545;Weapon Cells
+gun;Herman LAW-66 (L);2430;Weapon Cells
+gun;Herman ASI-70 Desert (L);2025;BLP Pack
+gun;Herman ARK-65 (L);1895;BLP Pack
+gun;Herman ARK-75 Arctic (L);2080;BLP Pack
+gun;Herman CAP-65 Arctic (L);2205;Weapon Cells
+gun;SmallFry-2 Laser Rifle (L);285;Weapon Cells
+gun;M-Ray 1000 Laser Pistol;210;Weapon Cells
+gun;M-Ray 2000 Laser Pistol (L);250;Weapon Cells
+gun;SmallFry-1 Laser Rifle (L);190;Weapon Cells
+gun;Herman ARK-54 Desert (L);1715;BLP Pack
+gun;M-Ray 1000 Laser Pistol (L);210;Weapon Cells
+gun;Toddler-1 Laser Pistol (L);175;Weapon Cells
+gun;Herman LAW-30 Smuggler;1725;Weapon Cells
+gun;Herman ASI Trainer (L);16;BLP Pack
+gun;Herman LAW Trainer (L);24;Weapon Cells
+gun;PlasTorch 5 (L);418;BLP Pack
+gun;PlasTorch 4 (L);318;BLP Pack
+gun;PlasTorch 2 (L);132;BLP Pack
+gun;PlasTorch 1 (L);66;BLP Pack
+gun;PlasTorch 3 (L);215;BLP Pack
+gun;NIP;200;Weapon Cells
+gun;Toddler-2 Laser Pistol (L);600;Weapon Cells
+gun;NIP P1 (L);250;Weapon Cells
+gun;NIP P3 (L);350;Weapon Cells
+gun;NIP P2 (L);300;Weapon Cells
+gun;Toddler-3 Laser Pistol (L);800;Weapon Cells
+gun;NIP P5 (L);450;Weapon Cells
+gun;Herman LAW-20 Smuggler;1280;Weapon Cells
+gun;Ravenger Mini-Sweeper V3 (L) Improved;1478;BLP Pack
+gun;Omegaton ASG-4 Wildboar (L);1690;BLP Pack
+gun;Isis Lr.47Ag (L);1865;Weapon Cells
+gun;Aelgen Type E91 (L);2005;BLP Pack
+gun;Herman LAW-77 Jungle (L);2170;Weapon Cells
+gun;Laserfaust SL-G 10 (L);2509;Weapon Cells
+gun;FreanD Gamma BLP Pistol, SGA Edition;500;BLP Pack
+gun;Isis Alr.3Li (L);1010;Weapon Cells
+gun;Isis Lr.78Pt (L);4230;Weapon Cells
+gun;Kaiser-Graf HVMR-2;1000;Weapon Cells
+gun;Rip M6600 (L) Improved;2000;Weapon Cells
+gun;Meckel & Loch ML-45 Improved;2400;BLP Pack
+gun;EWE EP-40 Mercenary Modified (L);1500;Weapon Cells
+gun;S.I. FlameThrower;80;BLP Pack
+gun;S.I. Scorpion;83;Weapon Cells
+gun;S.I. HK110;63;Weapon Cells
+gun;A.R.C. Improved HK (L);135;Weapon Cells
+gun;Fenris Assault Shotgun;259;BLP Pack
+gun;Herman CAP-64 Jungle (L);1845;Weapon Cells
+gun;A.R.C. Improved Fire Breather (L);232;BLP Pack
+gun;NIP P4 (L);400;Weapon Cells
+gun;Turrelion Spec Xent Tech Plasma Rifle;350;BLP Pack
+gun;Turrelion Spec Shotgun;350;BLP Pack
+gun;Turrelion Spec Scorpion;350;Weapon Cells
+gun;Turrelion Spec HK;350;Weapon Cells
+gun;Turrelion Entry Level Flame Thrower;480;BLP Pack
+gun;Turrelion Spec RPG;350;Explosive Projectiles
+gun;Rip M6600 Adjusted;2000;Weapon Cells
+gun;Imperium HK Grunt (L);107;Weapon Cells
+gun;Jonah's Wiles Destroyer (L);1370;Weapon Cells
+gun;Geotrek LP550 Eomon (L);1980;BLP Pack
+gun;EWE EP-51 Eomon (L);2500;Weapon Cells
+gun;Emik X0 (L);1470;BLP Pack
+gun;Vamachara Mk.Exo (L);1255;Weapon Cells
+gun;EWE EP-2 Proton (L);96;Weapon Cells
+gun;EWE EP-1 Neutron (L);48;Weapon Cells
+gun;Sollomate Rubio (L);73;Weapon Cells
+gun;Skildek P 30 (L);100;Explosive Projectiles
+gun;Skildek Lancehead (L);215;Explosive Projectiles
+gun;Sollomate Azuro (L);69;Weapon Cells
+gun;PEDPINCHER ECO P18(L);830;BLP Pack
+gun;Holly ECO R22 (L);1289;BLP Pack
+gun;Holly ECO P14 (L);699;BLP Pack
+gun;Holly ECO P22 (L);939;BLP Pack
+gun;Gazunga DPS R24(L);1241;BLP Pack
+gun;Holly ECO R26 (L);1440;BLP Pack
+gun;Holly ECO P18 (L);830;BLP Pack
+gun;PEDPINCHER ECO R14(L);918;BLP Pack
+gun;Herman ARK-TT R;165;BLP Pack
+gun;Herman ASI-R;115;BLP Pack
+gun;Herman LAW-TT R;190;Weapon Cells
+gun;Herman CAP-R;140;Weapon Cells
+gun;EWE LC-100 Frontier (L);1030;Weapon Cells
+gun;Omegaton Igni L2020 (L);1843;Weapon Cells
+gun;Omegaton Igni L1000 (L);890;Weapon Cells
+gun;Herman RAW-202;1815;Weapon Cells
+gun;Starkhov LPR-1 (L);134;BLP Pack
+gun;Emik Enigma L5 (L);1770;BLP Pack
+gun;DOA Boneshatter (L);2045;BLP Pack
+gun;Herman RAW-404;2640;Weapon Cells
+gun;Herman RAW-101;1505;Weapon Cells
+gun;Emik Enigma L3 (L);1369;BLP Pack
+gun;Isis BL200E (L);360;BLP Pack
+gun;CalyTrek CR Spirit Mk.I (L);1394;BLP Pack
+gun;Baringer SR35;2000;BLP Pack
+gun;EWE LC-200 Scout (L);1960;Weapon Cells
+gun;Herman SIR-20;1510;BLP Pack
+gun;DOA Slugstorm (L);2210;BLP Pack
+gun;Isis Project Zero-One (L);760;BLP Pack
+gun;Enkidd Howler S.4;2510;Weapon Cells
+gun;Baringer SR47;2500;BLP Pack
+gun;Baringer SR37;2300;BLP Pack
+gun;Baringer SR51;2500;BLP Pack
+gun;CCA/Chikara LR-1 Arrival (L);134;Weapon Cells
+gun;Emik Enigma L1 (L);1375;BLP Pack
+gun;Herman RAW-505;3240;Weapon Cells
+gun;DOA Longbolt (L);2400;BLP Pack
+gun;EWE LC-340 Ranger (L);2210;Weapon Cells
+gun;Baringer SR33;2500;BLP Pack
+gun;MacMahon Redeemer (L);1892;Weapon Cells
+gun;Enkidd Howler Prototype;897;Weapon Cells
+gun;Baringer SR36;2100;BLP Pack
+gun;Isis BL100E (L);290;BLP Pack
+gun;Isis CB32 (L);2640;BLP Pack
+gun;Jashonich SIF-S (L);1890;BLP Pack
+gun;Herman SIR-30;1805;BLP Pack
+gun;MarCorp Kallous-7 (L);1181;Weapon Cells
+gun;EWE LC-120 Purpose (L);1258;Weapon Cells
+gun;Isis Project Zero-Four (L);1450;BLP Pack
+gun;DOA Slugstorm;2210;BLP Pack
+gun;Herman RAW-303;2235;Weapon Cells
+gun;Omegaton Igni L1100 (L);1560;Weapon Cells
+gun;Emik Enigma L6 (L);1840;BLP Pack
+gun;Herman CAP - 99 R;140;Weapon Cells
+gun;Isis LC-60 (L);2999;Weapon Cells
+gun;MacMahon Vengeance (L);1768;Weapon Cells
+gun;Leonis Special Edition (L);1400;BLP Pack
+gun;Isis HL5 (L);733;Weapon Cells
+gun;EWE LC-400 Submission (L);3120;Weapon Cells
+gun;Eron SoulGrinder;2660;Weapon Cells
+gun;Eron SoulShredder;1300;Weapon Cells
+gun;Emik Enigma L2 (L);1374;BLP Pack
+gun;Omegaton ASG-12 Fletcher (L);2010;BLP Pack
+gun;Herman SIR-40;2150;BLP Pack
+gun;Isis Project Zero-Nine (L);1595;BLP Pack
+gun;Isis Project Zero-Seven (L);1780;BLP Pack
+gun;Isis CB27 (L);2050;BLP Pack
+gun;Chikara Oni-Ni (L);128;Weapon Cells
+gun;Enkidd Fang S.7 (L);680;BLP Pack
+gun;Enkidd Fang S.9 (L);818;BLP Pack
+gun;Enkidd Dire S.5 (L);811;BLP Pack
+gun;Enkidd Dire S.8 (L);1100;BLP Pack
+gun;Herman SIR-10;1250;BLP Pack
+gun;Herman SIR-50;2575;BLP Pack
+gun;Camo Arms Marine Predator (L);3058;BLP Pack
+gun;Camo Arms Marine Prowler (L);2924;BLP Pack
+gun;Baringer SR60;2300;BLP Pack
+gun;EWE EP-54 Fury (L);1753;Weapon Cells
+gun;Isis BL300 (L);175;BLP Pack
+gun;Imperium Issue HK 1300 (L);830;Weapon Cells
+gun;Chikara Oni-San (L);147;Weapon Cells
+gun;Omegaton Igni L1010 (L);979;Weapon Cells
+gun;CalyTrek CR Soul MK.II (L);751;BLP Pack
+gun;Isis BL100 (L);66;BLP Pack
+gun;MarCorp Kallous-6 (L);731;Weapon Cells
+gun;MarCorp Kallous-1 (L);480;Weapon Cells
+gun;EWE EP-53 Submission (L);1733;Weapon Cells
+gun;Omegaton Igni L1210 (L);1799;Weapon Cells
+gun;EWE LC-350 Dissolver (L);2925;Weapon Cells
+gun;Starkhov LPR-2 (L);250;BLP Pack
+gun;CalyTrek CR Soul Mk.V (L);904;BLP Pack
+gun;Enkidd Howler S.1 (L);1094;Weapon Cells
+gun;Isis HL4 (L);627;Weapon Cells
+gun;MarCorp Kallous-3 (L);751;Weapon Cells
+gun;Isis Project Zero-Three (L);930;BLP Pack
+gun;MarCorp Kallous-5 (L);658;Weapon Cells
+gun;MarCorp Kallous-2 (L);591;Weapon Cells
+gun;Isis Project Zero-Two (L);800;BLP Pack
+gun;Isis LC-35 (L);1942;Weapon Cells
+gun;Isis BL200 (L);113;BLP Pack
+gun;Chikara Oni-Go (L);310;Weapon Cells
+gun;Omegaton ASG-12 Bucketful (L);1830;BLP Pack
+gun;CalyTrek CR Spirit Mk.III (L);1550;BLP Pack
+gun;CCA/Chikara LR-2 Progress (L);250;Weapon Cells
+gun;Enkidd Fang S.5 (L);488;BLP Pack
+gun;Imperium Pilot Scorpion Rank 11 (L);630;Weapon Cells
+gun;EWE EP-52 Dissolver (L);1673;Weapon Cells
+gun;Enkidd Fang S.4 (L);440;BLP Pack
+gun;Imperium Pilot Scorpion Rank 8 (L);491;Weapon Cells
+gun;CalyTrek CR Soul Mk.III (L);858;BLP Pack
+gun;CalyTrek CR Soul Mk.IV (L);858;BLP Pack
+gun;Camo Arms Marine Stalker (L);2945;BLP Pack
+gun;Enkidd Howler S.5 (L);1768;Weapon Cells
+gun;MarCorp Kallous-4 (L);955;Weapon Cells
+gun;Isis Project Zero-Five (L);1702;BLP Pack
+gun;Omegaton ASG-12 Fragfire (L);2955;BLP Pack
+gun;Isis Project Zero-Six (L);1790;BLP Pack
+gun;Chikara Oni-Roku (L);348;Weapon Cells
+gun;Chikara Oni-Shi (L);243;Weapon Cells
+gun;Chikara Oni-Ichi (L);89;Weapon Cells
+gun;Chikara Oni-Shichi (L);439;Weapon Cells
+gun;CCA/Chikara LR-3 Colonial (L);318;Weapon Cells
+gun;EWE LC-150 Tactical (L);1625;Weapon Cells
+gun;EWE LC-500 Fury (L);2809;Weapon Cells
+gun;Isis Project Zero-Eight (L);1530;BLP Pack
+gun;RIP M770 (L);1850;Weapon Cells
+gun;Enkidd Dire S.6 (L);912;BLP Pack
+gun;Enkidd Dire S.9 (L);1190;BLP Pack
+gun;Enkidd Fang S.8 (L);745;BLP Pack
+gun;Enkidd Fang S.3 (L);424;BLP Pack
+gun;Starkhov LPR-3 (L);318;BLP Pack
+gun;Imperium Issue HK 1100 (L);714;Weapon Cells
+gun;Imperium Issue HK 3900 (L);1400;Weapon Cells
+gun;Imperium Pilot Scorpion Rank 4 (L);255;Weapon Cells
+gun;CalyTrek CR Soul MK.I (L);592;BLP Pack
+gun;Imperium Pilot Scorpion Rank 7 (L);441;Weapon Cells
+gun;Enkidd Dire S.1 (L);486;BLP Pack
+gun;Enkidd Dire S.2 (L);532;BLP Pack
+gun;Enkidd Dire S.3 (L);632;BLP Pack
+gun;Enkidd Dire S.4 (L);710;BLP Pack
+gun;Enkidd Dire S.7 (L);1007;BLP Pack
+gun;Enkidd Dire S.11 (L);1355;BLP Pack
+gun;Enkidd Dire S.13 (L);1525;BLP Pack
+gun;Enkidd Fang S.1 (L);280;BLP Pack
+gun;Enkidd Fang S.2 (L);329;BLP Pack
+gun;Enkidd Fang S.6 (L);560;BLP Pack
+gun;Enkidd Fang S.10 (L);865;BLP Pack
+gun;Enkidd Fang S.11 (L);911;BLP Pack
+gun;Enkidd Fang S.13 (L);1013;BLP Pack
+gun;Enkidd Howler S.2 (L);1258;Weapon Cells
+gun;Enkidd Howler S.3 (L);1334;Weapon Cells
+gun;Isis Project Zero-X (L);1735;BLP Pack
+gun;Isis LC-55 (L);2995;Weapon Cells
+gun;Omegaton Igni L1200 (L);1868;Weapon Cells
+gun;Isis CB20 (L);1030;BLP Pack
+gun;CalyTrek CR Spirit Mk.II (L);1380;BLP Pack
+gun;Jashonich SIF-A (L);1931;BLP Pack
+gun;Imperium Pilot Scorpion Rank 16 (L);720;Weapon Cells
+gun;Imperium Pilot Scorpion Rank 19 (L);812;Weapon Cells
+gun;DOA Incineration Gauntlets (L);2280;Weapon Cells
+gun;Imperium Issue HK 800 (L);570;Weapon Cells
+gun;EWE LC-300 Ambush (L);2920;Weapon Cells
+gun;EWE LC-240 Recon (L);2010;Weapon Cells
+gun;Emik Enigma L4 (L);1675;BLP Pack
+gun;Omegaton Igni L1011 (L);1185;Weapon Cells
+gun;EWE LC-100 Frontier;1030;Weapon Cells
+gun;Cochran P1 (L);87;BLP Pack
+gun;Cochran LP3 (L);238;Weapon Cells
+gun;Cochran LR3 (L);324;Weapon Cells
+gun;Cochran LP9 (L);540;Weapon Cells
+gun;Cochran LR9 (L);734;Weapon Cells
+gun;Cochran LR5 (L);475;Weapon Cells
+gun;Herman CAP-62 Desert (L);2135;Weapon Cells
+gun;Prosecutor M5 (L);371;BLP Pack
+gun;GeoTrek LH27 Rookie (L);1130;Weapon Cells
+gun;GeoTrek H8 Mean (L);490;BLP Pack
+gun;Jester D-5 (L);969;Weapon Cells
+gun;Jester D-4 (L);576;Weapon Cells
+gun;Maddox IV GDC (L);865;BLP Pack
+gun;Fireforge FF43 (L);1800;Weapon Cells
+gun;OmegaTrek P46 (L);1390;Weapon Cells
+gun;Imperium Officer XT;253;Weapon Cells
+gun;GeoTrek H42 Demonic (L);1290;BLP Pack
+gun;Geotrek LR34 Aves (L);1551;Weapon Cells
+gun;GeoTrek H15 Vile (L);710;BLP Pack
+gun;Jester D-7 (L);1419;Weapon Cells
+gun;Isis BL300E (L);419;BLP Pack
+gun;GeoTrek LP53 Storm (L);2131;BLP Pack
+gun;Cochran LP5 (L);346;Weapon Cells
+gun;Cochran LR7 (L);626;Weapon Cells
+gun;Cochran LP1 (L);87;BLP Pack
+gun;Starkhov LPR-20 (L);1050;BLP Pack
+gun;Jester D-6 (L);1420;Weapon Cells
+gun;Imperium Issue HK 400 (L);336;Weapon Cells
+gun;Genesis Sparkbite MM Edition (L);4248;Weapon Cells
+gun;Castorian Pioneer EnBlade-6 MM Edition (L);462;Weapon Cells
+gun;CalyTrek CR Spirit MK.III MM Edition (L);1672;BLP Pack
+gun;MarCorp Kallous-5 MM Edition (L);727;Weapon Cells
+gun;Omegaton Igni L1011 MM Edition (L);1283;Weapon Cells
+gun;Omegaton Neptune MM Edition (L);2003;Weapon Cells
+gun;Omegaton Igni L1100E (L);1615;Weapon Cells
+gun;Camo Arms Marine Stalker MM Edition (L);3228;BLP Pack
+gun;Emik S60 MM Edition (L);705;BLP Pack
+gun;Isis Project Zero-Three MM Edition (L);1018;BLP Pack
+gun;CalyTrek CR Soul MK.II MM Edition (L);804;BLP Pack
+gun;Genesis Icerage MM Edition (L);2548;Weapon Cells
+gun;Emik Enigma L4 MM Edition (L);1841;BLP Pack
+gun;Embra Spectral EnBlade MM Edition (L);4184;Weapon Cells
+gun;EWE LC-240 Recon MM Edition (L);2169;Weapon Cells
+gun;Genesis Corroder MM Edition (L);1369;Weapon Cells
+gun;EWE EP-53 Submission MM Edition (L);1881;Weapon Cells
+gun;GeoTrek H29 Wretched (L);1094;BLP Pack
+gun;Imperium Pilot Scorpion Rank 6 (L);399;Weapon Cells
+gun;Imperium Pilot Scorpion Rank 13 (L);728;Weapon Cells
+gun;Imperium Issue HK 700 (L);500;Weapon Cells
+gun;Emik S60 (L);637;BLP Pack
+gun;GeoTrek LR47 Ursus (L);1697;Weapon Cells
+gun;GeoTrek LP39 Gust (L);1580;BLP Pack
+gun;Prosecutor M13 (L);899;BLP Pack
+gun;Herman SIR-30 Smuggler;1730;BLP Pack
+gun;Herman SIR-40 Smuggler;2130;BLP Pack
+gun;Herman SIR-50 Smuggler;2560;BLP Pack
+gun;Herman RAW-505 Smuggler;3175;Weapon Cells
+gun;Herman RAW-404 Smuggler;2605;Weapon Cells
+gun;Herman RAW-303 Smuggler;2090;Weapon Cells
+gun;Laserfaust PK-44 Outlaw (L);2725;Weapon Cells
+gun;Laserfaust PK-51 Bandit (L);3050;Weapon Cells
+gun;GeoTrek LP34 Whirlwind (L);1308;BLP Pack
+gun;GeoTrek H35 Evil (L);1293;BLP Pack
+gun;Starkhov LPR-17 (L);992;BLP Pack
+gun;Isis LC-35 MM Edition (L);2115;Weapon Cells
+gun;Starkhov LPR-30 (L);1419;BLP Pack
+gun;CalyTrek CR Spirit MK.I;1394;BLP Pack
+gun;Imperium Issue HK 2300 (L);1084;Weapon Cells
+gun;GeoTrek LP58 Hurricane (L);2186;BLP Pack
+gun;Omegaton Igni L1000;890;Weapon Cells
+gun;Omegaton M83 Predator;3058;Weapon Cells
+gun;MacMahon Vengeance;1768;Weapon Cells
+gun;Turrelion Spec Flamebather Version 1;560;BLP Pack
+gun;Imperium Issue HK 500 (L);380;Weapon Cells
+gun;Herman LAW-10 (L);745;Weapon Cells
+gun;Herman LAW-16 Arctic (L);1255;Weapon Cells
+gun;Herman LAW-32 (L);1705;Weapon Cells
+gun;Herman LAW-37 Arctic (L);1960;Weapon Cells
+gun;Herman LAW-51 Jungle (L);2210;Weapon Cells
+gun;Herman CAP-4 Desert (L);316;Weapon Cells
+gun;Herman CAP-28 Arctic (L);1364;Weapon Cells
+gun;Herman CAP-40 Desert (L);1695;Weapon Cells
+gun;Herman CAP-48 (L);1830;Weapon Cells
+gun;Herman CAP-52 (L);1950;Weapon Cells
+gun;Herman ARK-16 (L);990;BLP Pack
+gun;Herman ARK-31 Desert (L);1540;BLP Pack
+gun;Herman ARK-41 (L);1700;BLP Pack
+gun;Herman ARK-55 Jungle (L);1840;BLP Pack
+gun;Herman ASI-5 Arctic (L);400;BLP Pack
+gun;Herman ASI-16 Arctic (L);901;BLP Pack
+gun;Herman ASI-27 Arctic (L);1380;BLP Pack
+gun;Herman ASI-48 Desert (L);1840;BLP Pack
+gun;Herman ASI-53 Desert (L);1975;BLP Pack
+gun;Herman ASI-58 Desert (L);2030;BLP Pack
+gun;Herman ARK-500 Prototype (L);2725;BLP Pack
+gun;Eron SoulCrusher;2000;Weapon Cells
+gun;CalyTrek CR Spirit Mk.II TEN Edition;1478;BLP Pack
+gun;Ancient Red Scorpion;140;Weapon Cells
+gun;Isis Project Zero-Three;930;BLP Pack
+gun;Bevis Fire Fire;215;BLP Pack
+gun;Imperium Issue HK 2500 (L);1140;Weapon Cells
+gun;Herman ARK-100 Prototype (L);1317;BLP Pack
+gun;Herman ARK-300 Prototype (L);1907;BLP Pack
+gun;Herman ASI TEN Edition;1600;BLP Pack
+gun;Special Ops Flamethrower (FA)(L);1404;BLP Pack
+gun;Enkidd Series A-41 (L);1533;BLP Pack
+gun;Gazunga DPS R20 (L);1086;BLP Pack
+gun;Imperium Pilot Scorpion Rank 24 (L);912;Weapon Cells
+gun;Imperium Issue HK 2000 (L);1040;Weapon Cells
+gun;Imperium Pilot Scorpion Rank 5 (L);304;Weapon Cells
+gun;Xent Tech Light Rifle X2;310;Weapon Cells
+gun;Omegaton ASG-12 Bucketful;1830;BLP Pack
+gun;EWE LC-300 Ambush;2920;Weapon Cells
+gun;Herman CAP-50 Smuggler;2020;Weapon Cells
+gun;Pilot Pistol Rank 1 (L);44;Weapon Cells
+gun;Xent Tech Light Rifle X3;310;Weapon Cells
+gun;CalyTrek CR Spirit MK.III RX Edition (L);1672;BLP Pack
+gun;Enkidd Series A-50 (L);1753;BLP Pack
+gun;Enkidd Series A-55 (L);1870;BLP Pack
+gun;Imperium HK Vet (L);180;Weapon Cells
+gun;Imperium HK Special Ops (L);327;Weapon Cells
+gun;Ranked HK1750;1505;Weapon Cells
+gun;Ranked FlameThrower;1000;BLP Pack
+gun;Isis LC-35 RX Edition (L);2115;Weapon Cells
+gun;CalyTrek CR Soul MK.II RX Edition (L);804;BLP Pack
+gun;Imported Assault Shotgun TEN Edition;1185;BLP Pack
+gun;Enkidd Series A-45 (L);1640;BLP Pack
+gun;Enkidd Series A-32 (L);1300;BLP Pack
+gun;Imperium Issue HK 720 (L);544;Weapon Cells
+gun;Fireforge FF39 (L);1800;Weapon Cells
+gun;HK Series S-62 (L);1880;BLP Pack
+gun;Cochran LR10 (L) Adapted;710;Weapon Cells
+gun;Cochran LP7 (L);454;Weapon Cells
+gun;Emik Enigma L4;1675;BLP Pack
+gun;Imperium Pilot Scorpion Rank 32 (L);988;Weapon Cells
+gun;Imperium Issue HK 4600 (L);1550;Weapon Cells
+gun;OmegaTrek P41 (L);1287;Weapon Cells
+gun;Breer H31a (L);1000;Weapon Cells
+gun;Omegaton Igni L1011 RX Edition (L);1283;Weapon Cells
+gun;Herman ASI-50 Smuggler;1910;BLP Pack
+gun;HK Series S-57 (L);1770;BLP Pack
+gun;HK Series S-50 (L);1650;BLP Pack
+gun;Rip M6600 Modified;2000;Weapon Cells
+gun;Modified Rip M6600;2000;Weapon Cells
+gun;GeoTrek H57 Kind (L);1590;BLP Pack
+gun;Svempa X2 (L);1300;BLP Pack
+gun;Eclipse 4000 Plasma Carbine Prototype (L);2686;Weapon Cells
+gun;Eclipse 2000 Plasma Carbine Prototype (L);1492;Weapon Cells
+gun;Vincent DPS LR37 TEN EDITION;1917;Weapon Cells
+gun;Ozpyn BP S1X1;400;BLP Pack
+gun;Emik Enigma L2;1374;BLP Pack
+gun;Ozpyn BP S1X2;400;BLP Pack
+gun;Marber Bravo-Type Plasma Annihilator WOF Edition;2300;Weapon Cells
+gun;Ozpyn LR S1X3;800;Weapon Cells
+gun;Grenade Launcher NGL-1;100;Explosive Projectiles
+gun;test1;1650;BLP Pack
+gun;Xent Tech Icy Death Ray;255;BLP Pack
+gun;MarCorp Kallous-5 RX Edition (L);727;Weapon Cells
+gun;GeoTrek LP47 Twister (L);1534;BLP Pack
+gun;Ozpyn LR S1X1;200;Weapon Cells
+gun;Breer L20c (L);1193;Weapon Cells
+gun;A.R.C. Scorpion AP1 (L);40;Weapon Cells
+gun;Fenris Assault Shotgun (L);225;BLP Pack
+gun;Imperium Carbine Rank 1 (L);56;Weapon Cells
+gun;True Faith (L);738;Weapon Cells
+gun;Chikara Oni-Roku E.L.M Edition (L);390;Weapon Cells
+gun;Ranked Scorpion;1260;Weapon Cells
+gun;Emik S60 E.L.M Edition (L);705;BLP Pack
+gun;Ozpyn BP S1X3;500;BLP Pack
+gun;Xent Tech Light Prototype Rifle;370;Weapon Cells
+gun;Imperium Issue HK 2900 (L);1210;Weapon Cells
+gun;HK Series S-54 (L);1710;BLP Pack
+gun;Karma Killer (L);895;Weapon Cells
+gun;MarCorp Kallous-5 E.L.M Edition (L);727;Weapon Cells
+gun;CalyTrek CR Soul MK.II E.L.M Edition (L);804;BLP Pack
+gun;Ozpyn Chon S1X1;123;Weapon Cells
+gun;Herman ASI-40 Smuggler;1515;BLP Pack
+gun;Enkidd Dire S.1(L);486;BLP Pack
+gun;Herman CAP-25 (L);1280;Weapon Cells
+gun;GeoTrek H24 Sin (L);967;BLP Pack
+gun;MarCorp Kallous-7;1181;Weapon Cells
+gun;CalyTrek CR Spirit Mk.II TEN Edition w/ Berserker Helmet;1778;BLP Pack
+gun;Jashonich SIF-O (L);1955;BLP Pack
+gun;DOA Smacktalker (L);2339;BLP Pack
+gun;Omegaton M91 Stalker (L);2713;Weapon Cells
+gun;Ozpyn Ying S1X2 (L);590;BLP Pack
+gun;MacMahon Instant Karma (L);1707;Weapon Cells
+gun;GeoTrek H73 Pure (L);1773;BLP Pack
+gun;Piron PBR-12 (L);719;BLP Pack
+gun;Piron PBR-27 (L);1252;BLP Pack
+gun;Piron PBP-2 (L);116;BLP Pack
+gun;Piron PBP-37 (L);998;BLP Pack
+gun;Piron PBP-22 (L);696;BLP Pack
+gun;Piron PBP-27 (L);812;BLP Pack
+gun;Piron PBP-7 (L);301;BLP Pack
+gun;Piron PBP-12 (L);464;BLP Pack
+gun;Piron PBP-32 (L);905;BLP Pack
+gun;Piron PBR-32 (L);1415;BLP Pack
+gun;Piron PBR-37 (L);1554;BLP Pack
+gun;Piron PBR-17 (L);904;BLP Pack
+gun;Piron PBR-7 (L);475;BLP Pack
+gun;Piron PLR-2 (L);232;Weapon Cells
+gun;Piron PLR-7 (L);580;Weapon Cells
+gun;Piron PLR-12 (L);881;Weapon Cells
+gun;Piron PLR-32 (L);1716;Weapon Cells
+gun;Piron PLR-17 (L);1113;Weapon Cells
+gun;Piron PLR-22 (L);1345;Weapon Cells
+gun;Piron PLR-37 (L);1847;Weapon Cells
+gun;Piron PLP-22 (L);812;Weapon Cells
+gun;Piron PLP-2 (L);139;Weapon Cells
+gun;Piron PLP-17 (L);673;Weapon Cells
+gun;Piron PLP-7 (L);348;Weapon Cells
+gun;Piron PLP-12 (L);533;Weapon Cells
+gun;Piron PLP-27 (L);951;Weapon Cells
+gun;Piron PLP-32 (L);1044;Weapon Cells
+gun;Piron PLP-37 (L);1183;Weapon Cells
+gun;Piron PBR-22 (L);1090;BLP Pack
+gun;Piron PBR-2 (L);185;BLP Pack
+gun;Piron PBP-17 (L);580;BLP Pack
+gun;Gravis GLR-33;1068;Weapon Cells
+gun;Binary Mayhem R7 (L);2742;BLP Pack
+gun;Ozpyn HK S1X1;1500;Weapon Cells
+gun;Ozpyn BP S1X4;821;BLP Pack
+gun;Binary Mayhem P5 (L);1618;BLP Pack
+gun;Piron PBR-25;1875;BLP Pack
+gun;Gravis GLR-27;953;Weapon Cells
+gun;Modec VXT 100 (L);118;Weapon Cells
+gun;Binary Mayhem P6 (L);2068;BLP Pack
+gun;Skildek Vaporizer (L);14400;Explosive Projectiles
+gun;Skildek Lectra (L);3160;Explosive Projectiles
+gun;Gravis GLP-31;997;Weapon Cells
+gun;Gravis GBR-23;705;BLP Pack
+gun;Gravis GBP-35;787;BLP Pack
+gun;Modec VXT 700 (L);668;Weapon Cells
+gun;Grindouse Sleaze (L);1000;BLP Pack
+gun;Binary Mayhem P1 (L);360;BLP Pack
+gun;Photonic Mayhem R7 (L);2742;Weapon Cells
+gun;Gravis GBR-34;1090;BLP Pack
+gun;Binary Mayhem R4 (L);1303;BLP Pack
+gun;Modec VXT 300 (L);674;Weapon Cells
+gun;Modec VXT 900 (L);1024;Weapon Cells
+gun;Tarsus SG 1;118;Weapon Cells
+gun;Gravis GBP-32;787;BLP Pack
+gun;Binary Mayhem R2 (L);741;BLP Pack
+gun;Photonic Mayhem R1 (L);427;Weapon Cells
+gun;Photonic Mayhem R2 (L);741;Weapon Cells
+gun;Photonic Mayhem R3 (L);1034;Weapon Cells
+gun;Photonic Mayhem R4 (L);1303;Weapon Cells
+gun;Photonic Mayhem R5 (L);1797;Weapon Cells
+gun;Photonic Mayhem R6 (L);2384;Weapon Cells
+gun;Photonic Mayhem P1 (L);360;Weapon Cells
+gun;Photonic Mayhem P2 (L);674;Weapon Cells
+gun;Photonic Mayhem P3 (L);876;Weapon Cells
+gun;Photonic Mayhem P4 (L);1168;Weapon Cells
+gun;Photonic Mayhem P5 (L);1618;Weapon Cells
+gun;Photonic Mayhem P6 (L);2068;Weapon Cells
+gun;Photonic Mayhem P7 (L);2317;Weapon Cells
+gun;Binary Mayhem P2 (L);674;BLP Pack
+gun;Binary Mayhem P3 (L);876;BLP Pack
+gun;Binary Mayhem P4 (L);1168;BLP Pack
+gun;Binary Mayhem P7 (L);2317;BLP Pack
+gun;Binary Mayhem R1 (L);427;BLP Pack
+gun;Binary Mayhem R3 (L);1034;BLP Pack
+gun;Binary Mayhem R5 (L);1797;BLP Pack
+gun;Binary Mayhem R6 (L);2384;BLP Pack
+gun;Xent Tech Freeze Ray X3;255;BLP Pack
+gun;Castorian Pioneer EnBlade-6 E.L.M Edition (L);462;Weapon Cells
+gun;Gravis GBP-35 Mk.II;841;BLP Pack
+gun;Gravis GBR-34 Mk.II;1023;BLP Pack
+gun;Piron PLR-27 (L);1492;Weapon Cells
+gun;Herman XBR-1 Chulan Edition;1656;BLP Pack
+gun;Herman XP-1 Scanthi Edition;1147;BLP Pack
+gun;Eron SoulScreamer;3570;Weapon Cells
+gun;Piron PLP-20;1564;Weapon Cells
+gun;Herman XBR-2 Chulan Edition;1466;BLP Pack
+gun;Eron SoulReamer;3570;Weapon Cells
+gun;Gravis GLP-33;1087;Weapon Cells
+gun;Eron SoulReaver;1792;Weapon Cells
+gun;Gravis GLR-29;1141;Weapon Cells
+gun;Gravis GLR-26;1141;Weapon Cells
+gun;Isis LC-35 CDF Edition (L);2117;Weapon Cells
+gun;Eron SoulSplitter;4338;Weapon Cells
+gun;Ursule's Doom (L);790;BLP Pack
+gun;Gravis GBR-30;944;BLP Pack
+gun;Gravis GBP-34;924;BLP Pack
+gun;Gravis GLP-27;1117;Weapon Cells
+gun;King Kong Golden Tommy Gun;1184;BLP Pack
+gun;King Kong Snubnose;840;BLP Pack
+gun;Herman LAW TT-R;190;Weapon Cells
+gun;Herman XLR Chulan Edition;2193;Weapon Cells
+gun;Gravis GLP-36;1050;Weapon Cells
+gun;Fireforge FF53E (L);2510;Weapon Cells
+gun;CalyTrek CR Soul MK.I CDF Edition (L);637;BLP Pack
+gun;Hojoom G1 (L);66;Weapon Cells
+gun;Z12 Barbarella;205;Weapon Cells
+gun;Sahra MK1 (L);186;Weapon Cells
+gun;Shayeb S10 (L);67;BLP Pack
+gun;Shayeb S20 (L);134;BLP Pack
+gun;Shayeb S30 (L);201;BLP Pack
+gun;Jamjoom Wipeout (L);346;BLP Pack
+gun;Mirath Long Shot (L);323;Weapon Cells
+gun;Mirath Sharp Shot (L);231;Weapon Cells
+gun;Salafa G2 (L);115;Weapon Cells
+gun;Salafa G3 (L);160;Weapon Cells
+gun;Mirath Fatal Shot (L);438;Weapon Cells
+gun;Skildek Negator;5000;Explosive Projectiles
+gun;Skildek Decimator;3800;Explosive Projectiles
+gun;Wildman's Fury (L);980;BLP Pack
+gun;Isis LC-35 E.L.M Edition (L);2115;Weapon Cells
+gun;CalyTrek CR Spirit MK.III E.L.M Edition (L);1672;BLP Pack
+gun;Omegaton Igni L1100E;1615;Weapon Cells
+gun;Skildek Exterminator;7000;Explosive Projectiles
+gun;EWE LC-240 Recon E.L.M Edition (L);2169;Weapon Cells
+gun;Lunchbox`s Wrath (L);1116;BLP Pack
+gun;Imperium Issue HK 3300 (L);1262;Weapon Cells
+gun;Emik Enigma L4 CDF Edition (L);1841;BLP Pack
+gun;Emik Enigma L4 E.L.M Edition (L);1841;BLP Pack
+gun;Duster Scorpion (L);84;Weapon Cells
+gun;Chikara Oni-Roku E.L.M Edition (L);390;Weapon Cells
+gun;EWE LC-120 Purpose CDF Edition (L);1358;Weapon Cells
+gun;Breer L72c (L);1943;Weapon Cells
+gun;Marked Scorpion (L);1117;Weapon Cells
+gun;Sahra MK4 (L);319;Weapon Cells
+gun;Skildek Decimator (L);3800;Explosive Projectiles
+gun;CCA/Chikara LR-Arrival CDF Edition (L);148;Weapon Cells
+gun;CCA/Chikara LR-Progress CDF Edition (L);270;Weapon Cells
+gun;CCA/Chikara LR-Colonial CDF Edition (L);344;Weapon Cells
+gun;MarCorp Kallous-1 CDF Edition (L);515;Weapon Cells
+gun;MarCorp Kallous-2 CDF Edition (L);637;Weapon Cells
+gun;MarCorp Kallous-3 CDF Edition (L);807;Weapon Cells
+gun;MarCorp Kallous-4 CDF Edition (L);1022;Weapon Cells
+gun;MarCorp Kallous-5 CDF Edition (L);728;Weapon Cells
+gun;MarCorp Kallous-6 CDF Edition (L);803;Weapon Cells
+gun;EWE LC-100 Frontier CDF Edition (L);1117;Weapon Cells
+gun;MarCorp Kallous-7 CDF Edition (L);1280;Weapon Cells
+gun;EWE LC-150 Tactical CDF Edition (L);1769;Weapon Cells
+gun;EWE LC-200 Scout CDF Edition (L);2170;Weapon Cells
+gun;EWE LC-240 Recon CDF Edition (L);2170;Weapon Cells
+gun;Isis LC-55 CDF Edition (L);3215;Weapon Cells
+gun;Isis LC-60 CDF Edition (L);3232;Weapon Cells
+gun;Omegaton M83 Predator CDF Edition (L);3298;Weapon Cells
+gun;EWE LC-300 Ambush CDF Edition (L);3175;Weapon Cells
+gun;EWE LC-340 Ranger CDF Edition (L);2412;Weapon Cells
+gun;EWE LC-350 Dissolver CDF Edition (L);3255;Weapon Cells
+gun;EWE LC-400 Submission CDF Edition (L);3460;Weapon Cells
+gun;EWE LC-500 Fury CDF Edition (L);3076;Weapon Cells
+gun;Omegaton M87 Prowler CDF Edition (L);2722;Weapon Cells
+gun;Omegaton M91 Stalker CDF Edition (L);2713;Weapon Cells
+gun;Herman SIR-10 Smuggler;933;BLP Pack
+gun;Kaiser-Graf HVMR-2 Improved;1900;Weapon Cells
+gun;Chikara Oni-Ichi CDF Edition (L);98;Weapon Cells
+gun;Chikara Oni-Ni CDF Edition (L);147;Weapon Cells
+gun;Chikara Oni-San CDF Edition (L);172;Weapon Cells
+gun;Chikara Oni-Shi CDF Edition (L);270;Weapon Cells
+gun;Chikara Oni-Go CDF Edition (L);343;Weapon Cells
+gun;Chikara Oni-Roku CDF Edition (L);391;Weapon Cells
+gun;Chikara Oni-Shichi CDF Edition (L);489;Weapon Cells
+gun;Isis HL4 CDF Edition (L);683;Weapon Cells
+gun;Isis HL5 CDF Edition (L);803;Weapon Cells
+gun;Omegaton Igni L1000 CDF Edition;972;Weapon Cells
+gun;Omegaton Igni L1010 CDF Edition (L);1068;Weapon Cells
+gun;Omegaton Igni L1011 CDF Edtion (L);1284;Weapon Cells
+gun;BSF Kaamos CDF Edition (L);1485;Weapon Cells
+gun;Omegaton Igni L1100 CDF Edition (L);1674;Weapon Cells
+gun;Omegaton Igni L1100E CDF Edition (L);1740;Weapon Cells
+gun;EWE EP-52 Dissolver CDF Edition (L);1811;Weapon Cells
+gun;EWE EP-53 Submission CDF Edition (L);1882;Weapon Cells
+gun;EWE EP-54 Fury CDF Edition (L);1902;Weapon Cells
+gun;Omegaton Igni L1200 CDF Edition (L);2020;Weapon Cells
+gun;Omegaton Igni L1210 CDF Edition (L);1943;Weapon Cells
+gun;MacMahon Vengeance CDF Edition (L);1938;Weapon Cells
+gun;Omegaton Igni L2000 CDF Edition (L);1981;Weapon Cells
+gun;Omegaton Igni L2020 CDF Edition (L);1998;Weapon Cells
+gun;RIP M7700 CDF Edition (L);2016;Weapon Cells
+gun;MacMahon Redeemer CDF Edition (L);2062;Weapon Cells
+gun;MacMahon Instant Karma CDF Edition (L);1871;Weapon Cells
+gun;Starkhov LPR-1 CDF Edition (L);147;BLP Pack
+gun;Starkhov LPR-2 CDF Edition (L);270;BLP Pack
+gun;Starkhov LPR-3 CDF Edition (L);344;BLP Pack
+gun;Starkhov LPR-4 CDF Edition (L);466;BLP Pack
+gun;CalyTrek CR Soul MK.II CDF Edition (L);807;BLP Pack
+gun;CalyTrek CR Soul MK.III CDF Edition (L);928;BLP Pack
+gun;CalyTrek CD Soul MK.IV CDF Edition (L);926;BLP Pack
+gun;CalyTrek CR Soul MK.V CDF Edition (L);973;BLP Pack
+gun;Isis CB20 CDF Edition (L);1116;BLP Pack
+gun;Leonis Special Edition CDF Edition (L);1500;BLP Pack
+gun;CalyTrek CR Spirit MK.I CDF Edition (L);1493;BLP Pack
+gun;CalyTrek CR Spirit MK.II CDF Edition (L);1485;BLP Pack
+gun;CalyTrek CR Spirit MK.III CDF Edition (L);1673;BLP Pack
+gun;Omegaton ASG-12 Bucketful CDF Edition (L);1957;BLP Pack
+gun;Omegaton ASG-12 Fletcher CDF Edition (L);2170;BLP Pack
+gun;DOA Boneshatter CDF Edition (L);2235;BLP Pack
+gun;Isis CB27 CDF Edition (L);2233;BLP Pack
+gun;Camo Arms Marine Predator CDF Edition (L);3291;BLP Pack
+gun;Camo Arms Marine Prowler CDF Edition (L);3170;BLP Pack
+gun;DOA Slugstorm CDF Edition (L);2411;BLP Pack
+gun;Camo Arms Marine Stalker CDF Edition (L);3230;BLP Pack
+gun;Omegaton ASG-12 Fragfire CDF Edition (L);3270;BLP Pack
+gun;Isis CB32 CDF Edition (L);2888;BLP Pack
+gun;DOA Longbolt CDF Edition (L);2625;BLP Pack
+gun;DOA Smacktalker CDF Edition (L);2574;BLP Pack
+gun;Isis BL100 CDF Edition (L);73;BLP Pack
+gun;Isis BL200 CDF Edition (L);122;BLP Pack
+gun;Isis BL300 CDF Edition (L);195;BLP Pack
+gun;Isis BL100E CDF Edition (L);317;BLP Pack
+gun;Isis BL200E CDF Edition (L);391;BLP Pack
+gun;Isis BL300E CDF Edition (L);463;BLP Pack
+gun;Emik S60 CDF Edition (L);706;BLP Pack
+gun;Isis Project Zero-One CDF Edition (L);827;BLP Pack
+gun;Isis Project Zero-Two CDF Edition (L);875;BLP Pack
+gun;Isis Project Zero-Three CDF Edition (L);1020;BLP Pack
+gun;Emik Enigma L1 CDF Edition (L);1502;BLP Pack
+gun;Emik Enigma L2 CDF Edition (L);1500;BLP Pack
+gun;Emik Enigma L3 CDF Edition (L);1495;BLP Pack
+gun;Isis Project Zero-Four CDF Edition (L);1587;BLP Pack
+gun;Isis Project Zero-Five CDF Edition (L);1871;BLP Pack
+gun;Isis Project Zero-Six CDF Edition (L);1965;BLP Pack
+gun;Isis Project Zero-Seven CDF Edition (L);1951;BLP Pack
+gun;Emik Enigma L5 CDF Edition (L);1948;BLP Pack
+gun;Emik Enigma L6 CDF Edition (L);2011;BLP Pack
+gun;Isis Project Zero-Eight CDF Edition (L);1700;BLP Pack
+gun;Isis Project Zero-Nine CDF Edition (L);1768;BLP Pack
+gun;Isis Project Zero-X CDF Edition (L);1908;BLP Pack
+gun;Jashonich SIF-S CDF Edition (L);2045;BLP Pack
+gun;Jashonich SIF-A CDF Edition (L);2084;BLP Pack
+gun;Jashonich SIF-O CDF Edition (L);2105;BLP Pack
+gun;Sollomate Onyxo (L);166;Weapon Cells
+gun;Omegaton M2100A1 (L);118;Weapon Cells
+gun;Herman CAP-TT (L);118;Weapon Cells
+gun;Herman LAW-TT (L);166;Weapon Cells
+gun;Trekkie's Delight (L);166;Weapon Cells
+gun;RayGun (L);118;Weapon Cells
+gun;Piron PLP-52 (L);1388;Weapon Cells
+gun;Sahra MK2 (L);232;Weapon Cells
+gun;Hojoom G2 (L);113;Weapon Cells
+gun;Sahra T-101 (L);166;Weapon Cells
+gun;Hojoom H-1 (L);118;Weapon Cells
+gun;Piron PLR-57 (L);2343;Weapon Cells
+gun;Piron PLP-47 (L);1324;Weapon Cells
+gun;Jamjoom Annihilation (L);254;BLP Pack
+gun;Piron PLR-47 (L);2039;Weapon Cells
+gun;Piron PLR-42 (L);1887;Weapon Cells
+gun;Piron PBP-0 (L);84;BLP Pack
+gun;Piron PBR-0 (L);83;BLP Pack
+gun;GeoTrek LP63 Cyclone (L);2197;BLP Pack
+gun;Piron PLR-0 (L);83;Weapon Cells
+gun;Piron PBP-57 (L);1368;BLP Pack
+gun;Piron PBR-52 (L);1738;BLP Pack
+gun;Piron PBR-42 (L);1521;BLP Pack
+gun;GeoTrek LP43 Gale (L);1580;BLP Pack
+gun;Holly ECO P41 (L);1485;BLP Pack
+gun;Holly ECO R48 (L);2141;BLP Pack
+gun;Ardora Ballista MK1 (L);737;Weapon Cells
+gun;Piron PBP-52 (L);1304;BLP Pack
+gun;Piron PBR-57 (L);1847;BLP Pack
+gun;Salafa G1 (L);93;Weapon Cells
+gun;Salafa Beginner (L);70;Weapon Cells
+gun;Hojoom G4 (L);200;Weapon Cells
+gun;Sahra MK3 (L);275;Weapon Cells
+gun;Genesis Icerage E.L.M Edition (L);2548;Weapon Cells
+gun;Jamjoom Massacre (L);463;BLP Pack
+gun;Ardora Ballista MK5 (L);1599;Weapon Cells
+gun;Holly ECO P48 (L);1573;BLP Pack
+gun;Piron PLP-62 (L);1561;Weapon Cells
+gun;2.H.T.S. Scorpion (L);723;Weapon Cells
+gun;Initiate's Laser Carbine (L);166;Weapon Cells
+gun;2.H.T.S. Shotgun (L);723;BLP Pack
+gun;ecotron v.15e prototype;775;Weapon Cells
+gun;Ozpyn Ying S1X3 (L);800;BLP Pack
+gun;CDF XLTC 200;1081;Weapon Cells
+gun;CDF XLTC 400;1866;Weapon Cells
+gun;CDF XLTC 600;2442;Weapon Cells
+gun;CDF XLTC 800;2984;Weapon Cells
+gun;CDF XLTC 1000;3440;BLP Pack
+gun;CDF XTLC 200;1081;Weapon Cells
+gun;CDF XTLC 1000;3440;BLP Pack
+gun;CDF XTLC 400;1866;Weapon Cells
+gun;CDF XTLC 600;2442;Weapon Cells
+gun;CDF XTLC 800;2984;Weapon Cells
+gun;Herman RAW-202 Smuggler;1650;Weapon Cells
+gun;Piron PLP-42 (L);1237;Weapon Cells
+gun;Marked HK 1675 (L);1330;Weapon Cells
+gun;Scott & Barlow LR-6 (L);565;Weapon Cells
+gun;Ardora Ballista MK7 (L);1881;Weapon Cells
+gun;Isis LBC 10 (L);653;BLP Pack
+gun;Scott & Barlow BP-2 (L);131;BLP Pack
+gun;Isis LLP 16 (L);716;Weapon Cells
+gun;Ozpyn BPX - P9 (L);7720;BLP Pack
+gun;Isis LBP 25 (L);915;BLP Pack
+gun;Ozpyn BPX - P2 (L);131;BLP Pack
+gun;Redux ZK1 (L);131;BLP Pack
+gun;S & B Ardenner 10 (L);653;BLP Pack
+gun;S & B Ardenner 25 (L);1220;BLP Pack
+gun;Scott & Barlow BP-3 (L);175;BLP Pack
+gun;Redux ZK2 (L);241;BLP Pack
+gun;Ardora Ballista MK4 (L);1426;Weapon Cells
+gun;Scott & Barlow LR-3 (L);305;Weapon Cells
+gun;Scott & Barlow LR-30 (L);1566;Weapon Cells
+gun;Scott & Barlow LP-16 (L);716;Weapon Cells
+gun;Scott & Barlow BP-16 (L);722;BLP Pack
+gun;Ozpyn LPX-P4 (L);240;Weapon Cells
+gun;Isis LBP 16 (L);722;BLP Pack
+gun;Ozpyn BRS - P2 (L);241;BLP Pack
+gun;Ozpyn LRS - P1 (L);131;Weapon Cells
+gun;Isis LBC 1 (L);131;BLP Pack
+gun;Ozpyn BPX - P3 (L);175;BLP Pack
+gun;Ozpyn LRS - P3 (L);305;Weapon Cells
+gun;Ozpyn LRS - P2 (L);240;Weapon Cells
+gun;Scott & Barlow LP-10 (L);436;Weapon Cells
+gun;Ozpyn LPX-P2 (L);130;Weapon Cells
+gun;Isis LBP 1 (L);110;BLP Pack
+gun;Isis LLC 2 (L);240;Weapon Cells
+gun;S & B Ardenner 36 (L);1210;BLP Pack
+gun;Isis LBP 12 (L);610;BLP Pack
+gun;Isis LLP 20 (L);866;Weapon Cells
+gun;Isis LBC 30 (L);1306;BLP Pack
