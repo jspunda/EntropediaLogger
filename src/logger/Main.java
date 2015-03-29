@@ -7,18 +7,20 @@ import java.io.UnsupportedEncodingException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+
 import util.Paths;
 import util.Storage;
 import entropia.Player;
 import entropia.Team;
 import gui.*;
-import java.awt.Component;
+
 import java.awt.FileDialog;
 import java.awt.Frame;
 import java.io.FilenameFilter;
 import java.util.ArrayList;
-import java.util.regex.Pattern;
-import javax.swing.JButton;
+
+import javax.swing.UIManager;
+import javax.swing.UnsupportedLookAndFeelException;
 
 public class Main {
 
@@ -28,8 +30,10 @@ public class Main {
 	
 	private static Team team;
 	private static Logger logger;
+	public static String MYGUN;
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException, ClassNotFoundException, InstantiationException, IllegalAccessException, UnsupportedLookAndFeelException {
+		UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel");
 		window = new MainWindow();
                 window.setLocationRelativeTo(null);
 		window.setVisible(true);
@@ -57,12 +61,12 @@ public class Main {
 		huntDate = dateFormat.format(cal.getTime());
 	}
 
-	public static void createTeam(String name, ArrayList<String> names,
-			int nrOfPlayers) throws FileNotFoundException,
-			UnsupportedEncodingException {
+	public static void createTeam(ArrayList<String> names, int nrOfPlayers)
+			throws FileNotFoundException, UnsupportedEncodingException {
 		team = new Team(nrOfPlayers + 1);
-		ME = name;
-		team.addPlayer(new Player(name));
+		Player me = new Player(Main.ME);
+		me.setWeapon(Storage.ALLGUNS.get(Main.MYGUN));
+		team.addPlayer(me);
 		for (int i = 1; i <= nrOfPlayers; i++) {
 			team.addPlayer(new Player(names.get(i - 1)));
 		}

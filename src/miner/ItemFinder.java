@@ -6,14 +6,14 @@ import java.io.InputStreamReader;
 import java.net.URL;
 
 import util.Paths;
-import entropia.Item;
+import entropia.Material;
 
 public class ItemFinder {
 
-	public static Item findItem(String itemname) throws IOException {
+	public static Material findItem(String itemname) throws IOException {
 		BufferedReader r = getUrlStream(Paths.ENTROPEDIASEARCH + itemname);
 		
-		return new Item(null,null);
+		return new Material(null,null);
 	}
 	
 	private static BufferedReader getUrlStream(String url) throws IOException {

@@ -9,22 +9,24 @@ import java.io.PrintWriter;
 import java.math.BigDecimal;
 import java.util.HashMap;
 
-import entropia.Item;
+import entropia.Gun;
+import entropia.Material;
 
 public class Storage {
 
-	public static HashMap<String, Item> ALLITEMS;
+	public static HashMap<String, Material> ALLMATERIALS;
+	public static HashMap<String, Gun> ALLGUNS;
 	public static final BigDecimal AMMOPRICE = BigDecimal.valueOf(0.0001);
 	
 	public Storage() {
-		ALLITEMS = new HashMap<String, Item>();
+		ALLMATERIALS = new HashMap<String, Material>();
+		ALLGUNS = new HashMap<String, Gun>();
 	}
 
-	public static void writeItem(Item i) throws IOException {
+	public static void writeMaterial(Material i) throws IOException {
 		PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(
 				Paths.ITEMLISTPATH, true)));
-		out.println(i.getName());
-		out.println(i.getValue());
+		out.println(i.getName() + ";" + i.getValue());
 		out.close();
 	}
 
@@ -33,13 +35,30 @@ public class Storage {
 		BufferedReader breader = new BufferedReader(freader);
 		String inputLine;
 		while ((inputLine = breader.readLine()) != null) {
-			String itemname = inputLine;
-			String itemvalue = breader.readLine();
-			ALLITEMS.put(
-					itemname,
-					new Item(itemname, BigDecimal.valueOf(Double
-							.parseDouble(itemvalue))));
+			String [] properties = inputLine.split(";");
+			switch (properties[0]) {
+				case "gun":
+					handleGun(properties);
+					break;
+				case "material":
+					handleMaterial(properties);
+					break;	
+			}
 		}
 		breader.close();
-	}	
+	}
+	
+	private void handleMaterial(String[] properties) {
+		ALLMATERIALS.put(properties[1],
+				new Material(properties[1],BigDecimal.valueOf(Double.parseDouble(properties[2]))));
+		
+	}
+
+	private void handleGun(String[] properties) {
+		ALLGUNS.put(properties[1],
+				new Gun(properties[1], Integer.parseInt(properties[2]),
+						ALLMATERIALS.get(properties[3])));
+	}
+	
+	
 }

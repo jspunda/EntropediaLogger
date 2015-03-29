@@ -15,7 +15,7 @@ public class Player extends Observable {
 			totalPedShot;
 	private ArrayList<Loot> loots;
 	
-	private Weapon weapon;
+	private Gun weapon;
 
 	public Player(String name) {
 		loots = new ArrayList<Loot>();
@@ -102,11 +102,11 @@ public class Player extends Observable {
 		return stats;
 	}
 	
-	public Weapon getWeapon() {
+	public Gun getWeapon() {
 		return weapon;
 	}
 	
-	public void setWeapon(Weapon weapon) {
+	public void setWeapon(Gun weapon) {
 		this.weapon = weapon;
 	}
 	

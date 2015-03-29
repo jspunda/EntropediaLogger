@@ -61,20 +61,12 @@ public class MainWindow extends JFrame implements Observer {
 		
 		myAcc = new JLabel("Accuracy:");
 		
-		myPPS = new JLabel("PED gain per shot:");
+		myPPS = new JLabel("PED gain / shot:");
 		
 		myTotalPedShot = new JLabel("Total PED shot:");
 		GroupLayout groupLayout = new GroupLayout(getContentPane());
 		groupLayout.setHorizontalGroup(
 			groupLayout.createParallelGroup(Alignment.LEADING)
-				.addGroup(groupLayout.createSequentialGroup()
-					.addGap(298)
-					.addComponent(exit, GroupLayout.PREFERRED_SIZE, 59, GroupLayout.PREFERRED_SIZE)
-					.addPreferredGap(ComponentPlacement.UNRELATED)
-					.addComponent(start)
-					.addGap(6)
-					.addComponent(finish)
-					.addContainerGap(295, Short.MAX_VALUE))
 				.addGroup(groupLayout.createSequentialGroup()
 					.addGap(75)
 					.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
@@ -91,16 +83,19 @@ public class MainWindow extends JFrame implements Observer {
 						.addComponent(myDmgDealt, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, 142, Short.MAX_VALUE)
 						.addComponent(myShotsFired, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
 					.addContainerGap(72, Short.MAX_VALUE))
+				.addGroup(Alignment.TRAILING, groupLayout.createSequentialGroup()
+					.addContainerGap(482, Short.MAX_VALUE)
+					.addComponent(exit, GroupLayout.PREFERRED_SIZE, 59, GroupLayout.PREFERRED_SIZE)
+					.addPreferredGap(ComponentPlacement.UNRELATED)
+					.addComponent(start)
+					.addPreferredGap(ComponentPlacement.UNRELATED)
+					.addComponent(finish)
+					.addGap(107))
 		);
 		groupLayout.setVerticalGroup(
 			groupLayout.createParallelGroup(Alignment.LEADING)
 				.addGroup(groupLayout.createSequentialGroup()
-					.addGap(11)
-					.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
-						.addComponent(start)
-						.addComponent(exit)
-						.addComponent(finish))
-					.addGap(37)
+					.addGap(71)
 					.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
 						.addComponent(loot)
 						.addComponent(lblNewLabel))
@@ -120,7 +115,12 @@ public class MainWindow extends JFrame implements Observer {
 					.addComponent(myPPS)
 					.addGap(18)
 					.addComponent(myTotalPedShot)
-					.addGap(240))
+					.addGap(155)
+					.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
+						.addComponent(exit)
+						.addComponent(start)
+						.addComponent(finish))
+					.addGap(62))
 		);
 		getContentPane().setLayout(groupLayout);
 	}
@@ -141,7 +141,7 @@ public class MainWindow extends JFrame implements Observer {
 			myDmgDealt.setText("Total dmg dealt: " + stats.get("Total dmg dealt"));
 			myDmgTaken.setText("Total dmg taken: " + stats.get("Total dmg taken"));
 			myAcc.setText("Accuracy: " + stats.get("Accuracy") + "%");
-			myPPS.setText("PED gain per shot: " + stats.get("PED per shot") + " PED");
+			myPPS.setText("PED gain / shot: " + stats.get("PED per shot") + " PED");
 			myTotalPedShot.setText("Total PED shot: " + stats.get("Total PED shot") + " PED");
 		}
 

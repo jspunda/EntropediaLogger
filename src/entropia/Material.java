@@ -3,11 +3,11 @@ package entropia;
 import java.math.BigDecimal;
 
 
-public class Item {
+public class Material {
 	private String itemname;
 	private BigDecimal ttvalue;
 	
-	public Item (String itemname, BigDecimal ttvalue) {
+	public Material (String itemname, BigDecimal ttvalue) {
 		this.itemname = itemname;
 		this.ttvalue = ttvalue;
 	}

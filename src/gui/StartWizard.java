@@ -1,22 +1,26 @@
 package gui;
 
 import java.awt.Choice;
-import java.awt.FlowLayout;
-
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.FileNotFoundException;
 import java.io.UnsupportedEncodingException;
+
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
+import javax.swing.GroupLayout;
+import javax.swing.GroupLayout.Alignment;
+
+import logger.Main;
 
 /**
  * @author Laurens van den Bercken
  */
 public class StartWizard extends JFrame implements ActionListener {
 
+	private static final long serialVersionUID = 1L;
 	public static final int WIDTH = 400;
 	public static final int HEIGHT = 300;
 
@@ -33,8 +37,7 @@ public class StartWizard extends JFrame implements ActionListener {
 		setSize(WIDTH, HEIGHT);
 		setTitle("Start Wizard");
 		setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
-		setLayout(new FlowLayout());
-		nameField = new JTextField("Enter your name.");
+		nameField = new JTextField("Enter your name");
                 nameField.addMouseListener(mouseListen);
                 gunField = new JTextField("Enter your gun's exact name");
                 gunField.addMouseListener(mouseListen);
@@ -47,12 +50,42 @@ public class StartWizard extends JFrame implements ActionListener {
 		cancel = new JButton("Cancel");
 		ok.addActionListener(this);
 		cancel.addActionListener(this);
-		add(nameField);
-                add(gunField);
-                add(nameLabel);
-		add(otherPlayers);
-                add(ok);
-                add(cancel);
+                GroupLayout groupLayout = new GroupLayout(getContentPane());
+                groupLayout.setHorizontalGroup(
+                	groupLayout.createParallelGroup(Alignment.LEADING)
+                		.addGroup(groupLayout.createSequentialGroup()
+                			.addGap(37)
+                			.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+                				.addComponent(nameField, GroupLayout.PREFERRED_SIZE, 156, GroupLayout.PREFERRED_SIZE)
+                				.addComponent(gunField, GroupLayout.PREFERRED_SIZE, 156, GroupLayout.PREFERRED_SIZE)
+                				.addGroup(groupLayout.createSequentialGroup()
+                					.addComponent(nameLabel)
+                					.addGap(17)
+                					.addComponent(otherPlayers, GroupLayout.PREFERRED_SIZE, 45, GroupLayout.PREFERRED_SIZE))
+                				.addGroup(groupLayout.createSequentialGroup()
+                					.addComponent(ok)
+                					.addGap(12)
+                					.addComponent(cancel))))
+                );
+                groupLayout.setVerticalGroup(
+                	groupLayout.createParallelGroup(Alignment.LEADING)
+                		.addGroup(groupLayout.createSequentialGroup()
+                			.addGap(11)
+                			.addComponent(nameField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+                			.addGap(11)
+                			.addComponent(gunField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+                			.addGap(18)
+                			.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+                				.addGroup(groupLayout.createSequentialGroup()
+                					.addGap(6)
+                					.addComponent(nameLabel))
+                				.addComponent(otherPlayers, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+                			.addGap(11)
+                			.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+                				.addComponent(ok)
+                				.addComponent(cancel)))
+                );
+                getContentPane().setLayout(groupLayout);
 	}
 
 	@Override
@@ -64,9 +97,11 @@ public class StartWizard extends JFrame implements ActionListener {
 			dispose();
 		} else if (buttonString.equals("Ok")) {
 			try {
-				SubWizard sub = new SubWizard(nameField.getText(),
-						Integer.parseInt(otherPlayers.getSelectedItem()));
-                                sub.setLocationRelativeTo(this);
+				SubWizard sub = new SubWizard(Integer.parseInt(otherPlayers
+						.getSelectedItem()));
+				sub.setLocationRelativeTo(this);
+				Main.ME = nameField.getText();
+				Main.MYGUN = gunField.getText();
 				sub.setVisible(true);
 			} catch (FileNotFoundException | UnsupportedEncodingException ex) {
 				ex.printStackTrace();
@@ -75,5 +110,5 @@ public class StartWizard extends JFrame implements ActionListener {
 		} else {
 			System.out.println("Unexpected event.");
 		}
-        }
+	}
 }

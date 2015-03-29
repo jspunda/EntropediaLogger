@@ -17,12 +17,11 @@ public class Patterns {
 	public static final String DMGTAKENPATTERN = SYSTEMPREFIX + "You take (\\d*.\\d)";
 	
 	public static final String LOGGERPREFIX = "\\[Logger\\] ";
-	public static final String LOGGERAMMOBURN = LOGGERPREFIX + "ammoburn (\\d*)";
 	
 	public static final String[] ALLGAMEPATTERNS = {
 		TEAMPATTERN, SHOTHITPATTERN, SHOTMISSPATTERN,
 		SHOTEVADEPATTERN, DMGTAKENPATTERN, SHOTCRITPATTERN,
-		DEATHPATTERN, LOGGERAMMOBURN
+		DEATHPATTERN
 	};
 	
 	public static final String[] ALLSITEPATTERNS = {

@@ -7,11 +7,11 @@ import java.util.regex.Pattern;
 
 import util.Patterns;
 import util.Storage;
-import entropia.Item;
+import entropia.Material;
 import entropia.Loot;
 import entropia.Player;
 import entropia.Team;
-import entropia.Weapon;
+import entropia.Gun;
 
 public class LineHandler {
 
@@ -48,9 +48,6 @@ public class LineHandler {
 				case Patterns.DEATHPATTERN:
 					handleDeathLine();
 					break;
-				case Patterns.LOGGERAMMOBURN:
-					handleAmmoBurnLine(m);
-					break;
 				}
 				team.changed();
 				me.changed();
@@ -62,7 +59,7 @@ public class LineHandler {
 
 	private void handleTeamLine(Matcher m) throws IOException {
 		String playername = m.group(1);
-		Item item = makeItem(m.group(2));
+		Material item = makeItem(m.group(2));
 		int quantity = Integer.parseInt(m.group(3));
 		team.addLoot(new Loot(item, quantity, playername));
 	}
@@ -87,17 +84,11 @@ public class LineHandler {
 		me.die();
 	}
 	
-	private void handleAmmoBurnLine(Matcher m) {
-		Weapon w = new Weapon();
-		w.setAmmoBurn(Integer.parseInt(m.group(1)));
-		me.setWeapon(w);
-	}
-	
-	private Item makeItem(String itemname) throws IOException {
-		if (Storage.ALLITEMS.containsKey(itemname)) {
-			return Storage.ALLITEMS.get(itemname);
+	private Material makeItem(String itemname) throws IOException {
+		if (Storage.ALLMATERIALS.containsKey(itemname)) {
+			return Storage.ALLMATERIALS.get(itemname);
 		} else {
-			return new Item("UNKNOWN (" + itemname + ")", new BigDecimal(0));
+			return new Material("UNKNOWN (" + itemname + ")", new BigDecimal(0));
 		}
 	}
 

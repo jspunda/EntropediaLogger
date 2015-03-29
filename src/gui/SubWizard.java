@@ -17,23 +17,22 @@ import logger.Main;
  */
 public class SubWizard extends JFrame implements ActionListener {
 
+	private static final long serialVersionUID = 1L;
 	public static final int WIDTH = 400;
 	public static final int HEIGHT = 300;
 	private final int nrOfPlayers;
-	private final String name;
         // Please note that maximum number of teammates = 10
 	JTextField otherPlayers[] = new JTextField[10];
 
-	public SubWizard(String name, int nrOfPlayers)
+	public SubWizard(int nrOfPlayers)
 			throws FileNotFoundException, UnsupportedEncodingException {
 		super();
-		this.name = name;
 		this.nrOfPlayers = nrOfPlayers;
 		setSize(WIDTH, HEIGHT);
 		setTitle("Enter names");
 		setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
 		setLayout(new FlowLayout());
-		JLabel label = new JLabel("Enter name of other players.");
+		new JLabel("Enter name of other players.");
 		for (int i = 0; i < nrOfPlayers; i++) {
 			otherPlayers[i] = new JTextField("Enter name.", 30);
                         otherPlayers[i].addMouseListener(new MouseTextListener());
@@ -60,7 +59,7 @@ public class SubWizard extends JFrame implements ActionListener {
 				playerNames.add(otherPlayers[i].getText());
 			}
 			try {
-				Main.createTeam(name, playerNames, nrOfPlayers);
+				Main.createTeam(playerNames, nrOfPlayers);
 				Main.startLogging();
 				dispose();
 			} catch (FileNotFoundException | UnsupportedEncodingException ex) {
