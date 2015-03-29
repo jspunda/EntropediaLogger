@@ -31,7 +31,7 @@ public class MainWindow extends JFrame implements Observer {
 	public static final int WIDTH = 800;
 	public static final int HEIGHT = 600;
 	private final JLabel totalLoot, myTotalLoot, myShotsFired, myDmgDealt,
-			myDmgTaken, myAcc, myPPS;
+			myDmgTaken, myAcc, myPPS, myTotalPedShot;
 
 	public MainWindow() {
 		super();
@@ -63,7 +63,9 @@ public class MainWindow extends JFrame implements Observer {
 		
 		myAcc = new JLabel("Accuracy:");
 		
-		myPPS = new JLabel("PED per shot:");
+		myPPS = new JLabel("PED gain per shot:");
+		
+		myTotalPedShot = new JLabel("Total PED shot:");
 		GroupLayout groupLayout = new GroupLayout(getContentPane());
 		groupLayout.setHorizontalGroup(
 			groupLayout.createParallelGroup(Alignment.LEADING)
@@ -82,6 +84,7 @@ public class MainWindow extends JFrame implements Observer {
 						.addComponent(totalLoot, GroupLayout.PREFERRED_SIZE, 166, GroupLayout.PREFERRED_SIZE))
 					.addPreferredGap(ComponentPlacement.RELATED, 329, Short.MAX_VALUE)
 					.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING, false)
+						.addComponent(myTotalPedShot, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
 						.addComponent(myPPS, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
 						.addComponent(myAcc, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
 						.addComponent(myDmgTaken, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -117,7 +120,9 @@ public class MainWindow extends JFrame implements Observer {
 					.addComponent(myAcc)
 					.addGap(18)
 					.addComponent(myPPS)
-					.addGap(272))
+					.addGap(18)
+					.addComponent(myTotalPedShot)
+					.addGap(240))
 		);
 		getContentPane().setLayout(groupLayout);
 	}
@@ -138,7 +143,8 @@ public class MainWindow extends JFrame implements Observer {
 			myDmgDealt.setText("Total dmg dealt: " + stats.get("Total dmg dealt"));
 			myDmgTaken.setText("Total dmg taken: " + stats.get("Total dmg taken"));
 			myAcc.setText("Accuracy: " + stats.get("Accuracy") + "%");
-			myPPS.setText("PED per shot: " + stats.get("PED per shot") + " PED");
+			myPPS.setText("PED gain per shot: " + stats.get("PED per shot") + " PED");
+			myTotalPedShot.setText("Total PED shot: " + stats.get("Total PED shot") + " PED");
 		}
 
 	}

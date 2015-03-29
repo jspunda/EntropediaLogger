@@ -11,6 +11,7 @@ import entropia.Item;
 import entropia.Loot;
 import entropia.Player;
 import entropia.Team;
+import entropia.Weapon;
 
 public class LineHandler {
 
@@ -47,6 +48,9 @@ public class LineHandler {
 				case Patterns.DEATHPATTERN:
 					handleDeathLine();
 					break;
+				case Patterns.LOGGERAMMOBURN:
+					handleAmmoBurnLine(m);
+					break;
 				}
 				team.changed();
 				me.changed();
@@ -82,7 +86,13 @@ public class LineHandler {
 	private void handleDeathLine() {
 		me.die();
 	}
-
+	
+	private void handleAmmoBurnLine(Matcher m) {
+		Weapon w = new Weapon();
+		w.setAmmoBurn(Integer.parseInt(m.group(1)));
+		me.setWeapon(w);
+	}
+	
 	private Item makeItem(String itemname) throws IOException {
 		if (Storage.ALLITEMS.containsKey(itemname)) {
 			return Storage.ALLITEMS.get(itemname);

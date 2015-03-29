@@ -14,7 +14,8 @@ import entropia.Item;
 public class Storage {
 
 	public static HashMap<String, Item> ALLITEMS;
-
+	public static final BigDecimal AMMOPRICE = BigDecimal.valueOf(0.0001);
+	
 	public Storage() {
 		ALLITEMS = new HashMap<String, Item>();
 	}
