@@ -45,12 +45,13 @@ public class StartWizard extends JFrame implements ActionListener {
 
 		String buttonString = e.getActionCommand();
 
-		if (buttonString.equals("Exit")) {
-			System.exit(0);
+		if (buttonString.equals("Cancel")) {
+			dispose();
 		} else if (buttonString.equals("Ok")) {
 			try {
 				SubWizard sub = new SubWizard(nameField.getText(),
 						Integer.parseInt(otherPlayers.getText()));
+                                sub.setLocationRelativeTo(this);
 				sub.setVisible(true);
 			} catch (FileNotFoundException | UnsupportedEncodingException ex) {
 				ex.printStackTrace();

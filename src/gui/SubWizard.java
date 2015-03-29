@@ -34,7 +34,7 @@ public class SubWizard extends JFrame implements ActionListener {
 		setLayout(new FlowLayout());
 		JLabel label = new JLabel("Enter name of other players.");
 		for (int i = 0; i < nrOfPlayers; i++) {
-			otherPlayers[i] = new JTextField("Enter name", 30);
+			otherPlayers[i] = new JTextField("Enter name.", 30);
 			add(otherPlayers[i]);
 		}
 		JButton ok = new JButton("Ok");
@@ -50,8 +50,8 @@ public class SubWizard extends JFrame implements ActionListener {
 
 		String buttonString = e.getActionCommand();
 
-		if (buttonString.equals("Exit")) {
-			System.exit(0);
+		if (buttonString.equals("Cancel")) {
+			dispose();
 		} else if (buttonString.equals("Ok")) {
 			ArrayList<String> playerNames = new ArrayList<>();
 			for (int i = 0; i < nrOfPlayers; i++) {

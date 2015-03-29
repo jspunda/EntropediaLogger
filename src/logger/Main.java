@@ -12,7 +12,12 @@ import util.Storage;
 import entropia.Player;
 import entropia.Team;
 import gui.*;
+import java.awt.Component;
+import java.awt.FileDialog;
+import java.awt.Frame;
+import java.io.FilenameFilter;
 import java.util.ArrayList;
+import java.util.regex.Pattern;
 
 public class Main {
 
@@ -26,23 +31,24 @@ public class Main {
 	public static void main(String[] args) throws IOException {
 
 		window = new MainWindow();
+                window.setLocationRelativeTo(null);
 		window.setVisible(true);
 	}
 
 	public static void start() throws NumberFormatException, IOException {
 		setDate();
 		new File(huntDate).mkdir();
-		PopUp.infoBox("Reading itemlist...", "Reading");
 		Storage s = new Storage();
 		s.readItemList();
-		PopUp.infoBox("Done reading itemlist...", "Done");
 		StartWizard wizard = new StartWizard();
+                wizard.setLocationRelativeTo(window);
 		wizard.setVisible(true);
 	}
 
 	public static void stop() throws IOException {
 		
 		logger.stopLogging();
+                PopUp.infoBox("Finished and saved log", "Finished", window);
 	}
 
 	private static void setDate() {
@@ -60,15 +66,38 @@ public class Main {
 		for (int i = 1; i <= nrOfPlayers; i++) {
 			team.addPlayer(new Player(names.get(i - 1)));
 		}
-		PopUp.infoBox("New team created.", "Succes");
+		PopUp.infoBox("New team created.", "Succes", window);
 	}
 
 	public static void startLogging() throws FileNotFoundException {
 		window.observe(team);
 		window.observe(team.getPlayer(ME));
-		PopUp.infoBox("Starting logging, press Finish to stop.\nDon't"
-				+ " forget to press Finish!", "Starting");
-		logger = new Logger(Paths.TESTLOGPATH2, team);
+                while(Paths.TESTLOGPATH == null) {
+                    Paths.TESTLOGPATH = getFileName();
+                    if(Paths.TESTLOGPATH == null) {
+                        PopUp.infoBox("Error: Select log file to start logging", "Error", window);
+                    }
+                }
+                PopUp.infoBox("Starting logging...\nDon't forget to press finish"
+                        + " when you're done logging!", "Starting", window);
+		logger = new Logger(Paths.TESTLOGPATH, team);
 		new Thread(logger).start();
 	}
+        
+        private static String getFileName() {
+            Frame f = new Frame();
+            FileDialog dialog = new FileDialog(f, "Select a log file (.log)", FileDialog.LOAD);
+            dialog.setFile("*.log");
+            dialog.setFilenameFilter(new FilenameFilter(){
+                @Override public boolean accept(      File dir,      String name) {
+                return (name.endsWith(".log"));
+                }
+            }
+            );
+            dialog.setVisible(true);
+            String logDir = dialog.getDirectory();
+            String logFile = dialog.getFile();
+            f.dispose();
+            return (logDir != null && logFile != null) ? logDir + System.getProperty("file.separator") + logFile : null;
+        }
 }

@@ -1,6 +1,5 @@
 package gui;
 
-import java.awt.GridBagConstraints;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -31,7 +30,7 @@ public class MainWindow extends JFrame implements Observer {
 	private static final long serialVersionUID = 1L;
 	public static final int WIDTH = 800;
 	public static final int HEIGHT = 600;
-	private JLabel totalLoot, myTotalLoot, myShotsFired, myDmgDealt,
+	private final JLabel totalLoot, myTotalLoot, myShotsFired, myDmgDealt,
 			myDmgTaken, myAcc, myPPS;
 
 	public MainWindow() {
