@@ -24,12 +24,10 @@ import java.util.Observer;
  */
 public class MainWindow extends JFrame implements Observer {
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 	public static final int WIDTH = 800;
 	public static final int HEIGHT = 600;
+        private final JButton start, finish, exit;
 	private final JLabel totalLoot, myTotalLoot, myShotsFired, myDmgDealt,
 			myDmgTaken, myAcc, myPPS, myTotalPedShot;
 
@@ -39,11 +37,11 @@ public class MainWindow extends JFrame implements Observer {
 		setTitle("Entropia Logger");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		Listener listen = new Listener();
-		JButton start = new JButton("Start");
+		start = new JButton("Start");
 		start.addActionListener(listen);
-		JButton finish = new JButton("Finish");
+		finish = new JButton("Finish");
 		finish.addActionListener(listen);
-		JButton exit = new JButton("Exit");
+		exit = new JButton("Exit");
 		exit.addActionListener(listen);
 		JLabel loot = new JLabel("Team stats");
 		loot.setFont(new Font("Tahoma", Font.PLAIN, 22));

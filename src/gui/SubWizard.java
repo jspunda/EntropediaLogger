@@ -21,6 +21,7 @@ public class SubWizard extends JFrame implements ActionListener {
 	public static final int HEIGHT = 300;
 	private final int nrOfPlayers;
 	private final String name;
+        // Please note that maximum number of teammates = 10
 	JTextField otherPlayers[] = new JTextField[10];
 
 	public SubWizard(String name, int nrOfPlayers)
@@ -35,6 +36,7 @@ public class SubWizard extends JFrame implements ActionListener {
 		JLabel label = new JLabel("Enter name of other players.");
 		for (int i = 0; i < nrOfPlayers; i++) {
 			otherPlayers[i] = new JTextField("Enter name.", 30);
+                        otherPlayers[i].addMouseListener(new MouseTextListener());
 			add(otherPlayers[i]);
 		}
 		JButton ok = new JButton("Ok");

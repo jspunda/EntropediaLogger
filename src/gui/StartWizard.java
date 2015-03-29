@@ -1,5 +1,6 @@
 package gui;
 
+import java.awt.Choice;
 import java.awt.FlowLayout;
 
 import java.awt.event.ActionEvent;
@@ -8,6 +9,7 @@ import java.io.FileNotFoundException;
 import java.io.UnsupportedEncodingException;
 import javax.swing.JButton;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JTextField;
 
 /**
@@ -18,8 +20,12 @@ public class StartWizard extends JFrame implements ActionListener {
 	public static final int WIDTH = 400;
 	public static final int HEIGHT = 300;
 
-	private final JTextField nameField;
-	private final JTextField otherPlayers;
+	private final JTextField nameField, gunField;
+	private final Choice otherPlayers;
+        private final JLabel nameLabel;
+        private final JButton ok, cancel;
+        
+        private final MouseTextListener mouseListen = new MouseTextListener();
 
 	public StartWizard() throws FileNotFoundException,
 			UnsupportedEncodingException {
@@ -28,16 +34,25 @@ public class StartWizard extends JFrame implements ActionListener {
 		setTitle("Start Wizard");
 		setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
 		setLayout(new FlowLayout());
-		nameField = new JTextField("Enter your name.", 30);
-		otherPlayers = new JTextField("Enter number of other players.", 30);
-		JButton exit = new JButton("Ok");
-		JButton start = new JButton("Cancel");
-		exit.addActionListener(this);
-		start.addActionListener(this);
+		nameField = new JTextField("Enter your name.");
+                nameField.addMouseListener(mouseListen);
+                gunField = new JTextField("Enter your gun's exact name");
+                gunField.addMouseListener(mouseListen);
+		otherPlayers = new Choice();
+                nameLabel = new JLabel("Select number of teammates:");
+                for(int i = 1; i <= 10; i++) {
+                    otherPlayers.add(""+i);
+                }
+		ok = new JButton("Ok");
+		cancel = new JButton("Cancel");
+		ok.addActionListener(this);
+		cancel.addActionListener(this);
 		add(nameField);
+                add(gunField);
+                add(nameLabel);
 		add(otherPlayers);
-		add(exit);
-		add(start);
+                add(ok);
+                add(cancel);
 	}
 
 	@Override
@@ -50,7 +65,7 @@ public class StartWizard extends JFrame implements ActionListener {
 		} else if (buttonString.equals("Ok")) {
 			try {
 				SubWizard sub = new SubWizard(nameField.getText(),
-						Integer.parseInt(otherPlayers.getText()));
+						Integer.parseInt(otherPlayers.getSelectedItem()));
                                 sub.setLocationRelativeTo(this);
 				sub.setVisible(true);
 			} catch (FileNotFoundException | UnsupportedEncodingException ex) {
@@ -60,6 +75,5 @@ public class StartWizard extends JFrame implements ActionListener {
 		} else {
 			System.out.println("Unexpected event.");
 		}
-	}
-
+        }
 }

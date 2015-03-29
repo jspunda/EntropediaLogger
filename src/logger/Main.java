@@ -18,6 +18,7 @@ import java.awt.Frame;
 import java.io.FilenameFilter;
 import java.util.ArrayList;
 import java.util.regex.Pattern;
+import javax.swing.JButton;
 
 public class Main {
 
@@ -29,7 +30,6 @@ public class Main {
 	private static Logger logger;
 
 	public static void main(String[] args) throws IOException {
-
 		window = new MainWindow();
                 window.setLocationRelativeTo(null);
 		window.setVisible(true);
@@ -69,8 +69,8 @@ public class Main {
 		PopUp.infoBox("New team created.", "Succes", window);
 	}
 
-	public static void startLogging() throws FileNotFoundException {
-		window.observe(team);
+	public static void startLogging() throws FileNotFoundException {	
+            window.observe(team);
 		window.observe(team.getPlayer(ME));
                 while(Paths.TESTLOGPATH == null) {
                     Paths.TESTLOGPATH = getFileName();
@@ -89,7 +89,7 @@ public class Main {
             FileDialog dialog = new FileDialog(f, "Select a log file (.log)", FileDialog.LOAD);
             dialog.setFile("*.log");
             dialog.setFilenameFilter(new FilenameFilter(){
-                @Override public boolean accept(      File dir,      String name) {
+                @Override public boolean accept(File dir, String name) {
                 return (name.endsWith(".log"));
                 }
             }
