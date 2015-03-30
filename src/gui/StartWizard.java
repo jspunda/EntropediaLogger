@@ -13,6 +13,7 @@ import javax.swing.JTextField;
 import javax.swing.GroupLayout;
 import javax.swing.GroupLayout.Alignment;
 
+import util.Storage;
 import logger.Main;
 
 /**
@@ -101,12 +102,18 @@ public class StartWizard extends JFrame implements ActionListener {
 						.getSelectedItem()));
 				sub.setLocationRelativeTo(this);
 				Main.ME = nameField.getText();
-				Main.MYGUN = gunField.getText();
-				sub.setVisible(true);
+				String gun = gunField.getText();
+				if (Storage.ALLGUNS.containsKey(gun)) {
+					Main.MYGUN = gunField.getText();
+					sub.setVisible(true);
+					dispose();
+				} else {
+					PopUp.infoBox("Please enter a valid weapon name", "No valid weapon", this);
+				}
 			} catch (FileNotFoundException | UnsupportedEncodingException ex) {
 				ex.printStackTrace();
 			}
-			dispose();
+			
 		} else {
 			System.out.println("Unexpected event.");
 		}

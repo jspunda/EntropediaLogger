@@ -191,7 +191,7 @@ public class MainWindow extends JFrame implements Observer {
 			HashMap<String, Player> players = t.getPlayers();
 			for (String key : players.keySet()) {
 				Player p = players.get(key);
-				teamLabels[p.getId()].setText(p.getName() + " (loot): " + p.getTotalLoot().toPlainString() + " PED");
+				teamLabels[p.getId()].setText(p.getName() + ": " + p.getTotalLoot().toPlainString() + " PED");
 			}
 		} else {
 			HashMap<String, String> stats = ((Player) o).getAllStats();
