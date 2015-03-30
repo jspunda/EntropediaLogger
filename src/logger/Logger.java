@@ -47,7 +47,7 @@ public class Logger implements Runnable {
 	@Override
 	public void run() {
 		try {
-			//readUntilEnd();
+			readUntilEnd();
 			startLogging();
 		} catch (IOException | InterruptedException e) {
 			e.printStackTrace();
