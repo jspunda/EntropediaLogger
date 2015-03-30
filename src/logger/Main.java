@@ -67,8 +67,10 @@ public class Main {
 		Player me = new Player(0, Main.ME);
 		me.setWeapon(Storage.ALLGUNS.get(Main.MYGUN));
 		team.addPlayer(me);
+		window.getTeamLabels()[0].setVisible(true);
 		for (int i = 1; i <= nrOfPlayers; i++) {
 			team.addPlayer(new Player(i,names.get(i - 1)));
+			window.getTeamLabels()[i].setVisible(true);
 		}
 		PopUp.infoBox("New team created.", "Succes", window);
 	}

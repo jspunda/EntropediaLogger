@@ -83,6 +83,10 @@ public class MainWindow extends JFrame implements Observer {
 		team7 = new JLabel("Not present (loot):");
 		teamLabels[6] = team7;
 		
+		for (JLabel l : teamLabels) {
+			l.setVisible(false);
+		}
+		
 		GroupLayout groupLayout = new GroupLayout(getContentPane());
 		groupLayout.setHorizontalGroup(
 			groupLayout.createParallelGroup(Alignment.TRAILING)
@@ -172,6 +176,10 @@ public class MainWindow extends JFrame implements Observer {
 	
 	public void observe(Observable o) {
 		o.addObserver(this);
+	}
+	
+	public JLabel [] getTeamLabels() {
+		return teamLabels;
 	}
 	
 	@Override
