@@ -1,7 +1,5 @@
 package entropia;
 
-import gui.MainWindow;
-
 import java.io.FileNotFoundException;
 import java.io.UnsupportedEncodingException;
 import java.math.BigDecimal;

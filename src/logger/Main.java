@@ -64,11 +64,11 @@ public class Main {
 	public static void createTeam(ArrayList<String> names, int nrOfPlayers)
 			throws FileNotFoundException, UnsupportedEncodingException {
 		team = new Team(nrOfPlayers + 1);
-		Player me = new Player(Main.ME);
+		Player me = new Player(0, Main.ME);
 		me.setWeapon(Storage.ALLGUNS.get(Main.MYGUN));
 		team.addPlayer(me);
 		for (int i = 1; i <= nrOfPlayers; i++) {
-			team.addPlayer(new Player(names.get(i - 1)));
+			team.addPlayer(new Player(i,names.get(i - 1)));
 		}
 		PopUp.infoBox("New team created.", "Succes", window);
 	}

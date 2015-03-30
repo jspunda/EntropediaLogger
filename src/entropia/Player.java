@@ -16,8 +16,10 @@ public class Player extends Observable {
 	private ArrayList<Loot> loots;
 	
 	private Gun weapon;
+	private int id;
 
-	public Player(String name) {
+	public Player(int id, String name) {
+		this.id = id;
 		loots = new ArrayList<Loot>();
 		stats = new HashMap<String, String>();
 		totalShots = 0;
@@ -129,7 +131,11 @@ public class Player extends Observable {
 	public ArrayList<Loot> getLootList() {
 		return loots;
 	}
-
+	
+	public int getId() {
+		return id;
+	}
+	
 	public String getName() {
 		return name;
 	}

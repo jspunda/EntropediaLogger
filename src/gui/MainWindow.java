@@ -29,7 +29,10 @@ public class MainWindow extends JFrame implements Observer {
 	public static final int HEIGHT = 600;
         private final JButton start, finish, exit;
 	private final JLabel totalLoot, myTotalLoot, myShotsFired, myDmgDealt,
-			myDmgTaken, myAcc, myPPS, myTotalPedShot;
+			myDmgTaken, myAcc, myPPS, myTotalPedShot, team1, team2, team3,
+			team4, team5, team6, team7;
+	
+	private final JLabel[] teamLabels;
 
 	public MainWindow() {
 		super();
@@ -45,7 +48,7 @@ public class MainWindow extends JFrame implements Observer {
 		exit.addActionListener(listen);
 		JLabel loot = new JLabel("Team stats");
 		loot.setFont(new Font("Tahoma", Font.PLAIN, 22));
-		
+		teamLabels = new JLabel[7];
 		totalLoot = new JLabel("Total loot:");
 		
 		JLabel lblNewLabel = new JLabel("My stats");
@@ -64,26 +67,26 @@ public class MainWindow extends JFrame implements Observer {
 		myPPS = new JLabel("PED gain / shot:");
 		
 		myTotalPedShot = new JLabel("Total PED shot:");
+		
+		team1 = new JLabel("Not present (loot):");
+		teamLabels[0] = team1;
+		team2 = new JLabel("Not present (loot):");
+		teamLabels[1] = team2;
+		team3 = new JLabel("Not present (loot):");
+		teamLabels[2] = team3;
+		team4 = new JLabel("Not present (loot):");
+		teamLabels[3] = team4;
+		team5 = new JLabel("Not present (loot):");
+		teamLabels[4] = team5;
+		team6 = new JLabel("Not present (loot):");
+		teamLabels[5] = team6;
+		team7 = new JLabel("Not present (loot):");
+		teamLabels[6] = team7;
+		
 		GroupLayout groupLayout = new GroupLayout(getContentPane());
 		groupLayout.setHorizontalGroup(
-			groupLayout.createParallelGroup(Alignment.LEADING)
+			groupLayout.createParallelGroup(Alignment.TRAILING)
 				.addGroup(groupLayout.createSequentialGroup()
-					.addGap(75)
-					.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
-						.addComponent(loot, GroupLayout.PREFERRED_SIZE, 116, GroupLayout.PREFERRED_SIZE)
-						.addComponent(totalLoot, GroupLayout.PREFERRED_SIZE, 166, GroupLayout.PREFERRED_SIZE))
-					.addPreferredGap(ComponentPlacement.RELATED, 329, Short.MAX_VALUE)
-					.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING, false)
-						.addComponent(myTotalPedShot, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-						.addComponent(myPPS, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-						.addComponent(myAcc, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-						.addComponent(myDmgTaken, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-						.addComponent(lblNewLabel, Alignment.LEADING)
-						.addComponent(myTotalLoot, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, 110, Short.MAX_VALUE)
-						.addComponent(myDmgDealt, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, 142, Short.MAX_VALUE)
-						.addComponent(myShotsFired, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-					.addContainerGap(72, Short.MAX_VALUE))
-				.addGroup(Alignment.TRAILING, groupLayout.createSequentialGroup()
 					.addContainerGap(482, Short.MAX_VALUE)
 					.addComponent(exit, GroupLayout.PREFERRED_SIZE, 59, GroupLayout.PREFERRED_SIZE)
 					.addPreferredGap(ComponentPlacement.UNRELATED)
@@ -91,6 +94,34 @@ public class MainWindow extends JFrame implements Observer {
 					.addPreferredGap(ComponentPlacement.UNRELATED)
 					.addComponent(finish)
 					.addGap(107))
+				.addGroup(Alignment.LEADING, groupLayout.createSequentialGroup()
+					.addGap(75)
+					.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+						.addGroup(groupLayout.createSequentialGroup()
+							.addComponent(team7, GroupLayout.PREFERRED_SIZE, 166, GroupLayout.PREFERRED_SIZE)
+							.addContainerGap())
+						.addGroup(groupLayout.createSequentialGroup()
+							.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+								.addGroup(groupLayout.createParallelGroup(Alignment.LEADING, false)
+									.addComponent(team2, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+									.addComponent(loot, GroupLayout.PREFERRED_SIZE, 116, GroupLayout.PREFERRED_SIZE)
+									.addComponent(totalLoot, GroupLayout.DEFAULT_SIZE, 166, Short.MAX_VALUE)
+									.addComponent(team1, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+								.addComponent(team3, GroupLayout.PREFERRED_SIZE, 166, GroupLayout.PREFERRED_SIZE)
+								.addComponent(team4, GroupLayout.PREFERRED_SIZE, 166, GroupLayout.PREFERRED_SIZE)
+								.addComponent(team5, GroupLayout.PREFERRED_SIZE, 166, GroupLayout.PREFERRED_SIZE)
+								.addComponent(team6, GroupLayout.PREFERRED_SIZE, 166, GroupLayout.PREFERRED_SIZE))
+							.addPreferredGap(ComponentPlacement.RELATED, 329, Short.MAX_VALUE)
+							.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING, false)
+								.addComponent(myTotalPedShot, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+								.addComponent(myPPS, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+								.addComponent(myAcc, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+								.addComponent(myDmgTaken, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+								.addComponent(lblNewLabel, Alignment.LEADING)
+								.addComponent(myTotalLoot, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, 110, Short.MAX_VALUE)
+								.addComponent(myDmgDealt, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, 142, Short.MAX_VALUE)
+								.addComponent(myShotsFired, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+							.addContainerGap(72, Short.MAX_VALUE))))
 		);
 		groupLayout.setVerticalGroup(
 			groupLayout.createParallelGroup(Alignment.LEADING)
@@ -104,18 +135,32 @@ public class MainWindow extends JFrame implements Observer {
 						.addComponent(totalLoot)
 						.addComponent(myTotalLoot))
 					.addGap(18)
-					.addComponent(myShotsFired)
+					.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
+						.addComponent(myShotsFired)
+						.addComponent(team1))
 					.addGap(18)
-					.addComponent(myDmgDealt)
+					.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
+						.addComponent(myDmgDealt)
+						.addComponent(team2))
 					.addGap(18)
-					.addComponent(myDmgTaken)
+					.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
+						.addComponent(myDmgTaken)
+						.addComponent(team3))
 					.addGap(18)
-					.addComponent(myAcc)
+					.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
+						.addComponent(myAcc)
+						.addComponent(team4))
 					.addGap(18)
-					.addComponent(myPPS)
+					.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
+						.addComponent(myPPS)
+						.addComponent(team5))
 					.addGap(18)
-					.addComponent(myTotalPedShot)
-					.addGap(155)
+					.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
+						.addComponent(myTotalPedShot)
+						.addComponent(team6))
+					.addGap(18)
+					.addComponent(team7)
+					.addGap(123)
 					.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
 						.addComponent(exit)
 						.addComponent(start)
@@ -132,8 +177,14 @@ public class MainWindow extends JFrame implements Observer {
 	@Override
 	public void update(Observable o, Object arg1) {
 		if (o.getClass().equals(Team.class)) {
-			String total = ((Team) o).getTotalLoot().toString();
+			Team t = (Team) o;
+			String total = t.getTotalLoot().toString();
 			totalLoot.setText("Total loot: " + total + " PED");
+			HashMap<String, Player> players = t.getPlayers();
+			for (String key : players.keySet()) {
+				Player p = players.get(key);
+				teamLabels[p.getId()].setText(p.getName() + " (loot): " + p.getTotalLoot().toPlainString() + " PED");
+			}
 		} else {
 			HashMap<String, String> stats = ((Player) o).getAllStats();
 			myTotalLoot.setText("Total loot: " + ((Player) o).getTotalLoot() + " PED");

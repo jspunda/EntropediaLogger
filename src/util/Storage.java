@@ -58,7 +58,6 @@ public class Storage {
 	private void addMaterial(String[] properties) {
 		Material m = new Material(properties[1], BigDecimal.valueOf(Double
 				.parseDouble(properties[2])));
-		System.out.println(m);
 		ALLMATERIALS.put(properties[1], m);
 		ALLITEMS.put(properties[1], m);
 
@@ -67,7 +66,6 @@ public class Storage {
 	private void addGun(String[] properties) {
 		Gun g = new Gun(properties[1], Integer.parseInt(properties[2]),
 				ALLMATERIALS.get(properties[3]));
-		System.out.println(g);
 		ALLGUNS.put(properties[1], g);
 		ALLITEMS.put(properties[1], g);
 	}
