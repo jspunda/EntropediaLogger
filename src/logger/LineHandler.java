@@ -7,11 +7,10 @@ import java.util.regex.Pattern;
 
 import util.Patterns;
 import util.Storage;
-import entropia.Material;
+import entropia.Item;
 import entropia.Loot;
 import entropia.Player;
 import entropia.Team;
-import entropia.Gun;
 
 public class LineHandler {
 
@@ -27,7 +26,6 @@ public class LineHandler {
 		for (String pattern : Patterns.ALLGAMEPATTERNS) {
 			Matcher m = match(line, pattern);
 			if (m.find()) {
-				// System.out.println(line);
 				switch (pattern) {
 				case Patterns.TEAMPATTERN:
 					handleTeamLine(m);
@@ -51,15 +49,13 @@ public class LineHandler {
 				}
 				team.changed();
 				me.changed();
-			} else {
-				// System.out.println("Ignoring, no match found.");
 			}
 		}
 	}
 
 	private void handleTeamLine(Matcher m) throws IOException {
 		String playername = m.group(1);
-		Material item = makeItem(m.group(2));
+		Item item = findItems(m.group(2));
 		int quantity = Integer.parseInt(m.group(3));
 		team.addLoot(new Loot(item, quantity, playername));
 	}
@@ -84,11 +80,11 @@ public class LineHandler {
 		me.die();
 	}
 	
-	private Material makeItem(String itemname) throws IOException {
-		if (Storage.ALLMATERIALS.containsKey(itemname)) {
-			return Storage.ALLMATERIALS.get(itemname);
+	private Item findItems(String itemname) throws IOException {
+		if (Storage.ALLITEMS.containsKey(itemname)) {
+			return Storage.ALLITEMS.get(itemname);
 		} else {
-			return new Material("UNKNOWN (" + itemname + ")", new BigDecimal(0));
+			return new Item (itemname, BigDecimal.valueOf(0), Storage.UNKNOWNTYPE);
 		}
 	}
 

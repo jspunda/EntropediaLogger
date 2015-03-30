@@ -1,20 +1,25 @@
 package entropia;
 
-public class Gun {
+import java.math.BigDecimal;
+
+import util.Storage;
+
+public class Gun extends Item {
 	
 	private double dmgMin, dmgMax;
 	private Material ammoType;
-	private int ammoburn;
-	private String name;
+	private int ammoBurn;
 	
 	public Gun (String name, int ammoburn, Material ammoType) {
-		this.name = name;
-		this.ammoburn = ammoburn;
+		super(name, BigDecimal.valueOf(0), Storage.GUNTYPE);
+		this.ammoBurn = ammoburn;
 		this.ammoType = ammoType;
+		dmgMin = 0;
+		dmgMax = 0;
 	}
 	
 	public void setAmmoBurn(int burn) {
-		this.ammoburn = burn;
+		this.ammoBurn = burn;
 	}
 	
 	public void setAmmoType(Material ammo) {
@@ -39,15 +44,14 @@ public class Gun {
 	}
 	
 	public int getAmmoBurn() {
-		return ammoburn;
+		return ammoBurn;
 	}
 	
-	public String getName() {
-		return name;
-	}
-	
-	public String toString(){
-		return name;
+	@Override
+	public String toString() {
+		String s = super.toString();
+		s += "\nAmmo burn: " + ammoBurn + "\nAmmo type: " + ammoType.getName();
+		return s;
 	}
 }
 

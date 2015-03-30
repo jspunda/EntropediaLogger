@@ -2,25 +2,26 @@ package entropia;
 
 import java.math.BigDecimal;
 
+import util.Storage;
 
-public class Material {
-	private String itemname;
+
+public class Material extends Item{
+
 	private BigDecimal ttvalue;
 	
 	public Material (String itemname, BigDecimal ttvalue) {
-		this.itemname = itemname;
+		super(itemname, ttvalue, Storage.MATERIALTYPE);
 		this.ttvalue = ttvalue;
-	}
-	
-	public String getName() {
-		return itemname;
 	}
 	
 	public BigDecimal getValue(){
 		return ttvalue;
 	}
 	
+	@Override
 	public String toString() {
-		return itemname + " with ttvalue of: " + ttvalue;
+		String s = super.toString();
+		s += "\nTTValue: " + ttvalue;
+		return s ;
 	}
 }

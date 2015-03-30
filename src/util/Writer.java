@@ -31,7 +31,7 @@ public class Writer {
 					map.get(key)[0].intValue(), itemTotal);
 		}
 		w.printf(Locale.FRANCE, "Total loot;%f%n", totalValue);
-		w.printf(Locale.FRANCE, "Total loot (min ammo);%f%n", totalValueMinAmmo);
+		w.printf(Locale.FRANCE, "Total loot (min Weapon Cells);%f%n", totalValueMinAmmo);
 		w.close();
 	}
 

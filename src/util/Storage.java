@@ -10,23 +10,30 @@ import java.math.BigDecimal;
 import java.util.HashMap;
 
 import entropia.Gun;
+import entropia.Item;
 import entropia.Material;
 
 public class Storage {
 
 	public static HashMap<String, Material> ALLMATERIALS;
 	public static HashMap<String, Gun> ALLGUNS;
-	public static final BigDecimal AMMOPRICE = BigDecimal.valueOf(0.0001);
+	public static HashMap<String, Item> ALLITEMS;
 	
+	public static final BigDecimal AMMOPRICE = BigDecimal.valueOf(0.0001);
+	public static final String GUNTYPE = "Gun";
+	public static final String MATERIALTYPE = "Material";
+	public static final String UNKNOWNTYPE = "Unknown";
+
 	public Storage() {
 		ALLMATERIALS = new HashMap<String, Material>();
 		ALLGUNS = new HashMap<String, Gun>();
+		ALLITEMS = new HashMap<String, Item>();
 	}
 
 	public static void writeMaterial(Material i) throws IOException {
 		PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(
 				Paths.ITEMLISTPATH, true)));
-		out.println(i.getName() + ";" + i.getValue());
+		out.println("material;" + i.getName() + ";" + i.getValue());
 		out.close();
 	}
 
@@ -35,30 +42,34 @@ public class Storage {
 		BufferedReader breader = new BufferedReader(freader);
 		String inputLine;
 		while ((inputLine = breader.readLine()) != null) {
-			String [] properties = inputLine.split(";");
+			String[] properties = inputLine.split(";");
 			switch (properties[0]) {
-				case "gun":
-					handleGun(properties);
-					break;
-				case "material":
-					handleMaterial(properties);
-					break;	
+			case "gun":
+				addGun(properties);
+				break;
+			case "material":
+				addMaterial(properties);
+				break;
 			}
 		}
 		breader.close();
 	}
-	
-	private void handleMaterial(String[] properties) {
-		ALLMATERIALS.put(properties[1],
-				new Material(properties[1],BigDecimal.valueOf(Double.parseDouble(properties[2]))));
-		
+
+	private void addMaterial(String[] properties) {
+		Material m = new Material(properties[1], BigDecimal.valueOf(Double
+				.parseDouble(properties[2])));
+		System.out.println(m);
+		ALLMATERIALS.put(properties[1], m);
+		ALLITEMS.put(properties[1], m);
+
 	}
 
-	private void handleGun(String[] properties) {
-		ALLGUNS.put(properties[1],
-				new Gun(properties[1], Integer.parseInt(properties[2]),
-						ALLMATERIALS.get(properties[3])));
+	private void addGun(String[] properties) {
+		Gun g = new Gun(properties[1], Integer.parseInt(properties[2]),
+				ALLMATERIALS.get(properties[3]));
+		System.out.println(g);
+		ALLGUNS.put(properties[1], g);
+		ALLITEMS.put(properties[1], g);
 	}
-	
-	
+
 }

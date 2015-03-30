@@ -4,11 +4,11 @@ import java.math.BigDecimal;
 
 public class Loot {
 
-	private Material item;
+	private Item item;
 	private int quantity;
 	private String lootedBy;
 
-	public Loot(Material item, int quantity, String lootedBy) {
+	public Loot(Item item, int quantity, String lootedBy) {
 		this.item = item;
 		this.quantity = quantity;
 		this.lootedBy = lootedBy;
@@ -18,7 +18,7 @@ public class Loot {
 		return lootedBy;
 	}
 
-	public Material getItem() {
+	public Item getItem() {
 		return item;
 	}
 
